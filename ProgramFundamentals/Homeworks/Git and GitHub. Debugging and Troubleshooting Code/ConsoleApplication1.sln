@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaysBetweenTwoDates", "ConsoleApplication1\HolidaysBetweenTwoDates.csproj", "{8A53CDBF-C6EE-4E0C-AAD9-693EAF6582AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "palindromes\Palindromes.csproj", "{ACC6E1C8-6D50-4F4A-99DD-335FDE2060DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepositiveBroken", "BepositiveBroken\BepositiveBroken.csproj", "{7091EB57-9A05-48AA-B229-2945B5687BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A53CDBF-C6EE-4E0C-AAD9-693EAF6582AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A53CDBF-C6EE-4E0C-AAD9-693EAF6582AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A53CDBF-C6EE-4E0C-AAD9-693EAF6582AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A53CDBF-C6EE-4E0C-AAD9-693EAF6582AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC6E1C8-6D50-4F4A-99DD-335FDE2060DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC6E1C8-6D50-4F4A-99DD-335FDE2060DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC6E1C8-6D50-4F4A-99DD-335FDE2060DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC6E1C8-6D50-4F4A-99DD-335FDE2060DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7091EB57-9A05-48AA-B229-2945B5687BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7091EB57-9A05-48AA-B229-2945B5687BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7091EB57-9A05-48AA-B229-2945B5687BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7091EB57-9A05-48AA-B229-2945B5687BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
