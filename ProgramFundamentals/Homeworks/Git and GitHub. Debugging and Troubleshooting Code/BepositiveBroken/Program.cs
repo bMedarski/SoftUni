@@ -58,12 +58,19 @@ public class BePositive_broken
                         j++;
                     }
                 }
+                //Console.WriteLine();
             }
-           Console.WriteLine();
+           
             if (!found)
             {
                 Console.WriteLine("(empty)");
             }
+            else
+            {
+                Console.WriteLine();
+
+            }
+            
         }
     }
 }

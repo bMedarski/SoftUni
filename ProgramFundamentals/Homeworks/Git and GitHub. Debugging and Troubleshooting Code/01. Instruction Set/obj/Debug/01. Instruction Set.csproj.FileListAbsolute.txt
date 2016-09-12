@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\bin\Debug\_01.Instruction_Set.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\bin\Debug\_01.Instruction_Set.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\bin\Debug\_01.Instruction_Set.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\obj\Debug\_01.Instruction_Set.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\obj\Debug\_01.Instruction_Set.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\01. Instruction Set\obj\Debug\01. Instruction Set.csprojResolveAssemblyReference.cache
