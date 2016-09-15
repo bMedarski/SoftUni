@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\bin\Debug\_1.Centuries_to_Minutes.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\bin\Debug\_1.Centuries_to_Minutes.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\bin\Debug\_1.Centuries_to_Minutes.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\obj\Debug\1. Centuries to Minutes.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\obj\Debug\_1.Centuries_to_Minutes.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\1. Centuries to Minutes\obj\Debug\_1.Centuries_to_Minutes.pdb
