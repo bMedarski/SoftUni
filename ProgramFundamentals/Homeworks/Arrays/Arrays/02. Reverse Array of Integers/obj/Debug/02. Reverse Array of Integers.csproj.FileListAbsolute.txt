@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\bin\Debug\_02.Reverse_Array_of_Integers.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\bin\Debug\_02.Reverse_Array_of_Integers.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\bin\Debug\_02.Reverse_Array_of_Integers.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\obj\Debug\02. Reverse Array of Integers.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\obj\Debug\_02.Reverse_Array_of_Integers.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\02. Reverse Array of Integers\obj\Debug\_02.Reverse_Array_of_Integers.pdb
