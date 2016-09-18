@@ -13,31 +13,35 @@ namespace _04.Last_K_Numbers_Sums
         {
 
 
-            ulong n = ulong.Parse(Console.ReadLine());
-            ulong k = ulong.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
 
             BigInteger[] array = new BigInteger[n];
 
-
-            for (ulong i = 1; i<n; i++)
+            array[0] = 1;
+            for (int i = 1; i<n; i++)
             {
-                array[0] = 1;
+                //array[0] = 1;
+                //var start = Math.Max(0,i-k);
                 BigInteger currentSum = 0;
-                for (ulong j = 1; j<=k; j++)
+                for (int j = 1; j<=k; j++)
                 {
-                    try
-                    {
-                        currentSum += array[i-j];
-                    }
-                    catch
+
+                    if (i-j<0)
                     {
                         currentSum += 0;
                     }
+                    else
+                    {
+                        currentSum += array[i-j];
+                    }
+                       
+                   
 
                }           
                 array[i] = currentSum;               
             }
-            for (ulong i = 0; i<n; i++)
+            for (int i = 0; i<n; i++)
             {
                 Console.Write("{0} ", array[i]);
             }
