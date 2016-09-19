@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\07. Reverse Array of Strings\bin\Debug\_07.Reverse_Array_of_Strings.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\07. Reverse Array of Strings\bin\Debug\_07.Reverse_Array_of_Strings.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\07. Reverse Array of Strings\bin\Debug\_07.Reverse_Array_of_Strings.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\07. Reverse Array of Strings\obj\Debug\_07.Reverse_Array_of_Strings.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\07. Reverse Array of Strings\obj\Debug\_07.Reverse_Array_of_Strings.pdb
