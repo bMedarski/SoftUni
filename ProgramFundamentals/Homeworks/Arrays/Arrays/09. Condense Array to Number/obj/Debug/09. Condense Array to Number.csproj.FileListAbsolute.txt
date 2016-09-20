@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\bin\Debug\_09.Condense_Array_to_Number.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\bin\Debug\_09.Condense_Array_to_Number.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\bin\Debug\_09.Condense_Array_to_Number.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\obj\Debug\09. Condense Array to Number.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\obj\Debug\_09.Condense_Array_to_Number.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Condense Array to Number\obj\Debug\_09.Condense_Array_to_Number.pdb
