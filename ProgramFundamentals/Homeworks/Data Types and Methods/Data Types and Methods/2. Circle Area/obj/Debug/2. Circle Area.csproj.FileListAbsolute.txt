@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\2. Circle Area\bin\Debug\_2.Circle_Area.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\2. Circle Area\bin\Debug\_2.Circle_Area.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\2. Circle Area\bin\Debug\_2.Circle_Area.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\2. Circle Area\obj\Debug\_2.Circle_Area.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\2. Circle Area\obj\Debug\_2.Circle_Area.pdb

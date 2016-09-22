@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.StopNumber\bin\Debug\06.StopNumber.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.StopNumber\bin\Debug\06.StopNumber.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.StopNumber\bin\Debug\06.StopNumber.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.StopNumber\obj\Debug\06.StopNumber.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.StopNumber\obj\Debug\06.StopNumber.pdb

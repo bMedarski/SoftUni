@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\bin\Debug\02.SleepyTomCat.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\bin\Debug\02.SleepyTomCat.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\bin\Debug\02.SleepyTomCat.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\obj\Debug\02.SleepyTomCat.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\obj\Debug\02.SleepyTomCat.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\02.SleepyTomCat\obj\Debug\02.SleepyTomCat.pdb

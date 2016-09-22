@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\bin\Debug\01.RepairingTheTiles.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\bin\Debug\01.RepairingTheTiles.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\bin\Debug\01.RepairingTheTiles.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\obj\Debug\01.RepairingTheTiles.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\obj\Debug\01.RepairingTheTiles.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\01.RepairingTheTiles\obj\Debug\01.RepairingTheTiles.pdb

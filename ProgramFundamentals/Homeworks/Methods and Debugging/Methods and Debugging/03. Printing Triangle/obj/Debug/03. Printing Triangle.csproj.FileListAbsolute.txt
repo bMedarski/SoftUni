@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. Printing Triangle\bin\Debug\_03.Printing_Triangle.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. Printing Triangle\obj\Debug\_03.Printing_Triangle.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. Printing Triangle\obj\Debug\_03.Printing_Triangle.pdb

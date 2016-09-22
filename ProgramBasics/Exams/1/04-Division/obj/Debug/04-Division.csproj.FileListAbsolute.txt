@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04-Division\bin\Debug\04-Division.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04-Division\bin\Debug\04-Division.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04-Division\bin\Debug\04-Division.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04-Division\obj\Debug\04-Division.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04-Division\obj\Debug\04-Division.pdb

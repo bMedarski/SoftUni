@@ -1,0 +1,1 @@
+Cannot divide 0 by zero

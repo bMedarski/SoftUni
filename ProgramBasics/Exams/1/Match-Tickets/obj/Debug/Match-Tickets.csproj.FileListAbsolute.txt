@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\bin\Debug\Match-Tickets.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\bin\Debug\Match-Tickets.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\bin\Debug\Match-Tickets.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\obj\Debug\Match-Tickets.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\obj\Debug\Match-Tickets.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Match-Tickets\obj\Debug\Match-Tickets.pdb

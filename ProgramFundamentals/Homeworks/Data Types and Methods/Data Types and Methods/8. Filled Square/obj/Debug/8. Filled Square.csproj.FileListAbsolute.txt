@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. Filled Square\bin\Debug\_8.Filled_Square.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. Filled Square\bin\Debug\_8.Filled_Square.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. Filled Square\bin\Debug\_8.Filled_Square.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. Filled Square\obj\Debug\_8.Filled_Square.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. Filled Square\obj\Debug\_8.Filled_Square.pdb

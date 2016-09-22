@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\bin\Debug\_8.RefactorVolumePyramid.exe.config
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\bin\Debug\_8.RefactorVolumePyramid.exe
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\bin\Debug\_8.RefactorVolumePyramid.pdb
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\obj\Debug\8. RefactorVolumePyramid.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\obj\Debug\_8.RefactorVolumePyramid.exe
+C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\8. RefactorVolumePyramid\obj\Debug\_8.RefactorVolumePyramid.pdb

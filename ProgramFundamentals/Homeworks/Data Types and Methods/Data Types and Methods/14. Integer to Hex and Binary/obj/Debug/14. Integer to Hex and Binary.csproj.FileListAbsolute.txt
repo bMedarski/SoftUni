@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\bin\Debug\_14.Integer_to_Hex_and_Binary.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\bin\Debug\_14.Integer_to_Hex_and_Binary.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\bin\Debug\_14.Integer_to_Hex_and_Binary.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\obj\Debug\14. Integer to Hex and Binary.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\obj\Debug\_14.Integer_to_Hex_and_Binary.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\14. Integer to Hex and Binary\obj\Debug\_14.Integer_to_Hex_and_Binary.pdb

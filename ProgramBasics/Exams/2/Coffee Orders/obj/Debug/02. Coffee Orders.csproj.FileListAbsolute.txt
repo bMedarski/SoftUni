@@ -1,0 +1,3 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\Coffee Orders\bin\Debug\Coffee Orders.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\Coffee Orders\obj\Debug\Coffee Orders.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\Coffee Orders\obj\Debug\Coffee Orders.pdb

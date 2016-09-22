@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\bin\Debug\_01.Blank_Receipt.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\bin\Debug\_01.Blank_Receipt.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\bin\Debug\_01.Blank_Receipt.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\obj\Debug\01. Blank Receipt.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\obj\Debug\_01.Blank_Receipt.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\01. Blank Receipt\obj\Debug\_01.Blank_Receipt.pdb

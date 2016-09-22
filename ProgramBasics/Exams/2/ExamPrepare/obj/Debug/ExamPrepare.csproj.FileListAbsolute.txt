@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\bin\Debug\ExamPrepare.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\bin\Debug\ExamPrepare.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\bin\Debug\ExamPrepare.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\obj\Debug\ExamPrepare.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\obj\Debug\ExamPrepare.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\C# Fundamentals\ExamPrepare\ExamPrepare\obj\Debug\ExamPrepare.pdb

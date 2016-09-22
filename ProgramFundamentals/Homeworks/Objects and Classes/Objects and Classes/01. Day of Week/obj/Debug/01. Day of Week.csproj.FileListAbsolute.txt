@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\bin\Debug\_01.Day_of_Week.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\bin\Debug\_01.Day_of_Week.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\bin\Debug\_01.Day_of_Week.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\obj\Debug\01. Day of Week.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\obj\Debug\_01.Day_of_Week.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Objects and Classes\01. Day of Week\obj\Debug\_01.Day_of_Week.pdb

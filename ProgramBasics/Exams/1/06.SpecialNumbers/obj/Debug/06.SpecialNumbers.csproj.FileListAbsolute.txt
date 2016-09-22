@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\bin\Debug\06.SpecialNumbers.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\bin\Debug\06.SpecialNumbers.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\bin\Debug\06.SpecialNumbers.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\obj\Debug\06.SpecialNumbers.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\obj\Debug\06.SpecialNumbers.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06.SpecialNumbers\obj\Debug\06.SpecialNumbers.pdb

@@ -1,0 +1,6 @@
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\bin\Debug\04.BackToThePast.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\bin\Debug\04.BackToThePast.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\bin\Debug\04.BackToThePast.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\obj\Debug\04.BackToThePast.csprojResolveAssemblyReference.cache
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\obj\Debug\04.BackToThePast.exe
+C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.BackToThePast\obj\Debug\04.BackToThePast.pdb
