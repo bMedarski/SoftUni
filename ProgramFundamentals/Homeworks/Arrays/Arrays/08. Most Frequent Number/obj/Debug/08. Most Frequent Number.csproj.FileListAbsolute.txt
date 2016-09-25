@@ -1,0 +1,5 @@
+C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Most Frequent Number\bin\Debug\_08.Most_Frequent_Number.exe.config
+C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Most Frequent Number\bin\Debug\_08.Most_Frequent_Number.exe
+C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Most Frequent Number\bin\Debug\_08.Most_Frequent_Number.pdb
+C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Most Frequent Number\obj\Debug\_08.Most_Frequent_Number.exe
+C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Most Frequent Number\obj\Debug\_08.Most_Frequent_Number.pdb
