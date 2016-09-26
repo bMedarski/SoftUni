@@ -10,14 +10,14 @@ namespace _07.Max_Sequence_of_Increasing_Elements
     {
         static void Main(string[] args)
         {
-            int[] array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            long[] array = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
 
-            int count = 1,
+            long count = 1,
                 element = array[0],
                 max = 0,
                 maxElement = array[0];
 
-            for (int i = 1; i < array.Length; i++)
+            for (long i = 1; i < array.Length; i++)
             {
                 if (element+1 == array[i])
                 {
@@ -36,7 +36,7 @@ namespace _07.Max_Sequence_of_Increasing_Elements
                     count = 1;
                 }
             }
-            for (int i = 0; i < max; i++)
+            for (long i = 0; i < max; i++)
             {
                 Console.Write("{0} ", maxElement+i-max+1);
             }
