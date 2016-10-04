@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\bin\Debug\_03.Exact_Sum_of_Real_Numbers.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\bin\Debug\_03.Exact_Sum_of_Real_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\bin\Debug\_03.Exact_Sum_of_Real_Numbers.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\obj\Debug\3. Exact Sum of Real Numbers.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\obj\Debug\_03.Exact_Sum_of_Real_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Exact Sum of Real Numbers\obj\Debug\_03.Exact_Sum_of_Real_Numbers.pdb

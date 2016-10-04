@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\bin\Debug\_15.Fast_Prime_Checker.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\obj\Debug\15. Fast Prime Checker.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\obj\Debug\_15.Fast_Prime_Checker.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\15. Fast Prime Checker\obj\Debug\_15.Fast_Prime_Checker.pdb

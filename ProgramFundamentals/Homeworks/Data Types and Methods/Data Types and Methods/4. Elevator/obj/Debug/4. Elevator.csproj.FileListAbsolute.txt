@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\bin\Debug\_4.Elevator.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\bin\Debug\_4.Elevator.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\bin\Debug\_4.Elevator.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\obj\Debug\4. Elevator.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\obj\Debug\_4.Elevator.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\4. Elevator\obj\Debug\_4.Elevator.pdb

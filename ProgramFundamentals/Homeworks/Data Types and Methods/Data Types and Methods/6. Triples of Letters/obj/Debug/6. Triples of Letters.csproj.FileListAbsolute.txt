@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\bin\Debug\_6.Triples_of_Letters.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\bin\Debug\_6.Triples_of_Letters.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\bin\Debug\_6.Triples_of_Letters.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\obj\Debug\6. Triples of Letters.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\obj\Debug\_6.Triples_of_Letters.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\6. Triples of Letters\obj\Debug\_6.Triples_of_Letters.pdb

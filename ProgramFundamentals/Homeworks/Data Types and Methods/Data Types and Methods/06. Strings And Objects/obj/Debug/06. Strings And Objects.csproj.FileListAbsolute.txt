@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\bin\Debug\_06.Strings_And_Objects.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\obj\Debug\06. Strings And Objects.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\obj\Debug\_06.Strings_And_Objects.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\06. Strings And Objects\obj\Debug\_06.Strings_And_Objects.pdb

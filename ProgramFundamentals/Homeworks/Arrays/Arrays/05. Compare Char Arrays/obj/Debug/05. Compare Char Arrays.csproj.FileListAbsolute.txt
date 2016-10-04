@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\bin\Debug\_05.Compare_Char_Arrays.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\bin\Debug\_05.Compare_Char_Arrays.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\bin\Debug\_05.Compare_Char_Arrays.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\obj\Debug\05. Compare Char Arrays.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\obj\Debug\_05.Compare_Char_Arrays.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\05. Compare Char Arrays\obj\Debug\_05.Compare_Char_Arrays.pdb

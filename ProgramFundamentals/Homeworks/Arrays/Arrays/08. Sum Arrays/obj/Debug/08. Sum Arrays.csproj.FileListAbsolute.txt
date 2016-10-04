@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\bin\Debug\_08.Sum_Arrays.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\bin\Debug\_08.Sum_Arrays.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\bin\Debug\_08.Sum_Arrays.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\obj\Debug\_08.Sum_Arrays.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\obj\Debug\_08.Sum_Arrays.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\08. Sum Arrays\obj\Debug\08. Sum Arrays.csprojResolveAssemblyReference.cache

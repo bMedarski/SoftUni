@@ -1,9 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\bin\Debug\_5.Special_Numbers.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\bin\Debug\_5.Special_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\bin\Debug\_5.Special_Numbers.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\obj\Debug\5. Special Numbers.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\obj\Debug\_5.Special_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\obj\Debug\_5.Special_Numbers.pdb
-C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\bin\Debug\_5.Special_Numbers.exe.config
-C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\obj\Debug\_5.Special_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\Soft-Uni\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\5. Special Numbers\obj\Debug\_5.Special_Numbers.pdb

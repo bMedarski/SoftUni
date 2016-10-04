@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\10. Extract Middle Elements\bin\Debug\_10.Extract_Middle_Elements.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\10. Extract Middle Elements\bin\Debug\_10.Extract_Middle_Elements.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\10. Extract Middle Elements\bin\Debug\_10.Extract_Middle_Elements.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\10. Extract Middle Elements\obj\Debug\_10.Extract_Middle_Elements.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\10. Extract Middle Elements\obj\Debug\_10.Extract_Middle_Elements.pdb

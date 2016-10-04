@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\bin\Debug\_11.Equal_Sums.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\bin\Debug\_11.Equal_Sums.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\bin\Debug\_11.Equal_Sums.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\obj\Debug\11. Equal Sums.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\obj\Debug\_11.Equal_Sums.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\11. Equal Sums\obj\Debug\_11.Equal_Sums.pdb

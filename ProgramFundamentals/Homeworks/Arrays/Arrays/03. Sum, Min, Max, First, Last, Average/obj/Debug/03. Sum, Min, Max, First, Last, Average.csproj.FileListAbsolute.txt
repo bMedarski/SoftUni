@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\bin\Debug\_03.Sum__Min__Max__First__Last__Average.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\bin\Debug\_03.Sum__Min__Max__First__Last__Average.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\bin\Debug\_03.Sum__Min__Max__First__Last__Average.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\obj\Debug\03. Sum, Min, Max, First, Last, Average.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\obj\Debug\_03.Sum__Min__Max__First__Last__Average.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\03. Sum, Min, Max, First, Last, Average\obj\Debug\_03.Sum__Min__Max__First__Last__Average.pdb

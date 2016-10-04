@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\bin\Debug\_02.Practice_Floating_Points.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\obj\Debug\02. Practice Floating Points.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\obj\Debug\_02.Practice_Floating_Points.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\02. Practice Floating Points\obj\Debug\_02.Practice_Floating_Points.pdb

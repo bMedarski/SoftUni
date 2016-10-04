@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\bin\Debug\_06.Rounding_Numbers.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\bin\Debug\_06.Rounding_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\bin\Debug\_06.Rounding_Numbers.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\obj\Debug\06. Rounding Numbers.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\obj\Debug\_06.Rounding_Numbers.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\06. Rounding Numbers\obj\Debug\_06.Rounding_Numbers.pdb

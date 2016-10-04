@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\bin\Debug\_17.Print_Part_Of_ASCII_Table.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\bin\Debug\_17.Print_Part_Of_ASCII_Table.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\bin\Debug\_17.Print_Part_Of_ASCII_Table.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\obj\Debug\17. Print Part Of ASCII Table.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\obj\Debug\_17.Print_Part_Of_ASCII_Table.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\17. Print Part Of ASCII Table\obj\Debug\_17.Print_Part_Of_ASCII_Table.pdb

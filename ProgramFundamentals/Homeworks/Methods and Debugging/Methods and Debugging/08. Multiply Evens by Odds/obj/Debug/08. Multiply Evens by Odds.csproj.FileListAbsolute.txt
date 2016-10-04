@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\bin\Debug\_08.Multiply_Evens_by_Odds.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\obj\Debug\08. Multiply Evens by Odds.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\obj\Debug\_08.Multiply_Evens_by_Odds.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\08. Multiply Evens by Odds\obj\Debug\_08.Multiply_Evens_by_Odds.pdb

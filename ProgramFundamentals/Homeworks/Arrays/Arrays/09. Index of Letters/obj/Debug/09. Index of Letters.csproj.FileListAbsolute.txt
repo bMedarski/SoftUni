@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Index of Letters\bin\Debug\_09.Index_of_Letters.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Index of Letters\bin\Debug\_09.Index_of_Letters.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Index of Letters\bin\Debug\_09.Index_of_Letters.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Index of Letters\obj\Debug\_09.Index_of_Letters.exe
-C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\ProgramFundamentals\Homeworks\Arrays\Arrays\09. Index of Letters\obj\Debug\_09.Index_of_Letters.pdb

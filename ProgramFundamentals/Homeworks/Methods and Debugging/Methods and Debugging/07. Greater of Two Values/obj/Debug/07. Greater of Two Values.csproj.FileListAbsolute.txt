@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\bin\Debug\_07.Greater_of_Two_Values.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\bin\Debug\_07.Greater_of_Two_Values.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\bin\Debug\_07.Greater_of_Two_Values.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\obj\Debug\07. Greater of Two Values.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\obj\Debug\_07.Greater_of_Two_Values.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\07. Greater of Two Values\obj\Debug\_07.Greater_of_Two_Values.pdb

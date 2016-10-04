@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\bin\Debug\_03.English_Name_of_Last_Digit.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\obj\Debug\03. English Name of Last Digit.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\obj\Debug\_03.English_Name_of_Last_Digit.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Methods and Debugging\Methods and Debugging\03. English Name of Last Digit\obj\Debug\_03.English_Name_of_Last_Digit.pdb

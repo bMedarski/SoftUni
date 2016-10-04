@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Practice Chars And Strings\bin\Debug\_03.Practice_Chars_And_Strings.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Practice Chars And Strings\obj\Debug\_03.Practice_Chars_And_Strings.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Data Types and Methods\Data Types and Methods\03. Practice Chars And Strings\obj\Debug\_03.Practice_Chars_And_Strings.pdb
