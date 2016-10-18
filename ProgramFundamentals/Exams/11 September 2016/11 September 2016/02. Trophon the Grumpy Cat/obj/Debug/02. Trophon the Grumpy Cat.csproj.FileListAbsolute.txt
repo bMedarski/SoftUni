@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\bin\Debug\_02.Trophon_the_Grumpy_Cat.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\bin\Debug\_02.Trophon_the_Grumpy_Cat.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\bin\Debug\_02.Trophon_the_Grumpy_Cat.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\obj\Debug\_02.Trophon_the_Grumpy_Cat.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\obj\Debug\_02.Trophon_the_Grumpy_Cat.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Exams\11 September 2016\11 September 2016\02. Trophon the Grumpy Cat\obj\Debug\02. Trophon the Grumpy Cat.csprojResolveAssemblyReference.cache
