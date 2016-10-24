@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Book Library Modificati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. AndreyAndBilliard", "07. AndreyAndBilliard\07. AndreyAndBilliard.csproj", "{6B86A40B-5E06-478F-A60D-1495DEF7729F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{EC1137EF-C4FD-4C73-B113-D0EE71424A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6B86A40B-5E06-478F-A60D-1495DEF7729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B86A40B-5E06-478F-A60D-1495DEF7729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B86A40B-5E06-478F-A60D-1495DEF7729F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1137EF-C4FD-4C73-B113-D0EE71424A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1137EF-C4FD-4C73-B113-D0EE71424A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1137EF-C4FD-4C73-B113-D0EE71424A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1137EF-C4FD-4C73-B113-D0EE71424A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
