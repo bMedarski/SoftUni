@@ -13,10 +13,12 @@
                 </small>
                 <footer>
                     <div class="pull-right">
+                        {{#if isUserAuthorized}}
                         <a class="btn btn-success btn-xs"
-                           href="/article/edit/{{article.id}}">Edit &raquo;</a>
+                           href="/article/edit/{{id}}">Edit &raquo;</a>
                         <a class="btn btn-danger btn-xs"
-                           href="/article/delete/{{article.id}}">Delete &raquo;</a>
+                           href="/article/delete/{{id}}">Delete &raquo;</a>
+                        {{/if}}
                         <a class="btn btn-default btn-xs" href="/">Back &raquo;</a>
                     </div>
                 </footer>

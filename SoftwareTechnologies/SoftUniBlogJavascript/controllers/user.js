@@ -1,4 +1,5 @@
 const User = require('mongoose').model('User');
+const Role = require('mongoose').model('Role');
 const encryption = require('./../utilities/encryption');
 
 module.exports = {
@@ -30,17 +31,29 @@ module.exports = {
                     fullName: registerArgs.fullName,
                     salt: salt
                 };
+                let roles = [];
+                Role.findOne({name: 'User'}).then(role => {
+                    roles.push(role.id);
+                    userObject.roles = roles;
 
-                User.create(userObject).then(user => {
-                    req.logIn(user, (err) => {
-                        if (err) {
-                            registerArgs.error = err.message;
-                            res.render('user/register', registerArgs);
-                            return;
-                        }
+                    User.create(userObject).then(user => {
+                        role.users.push(user.id);
 
-                        res.redirect('/')
-                    })
+                        role.save((err) => {
+                            if (err) {
+                                console.log(err.message);
+                            } else {
+                                req.logIn(user, (err) => {
+                                    if (err) {
+                                        registerArgs.error = err.message;
+                                        res.render('user/register', registerArgs);
+                                        return;
+                                    }
+                                    res.redirect('/')
+                                })
+                            }
+                        })
+                    });
                 })
             }
         })
@@ -62,12 +75,17 @@ module.exports = {
 
             req.logIn(user, (err) => {
                 if (err) {
-                    console.log(err);
-                    res.redirect('/user/login', {error: err.message});
+                    res.render('/user/login', {error: err.message});
                     return;
                 }
 
-                res.redirect('/');
+                let returnUrl = '/';
+                if(req.session.returnUrl) {
+                    returnUrl = req.session.returnUrl;
+                    delete req.session.returnUrl;
+                }
+
+                res.redirect(returnUrl);
             })
         })
     },
