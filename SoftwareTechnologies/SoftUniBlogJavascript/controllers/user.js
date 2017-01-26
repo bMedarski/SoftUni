@@ -35,23 +35,15 @@ module.exports = {
                 Role.findOne({name: 'User'}).then(role => {
                     roles.push(role.id);
                     userObject.roles = roles;
-
                     User.create(userObject).then(user => {
-                        role.users.push(user.id);
-
-                        role.save((err) => {
+                        user.prepareInsert();
+                        req.logIn(user, (err) => {
                             if (err) {
-                                console.log(err.message);
-                            } else {
-                                req.logIn(user, (err) => {
-                                    if (err) {
-                                        registerArgs.error = err.message;
-                                        res.render('user/register', registerArgs);
-                                        return;
-                                    }
-                                    res.redirect('/')
-                                })
+                                registerArgs.error = err.message;
+                                res.render('user/register', registerArgs);
+                                return;
                             }
+                            res.redirect('/')
                         })
                     });
                 })

@@ -1,8 +1,20 @@
 const Article = require('mongoose').model('Article');
+const Category = require('mongoose').model('Category');
+const Tag = require('mongoose').model('Tag');
+const initializeTags = require('./../models/Tag');
 
 module.exports = {
     createGet: (req, res) => {
-        res.render('article/create');
+
+        if(!req.isAuthenticated()){
+            let returnUrl = '/article/create';
+            req.session.returnUrl = returnUrl;
+            res.redirect('/user/login');
+            return
+        }
+        Category.find({}).then(categories => {
+            res.render('article/create', {categories: categories});
+        });
     },
     createPost: (req, res) => {
         let articleArgs = req.body;
@@ -22,16 +34,13 @@ module.exports = {
         }
 
         articleArgs.author = req.user.id;
+        articleArgs.tags=[];
         Article.create(articleArgs).then(article => {
-            req.user.articles.push(article.id);
-            req.user.save(err => {
-                if (err) {
-                    res.redirect('/', {error: err.message});
-                } else {
-                    res.redirect('/');
-                }
+            let tagNames = articleArgs.tagNames.split(/\s+|,/).filter(tag => {return tag});
+            initializeTags(tagNames,article.id);
+            article.prepareInsert();
+            res.redirect('/');
             })
-        })
     },
     details: (req, res) => {
         let id = req.params.id;
@@ -70,15 +79,24 @@ module.exports = {
             return;
 
         }
-        Article.findById(id).then(article => {
+        Article.findById(id).populate('tags').then(article => {
 
             req.user.isInRole('Admin').then(isAdmin =>{
                 if(!isAdmin && !req.user.isAuthor(article)){
                     res.redirect('/');
                 }else{
-                    res.render('article/edit', article);
+
+                    Category.find({}).then(categories => {
+                        article.categories = categories;
+                        res.render('article/edit', article);
+                    });
                 }
             });
+        });
+        Category.find({}).then(categories => {
+            article.categories = categories;
+            article.tagNames =article.tags.map(tag => {return tag.name});
+            res.render('article/edit', article);
         });
     },
     editPost: (req, res) => {
@@ -97,8 +115,28 @@ module.exports = {
         if(errorMsg){
             res.render('article/edit', {error: errorMsg})
         }else {
-            Article.update({_id: id}, {$set: {title: articleArgs.title, content: articleArgs.content}}).then(updateStatus => {
-                res.redirect(`/article/details/${id}`);
+            Article.findById(id).populate('category').then( article => {
+                if(article.category.id !== articleArgs.category){
+                    article.category.articles.remove(article.id);
+                    article.category.save();
+                }
+                article.category = articleArgs.category;
+                article.title = articleArgs.title;
+                article.content = articleArgs.content;
+                article.save((err) => {
+                    if(err){
+                        console.log(err.message);
+                    }
+
+                    Category.findById(article.category).then(category => {
+                        if(category.articles.indexOf(article.id) === -1){
+                            category.articles.push(article.id);
+                            category.save();
+                        }
+                        res.redirect(`/article/details/${id}`);
+                    })
+                })
+
             })
         }
     },
@@ -136,21 +174,8 @@ module.exports = {
             return;
         }
         Article.findOneAndRemove({_id:id}).populate('author').then(article => {
-            let author = article.author;
-
-            let index = author.articles.indexOf(article.id);
-
-            if(index<0){
-
-                let errorMsg = 'Article was not found for that author';
-                res.render('article/delete', {error: errorMsg});
-            }else {
-                let count = 1;
-                author.articles.splice(index, count);
-                author.save().then((user) => {
-                    res.redirect('/');
-                });
-            }
+            article.prepareDelete();
+            res.redirect('/');
         });
     }
 };

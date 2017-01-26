@@ -15,15 +15,33 @@
                     <label class="col-sm-4 control-label"
                            for="articleContent">Content</label>
                     <div class="col-sm-6">
- <textarea class="form-control" id="articleContent" rows="5"
-           name="content" required>{{content}}</textarea>
+                        <textarea class="form-control" id="articleContent" rows="5"
+                        name="content" required>{{content}}</textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label"
+                           for="category">Category</label>
+                    <div class="col-sm-6">
+                        <select class="form-control" id="select" name="category">
+                            {{#each categories}}
+                                <option value="{{this.id}}">{{this.name}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="tags">Tags</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="tags" name="tags"
+                               value="{{ tagNames }}">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-4">
                         <a href="/" class="btn btn-default">Cancel</a>
                         <button type="submit" href="/article/edit/{{id}}" class="btn
-btn-success">Edit</button>
+                        btn-success">Edit</button>
                     </div>
                 </div>
             </fieldset>

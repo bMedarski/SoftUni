@@ -1,0 +1,223 @@
+#body {
+    background: url("../images/croped.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar, .navbar-default{
+    background: rgba(0,0,0,1);
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid gold;
+    color: gold;
+}
+.navbar-default .navbar-nav > li > a {
+    color: gold;
+    font-size: large;
+    webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: darkgoldenrod;
+}
+.navbar-default .navbar-brand {
+    color: gold;
+    font-size: 25px;
+    webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.navbar-default .navbar-brand:hover {
+    color: darkgoldenrod;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: gold;
+    background: rgba(100,100,100,0.5);
+}
+.btn-default {
+    color: gold;
+    background: rgba(0,0,0,0.2);
+    border-color: gold;
+    text-shadow: 1px 1px black;
+    webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.btn-default:hover{
+    color: darkgoldenrod;
+    background: rgba(100,100,100,0.5);
+    border-color: darkgoldenrod;
+    text-shadow: 1px 1px black;
+}
+.btn-default:active{
+    color: darkgoldenrod;
+    background: rgba(100,100,100,0.5);
+    border-color: darkgoldenrod;
+    text-shadow: 1px 1px black;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: darkgoldenrod;
+    background: rgba(100,100,100,0.5);
+    text-shadow: 2px 2px black;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: gold;
+    white-space: nowrap;
+    text-shadow: 2px 2px black;
+}
+.dropdown-menu > li > a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: darkgoldenrod;
+    white-space: nowrap;
+    background: rgba(100,100,100,0.8);
+    text-shadow: 2px 2px black;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: rgba(100,100,100,0.8);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid darkgoldenrod;
+    border-radius: 4px;
+    text-shadow: 2px 2px black;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: darkgoldenrod;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: darkgoldenrod;
+}
+.form-control{
+    background-color: rgba(100,100,100,0.8);
+    border: 1px solid gold;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+.form-control:focus{
+    background-color: rgba(100,100,100,0.8);
+    border: 1px solid darkgoldenrod;
+    color: gold;
+    box-shadow:1px 1px darkgoldenrod;
+}
+legend{
+    text-align: center;
+    color: gold;
+    border-bottom: 1px solid gold;
+    padding: 10px 0;
+}
+.body-main{
+    color: gold;
+    text-shadow: 2px 2px black;
+    background-color: rgba(100,100,100,0.95);
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px solid darkgoldenrod;
+    -webkit-transition-duration: 0.9s; /* Safari */
+    transition-duration: 0.9s;
+    padding:30px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    color: gold;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    border-bottom: none;
+    position: relative;
+    min-height: 50px;
+
+
+}
+.page-header {
+    color: gold;
+    text-shadow: 2px 2px black;
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid gold;
+}
+.thumbnail {
+    border: 1px solid darkgoldenrod;
+    background-color: rgba(100,100,100,0);
+}
+.thumb{
+    width: 280px;
+    height: 300px;
+}
+.body{
+    color: gold;
+    text-shadow: 2px 2px black;
+    background-color: rgba(100,100,100,0.9);
+    border-radius: 10px;
+    border: 1px solid darkgoldenrod;
+    -webkit-transition-duration: 0.9s; /* Safari */
+    transition-duration: 0.9s;
+    padding: 0 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.clip-article{
+    max-height: 300px;
+    overflow-y: hidden;
+    text-align: left;
+}
+.wide{
+    width: 60%;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.image{
+    max-width:100%;
+    max-height: 30%;
+}
+.author{
+    text-align: left;
+}
+.well{
+    background: none;
+    border: none;
+}
+.list-unstyled > li > a{
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+.mainColor{
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+.page-header{
+    margin: 0;
+
+}
+h2{
+    margin-top: 0;
+}
+.moved-down{
+    margin-top: 75px;
+}
+.img-responsive{
+    margin-bottom: 20px;
+}
+

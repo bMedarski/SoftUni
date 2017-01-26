@@ -20,5 +20,4 @@ module.exports.initialize = () => {
             Role.create({name: 'Admin'});
         }
     });
-
 };
