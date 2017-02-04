@@ -129,70 +129,56 @@ header > a:hover{
     cursor: pointer;
     color: #648880;
 }
-footer{
-    background-color: #293F50;
-    clear: both;
-    vertical-align: bottom;
-    padding: 15px 100px;
-    padding-top: 50px;
-    font-weight: 100;
-}
-footer > ul{
-
-    text-align: right;
-    list-style-type: none;
-    color: rgb(68, 68, 68);
-}
-footer > ul > li{
-    font-size: 16px;
-    padding: 16px;
-    display: inline-block;
-
-}
-footer > ul > li > a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: capitalize;
-}
-footer > ul > li.left{
-    float: left;
-    font-size: 22px;
-    line-height: 22px;
-    color: #ffffff;
-    padding: 16px;
-}
 main {
     margin: 10px auto;
     padding: 0 10%;
     padding-bottom: 100px;
 }
-article{
+section{
     float: left;
     width: 28%;
     color: #648880;
     margin: 75px 25px;
 }
-main > article > img{
+main > section > article > img{
     width: 100%;
     border-radius: 5px;
     margin: 15px 0;
     margin-top: 25px;
 }
-main > article > p{
+main > section > article > p{
     color: #B1B2B9;
     font-size: 16px;
     margin: 10px 0;
 }
-main > article > h1{
+main > section > article > h1{
     color: #B1B2B9;
     font-size: 22px;
     text-transform: uppercase;
 }
-main > article > h2{
+main > section > article > h2{
     color: #B1B2B9;
     font-size: 22px;
     font-weight: 300;
     text-transform: capitalize;
+}
+footer{
+    clear: both;
+    background-color: #293F50;
+    padding: 45px 15px;
+    color: #ffffff;
+}
+footer > h1 {
+    margin: 25px;
+    font-size: 22px;
+    float: left;
+    font-weight: 100;
+}
+footer > nav > ul > li{
+    float: right;
+}
+footer > nav > ul > li > a{
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px
 }
