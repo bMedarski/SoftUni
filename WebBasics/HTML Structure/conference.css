@@ -52,7 +52,7 @@
 }
 body{
     font-family: "Lato", sans-serif;
-    width: 1060px;
+    width: 1200px;
     margin: auto;
 }
 nav{
@@ -65,7 +65,6 @@ nav > ul{
     margin: 0;
     list-style-type: none;
     color: rgb(68, 68, 68);
-
 }
 nav > ul > li{
     font-size: 16px;
@@ -80,12 +79,13 @@ nav > ul > li > a{
     font-size: 16px;
     line-height: 16px;
 }
-.date{
+nav > p{
     text-align: right;
     font-size: 16px;
     line-height: 16px;
     padding: 13px;
     color: #648880;
+    text-transform: uppercase;
 }
 header.container{
     margin: auto;
@@ -100,9 +100,9 @@ header>h1{
     padding: 80px 0;
     color: #ffffff;
     font-weight: 100;
-
+    text-transform: uppercase;
 }
-header>h3{
+header>h2{
     font-size: 22px;
     color: #648880;
     font-weight: 100;
@@ -121,6 +121,7 @@ header > a{
     border-radius: 5px;
     padding: 20px 35px;
     font-size: 16px;
+    text-transform: uppercase;
 }
 header > a:hover{
     background-color: #ffffff;
@@ -146,12 +147,14 @@ footer > ul > li{
     font-size: 16px;
     padding: 16px;
     display: inline-block;
+
 }
 footer > ul > li > a{
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
     line-height: 16px;
+    text-transform: capitalize;
 }
 footer > ul > li.left{
     float: left;
@@ -161,14 +164,13 @@ footer > ul > li.left{
     padding: 16px;
 }
 main {
-    margin: 10px 0;
-    padding-left:12.5%;
-    padding-right:12.5%;
+    margin: 10px auto;
+    padding: 0 10%;
     padding-bottom: 100px;
 }
 article{
     float: left;
-    width: 25%;
+    width: 28%;
     color: #648880;
     margin: 75px 25px;
 }
@@ -186,9 +188,11 @@ main > article > p{
 main > article > h1{
     color: #B1B2B9;
     font-size: 22px;
+    text-transform: uppercase;
 }
 main > article > h2{
     color: #B1B2B9;
     font-size: 22px;
     font-weight: 300;
+    text-transform: capitalize;
 }
