@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+}
+header.container{
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+    background: url("images/background-image.jpg") no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+h1{
+    font-size: 80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+}
+p{
+    font-size: 27px;
+    font-weight: 100;
+    margin: 20px;
+}
+.btn{
+    color: #ffffff;
+    background: none;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+.bnt:hover{
+    background-color: #000000;
+    border-color: #000000;
+    cursor: pointer;
+}

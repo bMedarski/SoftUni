@@ -1,0 +1,27 @@
+
+/*@font-face … include from https://fonts.googleapis.com/css?family=Lato:300,400,900*/
+body{
+    font-family: "Lato", sans-serif;
+}
+ul{
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    background-color: #84b3ad;
+}
+ul>li{
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+
+    text-align: center;
+    display: inline-block;
+}
+ul>li>a{
+    color: #ffffff;
+}
+li:hover{
+    padding: 5px 0;
+    background-color: #135e3e;
+}

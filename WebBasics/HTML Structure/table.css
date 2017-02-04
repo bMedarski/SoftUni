@@ -1,0 +1,35 @@
+body{
+    Font-family: "Lato",sans-serif;
+}
+table{
+    margin: auto;
+    color: #333333;
+    border-spacing: 0;
+}
+thead>tr>th{
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(144, 180, 214);
+    letter-spacing: 2px;
+    font-size: 18px;
+    width: 150px;
+    padding: 5px 30px 5px 10px;
+}
+tbody > th{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84b3ad;
+}
+tr:nth-child(even) td, tr:nth-child(even) th {
+    background-color: #689ad8;
+}
+.data{
+    padding: 5px 30px 5px 10px;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    background-color: #84b3ad;
+    width: 150px;
+}
