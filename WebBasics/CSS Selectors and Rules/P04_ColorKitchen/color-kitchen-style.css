@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    background: url("images/bg.jpg") repeat;
+}
+body>header{
+    text-align: center;
+    color: #FFFF00;
+    background: linear-gradient(to right, #FF0000,#008000,#0000FF);
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+aside{
+    background-color: rgba(245, 230, 254, 0.9);
+    padding: 22px;
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+}
+aside > nav > header{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+aside > nav > ul{
+    list-style-type: none;
+}
+aside > nav > ul> li{
+    background:url("images/a.png")  no-repeat left center;
+    padding: 2px 5px 2px 24px;
+    border-radius: 10px;
+}
+aside > nav > ul> li:hover{
+   background-color: #FF0000;
+}
+aside > nav > ul> li:nth-child(2n):hover{
+    background-color: #008000;
+}
+aside > nav > ul> li > a{
+    color: black;
+    text-decoration: none;
+}
+article{
+    background-color: rgba(245, 230, 254, 0.9);
+    width: 970px;
+    border-radius: 10px;
+    padding: 11px 3px 11px 13px;
+    margin: 15px;
+}
+section{
+    margin: 25px;
+    margin-left: 220px;
+}
+article header{
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 6px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+#webColors{
+    background-color: #FF0000;
+}
+#RGBA{
+    background-color: #008000;
+}
+article header:last-of-type{
+    background-color: #800080;
+}
+article p:first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+article p:first-line{
+    font-style: italic;
+}
+article footer a {
+    text-decoration: underline;
+    color: #333333;
+    font-size: 16px;
+}

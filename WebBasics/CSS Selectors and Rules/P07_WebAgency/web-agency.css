@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    padding: 25px;
+    background-color: #24437C;
+}
+.nav-brand{
+    float: left;
+    margin: 10px;
+
+}
+nav ul{
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav ul li:last-of-type {
+    background-color: #3DC1EF;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-title{
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+.header-subtitle{
+    text-transform: capitalize;
+    color: #428EAE;
+    text-align: center;
+    margin: 50px;
+}
+#button-container{
+    text-align: center;
+}
+.header-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3DC1EF;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.header-services{
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+}
+.service{
+    /*border: 1px solid gold;*/
+    margin: 50px auto;
+    width: 320px;
+    padding: 50px 30px;
+    color: #ffffff;
+    text-align: left;
+}
+.service:hover{
+    background-color: #3DC1EF;
+}
+.service-title  {
+
+    margin: 20px;
+}
+.service p{
+    display: block;
+}
+.service-link{
+    margin-top: 20px;
+    /*display: inline-block;*/
+    color: #ffffff;
+    text-decoration: none;
+}
