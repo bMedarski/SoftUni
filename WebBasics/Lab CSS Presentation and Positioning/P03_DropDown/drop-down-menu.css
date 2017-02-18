@@ -1,0 +1,72 @@
+/**@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+/*body{*/
+/*background-color: #1C211D;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*text-align: center;*/
+/*}*/
+/*nav{*/
+/*height: 60px;*/
+/*margin-top: 50px;*/
+/*background-color: #E77B20;*/
+
+/*}*/
+/*nav ul {*/
+/*list-style-type: none;*/
+/*/!*margin-left: 320px;*!/*/
+/*position: relative;*/
+/*}*/
+/*nav ul li a{*/
+/*margin: 15px 13px;*/
+/*font-size: 22px;*/
+/*color: #ffffff;*/
+/*text-decoration: none;*/
+/*display: block;*/
+/*padding: 0 10px;*/
+/*}*/
+body {
+    font-family: 'Open Sans',   sans-serif;
+    background: #1d211e;
+    font-size: 22px;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: center;}
+a {
+    color:#ffffff;}
+nav {
+    margin: 50px 0;
+    background-color:#e67c1f;}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    display:inline-block;
+    background-color: #e67c1f;
+}
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;}
+nav a:hover {
+    background-color: #000000;
+}
+nav ul ul {
+    display: none;
+    position: absolute;}
+nav ul li:hover > ul {
+    display: inline-block;}
+nav ul ul li {
+    width: 170px;
+    position: relative;
+    display: block;}
+nav ul ul ul li {
+    position: relative;
+    top:-60px;
+    left:85px;}
+li > a::after { content:' +'; }
+li > a:only-child::after { content:''; }

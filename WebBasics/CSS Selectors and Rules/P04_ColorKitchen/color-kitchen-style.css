@@ -32,9 +32,13 @@ aside > nav > ul{
     list-style-type: none;
 }
 aside > nav > ul> li{
-    background:url("images/a.png")  no-repeat left center;
+    /*background:url("images/a.png")  no-repeat left center;*/
     padding: 2px 5px 2px 24px;
     border-radius: 10px;
+}
+aside > nav > ul> li:before{
+    content: url("images/a.png");
+    /*position: absolute;*/
 }
 aside > nav > ul> li:hover{
    background-color: #FF0000;

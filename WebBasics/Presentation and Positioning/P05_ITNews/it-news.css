@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+
+    font-family: Arial,sans-serif ;
+    width: 610px;
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+}
+article{
+    width: 280px;
+    height: 210px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    box-shadow: 4px 4px 3px lightgrey;
+}
+img{
+    float: left;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 13px;
+}
+h1{
+    font-size: 13px;
+    color:black;
+}
+.date{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color:  #A192B0;
+}
