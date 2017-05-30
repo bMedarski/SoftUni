@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px 'Open Sans', sans-serif;
+    width: 1640px;
+    margin: 0 auto;
+}
+body > header {
+    background: url("Resourses/img/header-background.jpg") no-repeat no-repeat ;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+nav{
+    display: inline-block;
+}
+#logo>a{
+    text-transform: capitalize;
+    font:32px Kreon;
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto 18px;
+}
+ul{
+    list-style-type: none;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 18px 32px;
+    margin: 32px;
+    border-radius: 20px;
+}
+nav>ul>li:hover{
+    background-color: #F4474F;
+
+}
+nav>ul>li>a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header>section{
+    margin: 40px 18px;
+    position: absolute;
+    bottom: 0;
+}
+header>section>p{
+    font-size:32px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+header>section>h1{
+    font:58px Kreon;
+    color: #ffffff;
+    width: 800px;
+}
+#portfolio-results{
+    display: flex;
+    flex-flow: row;
+    color: #ffffff;
+}
+#results{
+    background-color: #30C5D6;
+    width: 50%;
+}
+#portfolio{
+    background-color: #F2464E;
+    width: 50%;
+}
+#portfolio-results img{
+    float: left;
+    margin: 66px 20px 55px 46px;
+    width: 150px;
+    height: 150px;
+}
+#portfolio-results h3{
+    text-transform: uppercase;
+    margin: 46px 0;
+    font-size: 20px;
+}
+#portfolio-results p{
+    font-size: 16px;
+    width: 680px;
+}
+#container{
+    display: flex;
+    flex-flow: row;
+    margin-top: 66px;
+    margin-bottom: 56px;
+}
+#marketing>h1{
+    font:50px Kreon;
+    margin: 72px 40px;
+}
+#marketing>p{
+    font:22px Kreon;
+    margin: 12px 40px;
+    color: #868686;
+    width: 800px;
+}
+#marketing>article>p{
+    width: 33%;
+}
+#container>article{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#search-engine, #web-development{
+    border-right: 1px solid #D5D5D5;
+}
+#container>article>h4{
+    font:24px Kreon;
+    margin: 22px 0;
+}
+#container>article>p{
+    font:15px Kreon;
+    color: #868686;
+}
+#marketing>footer{
+    height: 190px;
+    background-color: #F4474F;
+}
+#marketing>footer>p{
+    float: left;
+    font: 32px Kreon;
+    color: #ffffff;
+    margin: 88px 50px 64px 170px;
+}
+#marketing>footer>a{
+    float: right;
+    font: 18px Kreon;
+    margin: 86px 250px 44px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #F4474F;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#marketing>footer>a:hover{
+    color: #000000;
+}
+body>footer {
+    text-align: center;
+    color: #868686;
+    padding: 20px;
+    font: 18px Kreon;
+}
+
+

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSans:400,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: #EAF0F1;
+}
+
+form {
+    width: 48%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+}
+
+form h3 {
+    font-size: 18px;
+    background: #FF4F00;
+    color: white;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+div.wrapper {
+    margin-left: 20px;
+}
+
+.form-field {
+    display: block;
+    float: left;
+    padding: 20px 8px;
+    color: #555;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.form-field span {
+    color: red;
+}
+
+.field-icon {
+    margin-top: 5px;
+    position: relative;
+}
+
+.fa {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    background: #EEEEEE;
+    border-radius: 5px 0 0 5px;
+}
+
+input {
+    width: 280px;
+    height: 35px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+
+textarea {
+    margin-left: 36px;
+    border: 1px solid #EEEEEE;
+    border-radius: 0 5px 5px 0;
+    width: 244px;
+    height: 120px;
+}
+
+button {
+    border: none;
+    background: #FF4F00;
+    color: white;
+    display: block;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #565656;
+}
+
+

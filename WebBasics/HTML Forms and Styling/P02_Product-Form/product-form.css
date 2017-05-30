@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #FAFAFA;
+}
+main{
+    width: 1120px;
+    margin:0 auto;
+    display: flex;
+    flex-flow: row;
+}
+aside{
+    width: 448px;
+    /*float: left;*/
+    background:  linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius:16px ;
+    height: 636px;
+    position: relative;
+}
+aside>img{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -180px;
+}
+section{
+    width: 627px;
+    height: 572px;
+    background-color: #ffffff;
+    padding: 32px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius:16px;
+
+}
+section>h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+h2{
+    font-size: 22px;
+    color: #565656;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #4EC4C4;
+
+}
+input::-webkit-input-placeholder{
+    color: #4EC4C4;
+}
+select{
+    padding-left: 5px;
+    height: 32px;
+    margin: 15px;
+    width: 180px;
+    background-color: #42CACA;
+    outline: none;
+    color: #ffffff;
+    border: none;
+}
+
+button{
+    margin-top: 48px;
+    border: 3px solid #4EC4C4;
+    border-radius: 25px;
+    background: none;
+    padding: 10px 32px;
+    text-transform: uppercase;
+    color: #4EC4C4;
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px){
+   footer{
+       text-align: center;
+   }
+
+}
+@media screen and (max-width: 730px){
+    main>section, main>aside{
+        float: none;
+        display: block;
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    article{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    main>section>div{
+        display: flex;
+        flex-direction: column;
+    }
+    main>section > div > div{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    main>section> div > div> img {
+        display: block;
+        float: none;
+        margin: auto;
+
+    }
+}

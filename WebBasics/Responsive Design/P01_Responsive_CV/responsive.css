@@ -1,0 +1,47 @@
+@media screen and (max-width: 740px) {
+    #info{
+        float: none;
+    }
+    header{
+        text-align: center;
+    }
+    #photo{
+        text-align: center;
+        float: none;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #info{
+        float: none;
+    }
+    header{
+        text-align: center;
+    }
+    #photo{
+        text-align: center;
+        float: none;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #info{
+        float: none;
+    }
+    header{
+        text-align: center;
+    }
+    #photo{
+        text-align: center;
+        float: none;
+    }
+    h2{
+        text-align: center;
+    }
+}
