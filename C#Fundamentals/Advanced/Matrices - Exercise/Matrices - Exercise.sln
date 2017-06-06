@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Matrix of Palindromes", "1. Matrix of Palindromes\1. Matrix of Palindromes.csproj", "{2700CEBD-FF5C-4620-BCD0-FFADE28AE58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Diagonal Difference", "2. Diagonal Difference\2. Diagonal Difference.csproj", "{9B7E19E2-1D32-49C9-B514-69968694EC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Squares in Matrix", "3. Squares in Matrix\3. Squares in Matrix.csproj", "{D0814C07-DD85-4F1C-995A-3E1473F1D887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Maximal Sum", "4. Maximal Sum\4. Maximal Sum.csproj", "{B9262C45-C3BA-4F07-9944-032395326CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Rubiks Matrix", "5. Rubiks Matrix\5. Rubiks Matrix.csproj", "{AF9B205A-8984-4CF2-B1EF-44E54C1F5D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Rubix Matrix", "5.Rubix Matrix\5.Rubix Matrix.csproj", "{47E769EF-2284-4507-B73E-1CC20B6CC316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Target Practice", "6. Target Practice\6. Target Practice.csproj", "{09A0A6DC-ECEB-4827-82BA-DCCC7B1B3D72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2700CEBD-FF5C-4620-BCD0-FFADE28AE58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2700CEBD-FF5C-4620-BCD0-FFADE28AE58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2700CEBD-FF5C-4620-BCD0-FFADE28AE58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2700CEBD-FF5C-4620-BCD0-FFADE28AE58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7E19E2-1D32-49C9-B514-69968694EC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7E19E2-1D32-49C9-B514-69968694EC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7E19E2-1D32-49C9-B514-69968694EC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7E19E2-1D32-49C9-B514-69968694EC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0814C07-DD85-4F1C-995A-3E1473F1D887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0814C07-DD85-4F1C-995A-3E1473F1D887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0814C07-DD85-4F1C-995A-3E1473F1D887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0814C07-DD85-4F1C-995A-3E1473F1D887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9262C45-C3BA-4F07-9944-032395326CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9262C45-C3BA-4F07-9944-032395326CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9262C45-C3BA-4F07-9944-032395326CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9262C45-C3BA-4F07-9944-032395326CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9B205A-8984-4CF2-B1EF-44E54C1F5D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9B205A-8984-4CF2-B1EF-44E54C1F5D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9B205A-8984-4CF2-B1EF-44E54C1F5D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9B205A-8984-4CF2-B1EF-44E54C1F5D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E769EF-2284-4507-B73E-1CC20B6CC316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E769EF-2284-4507-B73E-1CC20B6CC316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E769EF-2284-4507-B73E-1CC20B6CC316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E769EF-2284-4507-B73E-1CC20B6CC316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A0A6DC-ECEB-4827-82BA-DCCC7B1B3D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A0A6DC-ECEB-4827-82BA-DCCC7B1B3D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A0A6DC-ECEB-4827-82BA-DCCC7B1B3D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A0A6DC-ECEB-4827-82BA-DCCC7B1B3D72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
