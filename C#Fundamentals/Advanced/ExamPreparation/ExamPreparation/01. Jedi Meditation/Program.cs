@@ -11,11 +11,11 @@ namespace _01.Jedi_Meditation
         static void Main(string[] args)
         {
 
-            var ivoAndSlav = new Queue<string>();
+           
             var padawans = new Queue<string>();
             var knights = new Queue<string>();           
             var masters = new Queue<string>();
-            var iSYoda = false;
+            
 
             var linesOfInput = int.Parse(Console.ReadLine());
             for (int i = 0; i < linesOfInput; i++)
@@ -26,18 +26,7 @@ namespace _01.Jedi_Meditation
                 {
                     var type = item[0];
 
-                    if (type=='y')
-                    {
-                        iSYoda = true;
-                    }else if (type == 's')
-                    {
-                        ivoAndSlav.Enqueue(item);
-                    }
-                    else if (type == 't')
-                    {
-                        ivoAndSlav.Enqueue(item);
-                    }
-                    else if (type == 'p')
+                     if (type == 'p')
                     {
                         padawans.Enqueue(item);
                     }
@@ -51,16 +40,8 @@ namespace _01.Jedi_Meditation
                     }
                 }
             }
-            if (iSYoda)
-            {
                 Console.WriteLine(
-                    $"{string.Join(" ", masters)} {string.Join(" ", knights)} {string.Join(" ", ivoAndSlav)} {string.Join(" ", padawans)}");
-            }
-            else
-            {
-                Console.WriteLine(
-                    $"{string.Join(" ", ivoAndSlav)} {string.Join(" ", masters)} {string.Join(" ", knights)} {string.Join(" ", padawans)}");
-            }
+                    $"{string.Join(" ", masters)} {string.Join(" ", knights)} {string.Join(" ", padawans)}");
         }
     }
 }

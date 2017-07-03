@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JediKnight", "JediKnight\JediKnight.csproj", "{C2524733-AAF3-427A-8FB0-93078B4EA1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swapping", "Swapping\Swapping.csproj", "{B149DD61-F88F-40F5-9253-B9068D0EDFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerology", "Numerology\Numerology.csproj", "{368E4869-08E9-480E-99C0-3EB1E7930513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2524733-AAF3-427A-8FB0-93078B4EA1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2524733-AAF3-427A-8FB0-93078B4EA1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2524733-AAF3-427A-8FB0-93078B4EA1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2524733-AAF3-427A-8FB0-93078B4EA1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B149DD61-F88F-40F5-9253-B9068D0EDFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B149DD61-F88F-40F5-9253-B9068D0EDFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B149DD61-F88F-40F5-9253-B9068D0EDFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B149DD61-F88F-40F5-9253-B9068D0EDFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368E4869-08E9-480E-99C0-3EB1E7930513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368E4869-08E9-480E-99C0-3EB1E7930513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368E4869-08E9-480E-99C0-3EB1E7930513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368E4869-08E9-480E-99C0-3EB1E7930513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
