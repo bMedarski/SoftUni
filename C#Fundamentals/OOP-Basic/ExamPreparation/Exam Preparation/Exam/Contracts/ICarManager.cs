@@ -8,7 +8,7 @@
 
         string Check(int id);
 
-        void Open(int id, string type, int length, string route, int prizePool);
+        void Open(int id, string type, int length, string route, int prizePool,int optional);
 
         void Participate(int carId, int raceId);
 

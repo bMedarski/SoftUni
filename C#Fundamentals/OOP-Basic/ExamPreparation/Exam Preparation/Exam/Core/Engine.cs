@@ -46,9 +46,10 @@ namespace Exam.Core
             {
                 throw new ArgumentNullException("Command cannot be null or empty.");    //Constants
             }
-            var commandAndParams = commandAsString.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToArray();
-            var command = commandAndParams[0];
-            var id = int.Parse(commandAndParams[1]);
+            string[] commandAndParams = commandAsString.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            int optional = 0;
+            string command = commandAndParams[0];
+            int id = int.Parse(commandAndParams[1]);
             switch (command.ToLower())
             {
                 case "register":
@@ -60,7 +61,16 @@ namespace Exam.Core
                     carManager.Check(id);
                     break;
                 case "open":
-                    carManager.Open(id, commandAndParams[2], int.Parse(commandAndParams[3]), commandAndParams[4], int.Parse(commandAndParams[5]));
+                    
+                    if (commandAndParams.Length<7)
+                    {
+                         optional = 0;
+                    }
+                    else
+                    {
+                         optional = int.Parse(commandAndParams[6]);
+                    }
+                    carManager.Open(id, commandAndParams[2], int.Parse(commandAndParams[3]), commandAndParams[4], int.Parse(commandAndParams[5]),optional);
                     break;
                 case "participate":                    
                     carManager.Participate(id,int.Parse(commandAndParams[2]));

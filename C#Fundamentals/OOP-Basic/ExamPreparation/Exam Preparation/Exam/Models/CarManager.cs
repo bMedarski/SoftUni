@@ -67,10 +67,10 @@ namespace Exam.Models
             }                    
         }
 
-        public void Open(int id, string type, int length, string route, int prizePool)
+        public void Open(int id, string type, int length, string route, int prizePool,int optional)
         {
             
-            raceFactory.CreateRace(id, type, length, route, prizePool);
+            raceFactory.CreateRace(id, type, length, route, prizePool,optional);
             
         }
         public void Participate(int carId, int raceId)

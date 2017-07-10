@@ -55,7 +55,6 @@
     <Compile Include="Contracts\IReader.cs" />
     <Compile Include="Contracts\IShowCar.cs" />
     <Compile Include="Contracts\IWriter.cs" />
-    <Compile Include="Core\CommandParser.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Core\Factory\CarFactory.cs" />
     <Compile Include="Core\Factory\RaceFactory.cs" />
@@ -66,9 +65,11 @@
     <Compile Include="Models\Data.cs" />
     <Compile Include="Models\Garage.cs" />
     <Compile Include="Models\Races\CasualRace.cs" />
+    <Compile Include="Models\Races\CircuitRace.cs" />
     <Compile Include="Models\Races\DragRace.cs" />
     <Compile Include="Models\Races\DriftRace.cs" />
     <Compile Include="Models\Races\Race.cs" />
+    <Compile Include="Models\Races\TimeLimitRace.cs" />
     <Compile Include="Providers\ConsoleReader.cs" />
     <Compile Include="Providers\ConsoleWriter.cs" />
     <Compile Include="Providers\Constants.cs" />

@@ -37,7 +37,7 @@ namespace Exam.Models
             set { this.prizePool = value; }
         }
 
-        public void AddParticipiant(ICar car)
+        public virtual void AddParticipiant(ICar car)
         {
             this.participants.Add(car);
         }
@@ -57,8 +57,7 @@ namespace Exam.Models
                     return true;
                 }
             }
-            return false;
-            
+            return false;            
         }
         public override string ToString()
         {

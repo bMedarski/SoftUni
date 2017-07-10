@@ -66,7 +66,7 @@ namespace Exam.Models
         public int Durability
         {
             get { return this.durability; }
-            protected set { this.durability = value; }
+            set { this.durability = value; }
         }
     }
 }
