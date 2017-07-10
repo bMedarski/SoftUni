@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -21,9 +22,13 @@ namespace _01.Class_Box
             var height = double.Parse(Console.ReadLine());
             var box = new Box(length,width,height);
 
-            Console.WriteLine($"Surface Area - {box.Surface():F2}");
-            Console.WriteLine($"Lateral Surface Area - {box.LateralSurface():F2}");
-            Console.WriteLine($"Volume - {box.Volume():F2}");
+            if (box.Height!=0&&box.Length!=0&&box.Width!=0)
+            {
+               Console.WriteLine($"Surface Area - {box.Surface():F2}");
+               Console.WriteLine($"Lateral Surface Area - {box.LateralSurface():F2}");
+               Console.WriteLine($"Volume - {box.Volume():F2}"); 
+            }
+            
 
 
         }

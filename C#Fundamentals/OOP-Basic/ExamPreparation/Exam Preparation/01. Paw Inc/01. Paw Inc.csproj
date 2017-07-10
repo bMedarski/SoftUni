@@ -47,12 +47,15 @@
     <Compile Include="Animals\Animal.cs" />
     <Compile Include="Animals\Cat.cs" />
     <Compile Include="Centers\AvailableCentres.cs" />
+    <Compile Include="Centers\CastrationCenter.cs" />
     <Compile Include="Centers\Center.cs" />
     <Compile Include="Animals\Dog.cs" />
     <Compile Include="Centers\CleansingCenter.cs" />
     <Compile Include="CommandParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\Constants.cs" />
+    <Compile Include="Providers\Validator.cs" />
     <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>

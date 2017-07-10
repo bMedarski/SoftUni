@@ -6,19 +6,20 @@ namespace _01.Paw_Inc
     {
         static void Main()
         {
-            var commandParser = new CommandParser();
             var writer = new Writer();
+            var commandParser = new CommandParser(writer);
+            var animal = new Cat("Pesho",0,4);
 
-            while (true)
-            {
-                var command = Console.ReadLine();
-                if (command== "Paw Paw Pawah")
-                {
-                    break;
-                }
-                commandParser.ProcessCommand(command);
-            }
-            writer.Status();
+            //while (true)
+            //{
+            //    var command = Console.ReadLine();
+            //    if (command== "Paw Paw Pawah")
+            //    {
+            //        break;
+            //    }
+            //    commandParser.ProcessCommand(command);
+            //}
+            //commandParser.Status();
             
         }
     }

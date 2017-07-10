@@ -1,29 +1,32 @@
 ﻿using System;
+using _01.Paw_Inc.Providers;
 
 namespace _01.Paw_Inc
 {
-    abstract class Animal
+    public abstract class Animal
     {
         private string name;
         private int age;
         private bool cleansingStatus = false;
         private string center;
         private bool toBeRemoved = false;
+        private bool castrated = false;
 
         public int Age
         {
             get { return this.age; }
             set
             {
-                if (value > 0)
-                {
-                    this.age = value;
-                }
-                else
-                {
-                    throw new IndexOutOfRangeException("The age must be positive number");
-                }
+                Validator.ValidateLessThenValue(value,Constants.minAge,Constants.ageMustBePosiive);               
 
+                //if (value > Constants.minAge)
+                //{
+                //    this.age = value;
+                //}
+                //else
+                //{
+                //    throw new IndexOutOfRangeException(Constants.ageMustBePosiive);
+                //}
             }
         }
 
@@ -49,6 +52,12 @@ namespace _01.Paw_Inc
         {
             get { return this.toBeRemoved; }
             set { this.toBeRemoved = value; }
+        }
+
+        public bool Castrateed
+        {
+            get { return this.castrated; }
+            set { this.castrated = value; }
         }
     }
 }

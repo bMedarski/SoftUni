@@ -2,7 +2,7 @@
 
 namespace _01.Paw_Inc
 {
-    abstract class Center
+    public abstract class Center
     {
         private string name;
         private List<Animal> storedAnimals;

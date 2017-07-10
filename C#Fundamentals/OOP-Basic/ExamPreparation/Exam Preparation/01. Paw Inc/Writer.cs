@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using _01.Paw_Inc.Centers;
 
 namespace _01.Paw_Inc
@@ -13,6 +12,7 @@ namespace _01.Paw_Inc
         private List<string> cleancedAnimals = new List<string>();
         private List<string> awaitingAdoption = new List<string>();
         private List<string> awaitingCleansing = new List<string>();
+        private List<string> castratedAnimals = new List<string>();
         private StringBuilder sb = new StringBuilder();
 
         public void Status()
@@ -23,15 +23,46 @@ namespace _01.Paw_Inc
             GetWaitingForAdoptionAnimals();
 
             sb.AppendLine("Paw Incorporative Regular Statistics");
-            sb.AppendLine($"Adoption Centers: { AvailableCentres.adoptionCenters.Count}");
-            sb.AppendLine($"Cleansing Centers: { AvailableCentres.cleansingCenters.Count}");
-            sb.AppendLine($"Adopted Animals: {string.Join(", ",adoptedAnimals.OrderBy(x=>x))}");
-            sb.AppendLine($"Cleansed Animals: {string.Join(", ", cleancedAnimals.OrderBy(x => x))}");
-            sb.AppendLine($"Animals Awaiting Adoption: { awaitingAdoption.Count}");
-            sb.AppendLine($"Animals Awaiting Cleansing: { awaitingCleansing.Count}");
+            sb.AppendLine($"Adoption Centers: { AvailableCentres.adoptionCenters.Count}");            
+            sb.AppendLine($"Cleansing Centers: { AvailableCentres.cleansingCenters.Count}");              
+            if (adoptedAnimals.Count == 0)
+            {
+                sb.AppendLine($"Adopted Animals: None");
+            }
+            else
+            {
+               sb.AppendLine($"Adopted Animals: {string.Join(", ",this.adoptedAnimals.OrderBy(x=>x))}"); 
+            }
+            if (cleancedAnimals.Count == 0)
+            {
+                sb.AppendLine($"Cleansed Animals: None");
+            }
+            else
+            {
+                sb.AppendLine($"Cleansed Animals: {string.Join(", ", cleancedAnimals.OrderBy(x => x))}");
+            }
+            sb.AppendLine($"Animals Awaiting Adoption: { this.awaitingAdoption.Count}");          
+            sb.AppendLine($"Animals Awaiting Cleansing: { this.awaitingCleansing.Count}");
             Console.WriteLine(sb);
         }
+        public void CastrationStatistics()
+        {
+            GetCastratedAnimals();
 
+            var st = new StringBuilder();
+            st.AppendLine("Paw Inc. Regular Castration Statistics");
+            st.AppendLine($"Castration Centers: {AvailableCentres.castrationCenters.Count}");
+            if (castratedAnimals.Count == 0)
+            {
+                st.Append($"Castrated Animals: None");
+            }
+            else
+            {
+               st.Append($"Castrated Animals: {string.Join(", ", this.castratedAnimals)}"); 
+            }
+            
+            Console.WriteLine(st);
+        }
         private void GetWaitingForAdoptionAnimals()
         {
             foreach (var center in AvailableCentres.adoptionCenters)
@@ -40,7 +71,7 @@ namespace _01.Paw_Inc
                 {
                     if (animal.CleansingStatus)
                     {
-                        awaitingAdoption.Add(animal.Name);
+                        this.awaitingAdoption.Add(animal.Name);
                     }
                 }
             }
@@ -53,7 +84,7 @@ namespace _01.Paw_Inc
                 foreach (var animal in center.AdoptedAnimals)
                 {
                     //Console.WriteLine(animal.Name);
-                    adoptedAnimals.Add(animal.Name);
+                    this.adoptedAnimals.Add(animal.Name);
                 }
             }
         }
@@ -64,7 +95,7 @@ namespace _01.Paw_Inc
                 foreach (var animal in center.CleansecAnimals)
                 {
                     //Console.WriteLine(animal.Name);
-                    cleancedAnimals.Add(animal.Name);
+                    this.cleancedAnimals.Add(animal.Name);
                 }
             }
         }
@@ -75,7 +106,18 @@ namespace _01.Paw_Inc
                 foreach (var animal in center.StoredAnimals)
                 {
                     //Console.WriteLine(animal.Name);
-                    awaitingCleansing.Add(animal.Name);
+                    this.awaitingCleansing.Add(animal.Name);
+                }
+            }
+        }
+        private void GetCastratedAnimals()
+        {
+            foreach (var center in AvailableCentres.castrationCenters)
+            {
+                foreach (var animal in center.CastratedAnimals.OrderBy(x=>x.Name))
+                {
+                    //Console.WriteLine(animal.Name);
+                    this.castratedAnimals.Add(animal.Name);
                 }
             }
         }

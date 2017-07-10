@@ -22,19 +22,55 @@ namespace _01.Class_Box
         public double Length
         {
             get { return this.length; }
-            private set { this.length = value; }
+            private set
+            {
+                if (value <= 0)
+                {
+                    Console.WriteLine("Length cannot be zero or negative.");
+                    //throw new ArgumentOutOfRangeException("Length cannot be zero or negative.");
+                }
+                else
+                {
+                   this.length = value; 
+                }
+                
+            }
         }
 
         public double Width
         {
             get { return this.width; }
-            private set { this.width = value; }
+            private set
+            {
+                if (value <= 0)
+                {
+                    Console.WriteLine("Width cannot be zero or negative.");
+                    //throw new ArgumentOutOfRangeException("Width cannot be zero or negative.");
+                }
+                else
+                {
+                    this.width = value;
+                }
+                
+            }
         }
 
         public double Height
         {
             get { return this.height; }
-            private set { this.height = value; }
+            private set
+            {
+                if (value <= 0)
+                {
+                    Console.WriteLine("Height cannot be zero or negative.");
+                    //throw new ArgumentOutOfRangeException("Height cannot be zero or negative.");
+                }
+                else
+                {
+                    this.height = value;
+                }
+                
+            }
         }
 
         public double Surface()

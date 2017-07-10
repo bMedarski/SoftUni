@@ -4,7 +4,7 @@ using _01.Paw_Inc.Centers;
 
 namespace _01.Paw_Inc
 {
-    internal class CleansingCenter : Center
+    public class CleansingCenter : Center
     {
         private readonly List<Animal> cleansedAnimals;
 

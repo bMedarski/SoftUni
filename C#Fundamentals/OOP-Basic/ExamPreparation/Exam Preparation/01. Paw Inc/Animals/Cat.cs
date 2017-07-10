@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.Paw_Inc
 {
-    class Cat : Animal
+    public class Cat : Animal
     {
         private int intelligence;
 

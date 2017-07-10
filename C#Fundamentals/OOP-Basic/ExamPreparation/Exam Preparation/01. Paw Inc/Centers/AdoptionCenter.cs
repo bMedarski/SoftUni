@@ -5,7 +5,7 @@ using _01.Paw_Inc.Centers;
 
 namespace _01.Paw_Inc
 {
-    class AdoptionCenter : Center
+    public class AdoptionCenter : Center
     {
         private List<Animal> adoptedAnimals = new List<Animal>();
         private List<Animal> unCleansed = new List<Animal>();
@@ -69,6 +69,19 @@ namespace _01.Paw_Inc
             {
                 this.StoredAnimals.Add(animal);
             }
+        }
+        public void SendForCastration(string castrationCenter)
+        {
+            for (int i = 0; i < this.StoredAnimals.Count; i++)
+            {
+                if (!this.StoredAnimals[i].Castrateed)
+                {
+                    var center = AvailableCentres.castrationCenters.First(x => x.Name == castrationCenter);
+                    center.StoredAnimals.Add(StoredAnimals[i]);
+                    //Console.WriteLine(this.StoredAnimals[i].Name);
+                }
+            };
+            this.StoredAnimals.Clear();
         }
     }
 }
