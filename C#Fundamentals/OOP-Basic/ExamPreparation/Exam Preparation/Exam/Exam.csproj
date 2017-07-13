@@ -46,7 +46,6 @@
     <Compile Include="Contracts\ICar.cs" />
     <Compile Include="Contracts\ICarFactory.cs" />
     <Compile Include="Contracts\ICarManager.cs" />
-    <Compile Include="Contracts\ICommand.cs" />
     <Compile Include="Contracts\IEngine.cs" />
     <Compile Include="Contracts\IParser.cs" />
     <Compile Include="Contracts\IPerformanceCar.cs" />

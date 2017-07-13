@@ -1,6 +1,4 @@
-﻿using Exam.Core;
-namespace Exam
-{
+﻿
     class Startup
     {
         static void Main()
@@ -9,4 +7,3 @@ namespace Exam
             engine.Start();
         }
     }
-}

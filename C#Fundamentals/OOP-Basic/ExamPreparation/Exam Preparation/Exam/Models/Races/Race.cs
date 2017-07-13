@@ -1,9 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using Exam.Contracts;
 
-namespace Exam.Models
-{
     public abstract class Race : IRace
     {
         private int length;
@@ -65,15 +62,6 @@ namespace Exam.Models
             st.AppendLine($"{this.Route} - {this.Length}");
             return st.ToString();
         }
-        //BeverlyHills - 10
-        //1. Trabant 601 3000PP - $25000
-        //2. McLaren P1 487PP - $15000
-        //3. Nissan GT-R 206PP - $10000
-        //NewYork - 20
-        //1. Trabant 601 11500PP - $50000
-        //2. McLaren P1 987PP - $30000
-        //3. Nissan GT-R 531PP - $20000
-
     }
 
-}
+

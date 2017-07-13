@@ -1,5 +1,4 @@
-﻿namespace Exam.Contracts
-{
+﻿
     public interface ICarManager
     {      
 
@@ -20,4 +19,3 @@
 
         void Tune(int tuneIndex, string addOn);
     }
-}

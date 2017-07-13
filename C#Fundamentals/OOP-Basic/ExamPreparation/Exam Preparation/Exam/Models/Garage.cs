@@ -1,8 +1,4 @@
 ﻿using System.Collections.Generic;
-using Exam.Contracts;
-
-namespace Exam.Models
-{
     public class Garage
     {
         private List<ICar> parkedCars;
@@ -16,4 +12,3 @@ namespace Exam.Models
             return base.ToString();
         }
     }
-}

@@ -2,8 +2,6 @@
 using System.Linq;
 using System.Text;
 
-namespace Exam.Models.Races
-{
     public class DriftRace : Race
     {
         public DriftRace(int length, string route, int prizePool) 
@@ -48,4 +46,3 @@ namespace Exam.Models.Races
             return st.ToString();
         }
     }
-}

@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Linq;
-using Exam.Contracts;
-using Exam.Models;
-using Exam.Providers;
-
-namespace Exam.Core
-{
     public class Engine : IEngine
     {
         private static readonly IEngine instanceHolder = new Engine();
@@ -58,8 +52,9 @@ namespace Exam.Core
                         , int.Parse(commandAndParams[8]),int.Parse(commandAndParams[9]));
                     break;
                 case "check":
-                    carManager.Check(id);
-                    break;
+
+				Console.Write(carManager.Check(id));
+				break;
                 case "open":
                     
                     if (commandAndParams.Length<7)
@@ -91,4 +86,3 @@ namespace Exam.Core
 
         }
     }
-}

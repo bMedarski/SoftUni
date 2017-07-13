@@ -1,11 +1,5 @@
 ﻿using System;
-using Exam.Contracts;
-using Exam.Core.Factory;
-using Exam.Models.Cars;
-using Exam.Providers;
 
-namespace Exam.Models
-{
     public class CarManager : ICarManager
     {
         private static readonly ICarManager carManagerInstance = new CarManager();
@@ -13,7 +7,7 @@ namespace Exam.Models
         private IRaceFactory raceFactory;
         private IWriter writer;
 
-        private CarManager()
+        public CarManager()
         {
             this.carFactory = CarFactory.CarFactoryInstance;
             this.raceFactory = RaceFactory.RaceFactoryInstance;
@@ -45,7 +39,7 @@ namespace Exam.Models
                 {
                     car = (ShowCar)car;
                 }
-                writer.WriteLine(car.ToString());   //not here
+                
                 return car.ToString();
             }else if (Data.garage.ContainsKey(id))
             {
@@ -131,4 +125,3 @@ namespace Exam.Models
             }            
         }
     }
-}

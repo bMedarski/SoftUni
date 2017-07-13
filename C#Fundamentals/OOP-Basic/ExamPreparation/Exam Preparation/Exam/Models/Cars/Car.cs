@@ -1,9 +1,4 @@
 ﻿
-using System.Text;
-using Exam.Contracts;
-
-namespace Exam.Models
-{
     public abstract class Car : ICar
     {
 
@@ -69,4 +64,3 @@ namespace Exam.Models
             set { this.durability = value; }
         }
     }
-}

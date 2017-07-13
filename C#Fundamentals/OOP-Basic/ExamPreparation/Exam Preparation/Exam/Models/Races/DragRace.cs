@@ -2,8 +2,6 @@
 using System.Linq;
 using System.Text;
 
-namespace Exam.Models.Races
-{
     public class DragRace : Race
     {
         public DragRace(int length, string route, int prizePool) : base(length, route, prizePool)
@@ -47,4 +45,3 @@ namespace Exam.Models.Races
             return st.ToString();
         }
     }
-}

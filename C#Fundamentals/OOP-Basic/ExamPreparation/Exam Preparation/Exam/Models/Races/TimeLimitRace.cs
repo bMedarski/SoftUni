@@ -1,10 +1,5 @@
-﻿using System;
-using System.Linq;
+﻿
 using System.Text;
-using Exam.Contracts;
-
-namespace Exam.Models.Races
-{
     class TimeLimitRace : Race
     {
         private int goldTime;
@@ -39,18 +34,17 @@ namespace Exam.Models.Races
             st.AppendLine($"{this.participants[0].Brand} {this.participants[0].Model} - {performance} s.");
             if (performance <= this.GoldTime)
             {
-                st.Append($"Gold time, ${this.PrizePool}.");
+                st.Append($"Gold Time, ${this.PrizePool}.");
             }
             else if(performance>this.GoldTime&&performance<=this.GoldTime+15)
             {
-                st.Append($"Silver time, ${this.PrizePool*0.5}");
+                st.Append($"Silver Time, ${this.PrizePool*0.5}.");
             }else if (performance>this.GoldTime+15)
             {
-                st.Append($"Bronze time, ${this.PrizePool * 0.3}");
+                st.Append($"Bronze Time, ${this.PrizePool * 0.3}.");
             }
             
             this.participants.Clear();
             return st.ToString();
         }
     }
-}

@@ -1,8 +1,5 @@
 ﻿using System;
-using Exam.Contracts;
 
-namespace Exam.Providers
-{
     public class ConsoleReader : IReader
     {
         public string ReadLine()
@@ -10,4 +7,4 @@ namespace Exam.Providers
             return Console.ReadLine();
         }
     }
-}
+

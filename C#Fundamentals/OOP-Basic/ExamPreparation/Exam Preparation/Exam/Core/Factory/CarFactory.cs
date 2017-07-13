@@ -1,10 +1,5 @@
 ﻿using System;
-using Exam.Contracts;
-using Exam.Models;
-using Exam.Models.Cars;
 
-namespace Exam.Core.Factory
-{
     public class CarFactory : ICarFactory
     {
         private static ICarFactory carFactoryInstance = new CarFactory();
@@ -38,4 +33,3 @@ namespace Exam.Core.Factory
             }
         }
     }
-}

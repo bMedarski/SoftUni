@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,6 +28,27 @@ namespace _02.Book_Shop
             }
             protected set
             {
+                var names = value.Trim().Split();
+                if (names.Length!=2)
+                {
+                    throw new ArgumentException("Author not valid!");
+                }
+                if (char.IsDigit(names[0][0]))
+                {
+                    throw new ArgumentException("Author not valid!");
+                }
+                if (char.IsDigit(names[1][0]))
+                {
+                    throw new ArgumentException("Author not valid!");
+                }               
+                if (!names.Any())
+                    return;
+
+                if (Char.IsDigit(names.First()[0]))
+                    throw new ArgumentException("Author not valid!");
+
+                if (Char.IsDigit(names.Last()[0]))
+                    throw new ArgumentException("Author not valid!");              
                 this.author = value;
             }
         }
@@ -37,13 +59,18 @@ namespace _02.Book_Shop
             {
                 return this.title;
             }
+
             protected set
             {
+                if (value.Length<=3)
+                {
+                    throw new ArgumentException("Title not valid!");
+                }
                 this.title = value;
             }
         }
 
-        public decimal Price
+        public virtual decimal Price
         {
             get
             {
@@ -51,6 +78,10 @@ namespace _02.Book_Shop
             }
             protected set
             {
+                if (value<1)
+                {
+                    throw new ArgumentException("Price not valid!");
+                }
                 this.price = value;
             }
         }

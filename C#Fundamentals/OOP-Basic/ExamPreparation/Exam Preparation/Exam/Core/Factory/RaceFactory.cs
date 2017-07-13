@@ -1,9 +1,5 @@
-﻿using Exam.Contracts;
-using Exam.Models;
-using Exam.Models.Races;
+﻿
 
-namespace Exam.Core.Factory
-{
     public class RaceFactory : IRaceFactory
     {
         private static IRaceFactory raceFactoryInstance = new RaceFactory();
@@ -49,4 +45,4 @@ namespace Exam.Core.Factory
             }
         }
     }
-}
+

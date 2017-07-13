@@ -1,9 +1,6 @@
-﻿
-using System.Text;
-using Exam.Contracts;
+﻿using System.Text;
 
-namespace Exam.Models.Cars
-{
+
     public class ShowCar : Car, IShowCar
     {
         public ShowCar(string brand, string model, int year, int horsepower, int acceleration, int suspension, int durability) 
@@ -24,4 +21,4 @@ namespace Exam.Models.Cars
             return st.ToString();
         }
     }
-}
+

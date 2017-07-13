@@ -1,5 +1,4 @@
-﻿namespace Exam.Contracts
-{
+﻿
     public interface ICar
     {
         int Horsepower { get; set; }
@@ -9,4 +8,3 @@
         string Model { get; }
         string Brand { get; }
     }
-}

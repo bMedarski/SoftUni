@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Exam.Models.Races
-{
+
     class CircuitRace : Race
     {
         private int laps;
@@ -64,4 +61,4 @@ namespace Exam.Models.Races
             return st.ToString();
         }
     }
-}
+

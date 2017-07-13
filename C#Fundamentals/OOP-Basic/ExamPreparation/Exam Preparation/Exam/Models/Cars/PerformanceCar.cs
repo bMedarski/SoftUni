@@ -1,9 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using Exam.Contracts;
 
-namespace Exam.Models.Cars
-{
     public class PerformanceCar : Car, IPerformanceCar
     {
         private List<string> addOns;
@@ -37,4 +34,4 @@ namespace Exam.Models.Cars
             return st.ToString();
         }
     }    
-}
+
