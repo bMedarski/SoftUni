@@ -43,27 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\ICommand.cs" />
-    <Compile Include="Contracts\IEngine.cs" />
-    <Compile Include="Contracts\IParser.cs" />
-    <Compile Include="Contracts\IReader.cs" />
-    <Compile Include="Contracts\IWriter.cs" />
-    <Compile Include="Core\CommandParser.cs" />
+    <Compile Include="Core\DraftManager.cs" />
     <Compile Include="Core\Engine.cs" />
+    <Compile Include="Core\Factory\Factory.cs" />
+    <Compile Include="Core\Factory\HarvesterFactory.cs" />
+    <Compile Include="Core\Factory\ProviderFactory.cs" />
+    <Compile Include="Models\Harvesters\HammerHarvester.cs" />
+    <Compile Include="Models\Harvesters\Harvester.cs" />
+    <Compile Include="Models\Harvesters\SonicHarvester.cs" />
+    <Compile Include="Models\Providers\PressureProvider.cs" />
+    <Compile Include="Models\Providers\Provider.cs" />
+    <Compile Include="Models\Providers\SolarProvider.cs" />
+    <Compile Include="Models\Worker.cs" />
     <Compile Include="Providers\ConsoleReader.cs" />
     <Compile Include="Providers\ConsoleWriter.cs" />
     <Compile Include="Providers\Constants.cs" />
-    <Compile Include="Providers\Validator.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\Factory\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

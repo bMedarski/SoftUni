@@ -1,14 +1,11 @@
-﻿
-using Exam.Core;
+﻿using System;
 
-namespace Exam
+class Startup
 {
-    class Startup
-    {
-        static void Main()
-        {
-            var engine = Engine.Instance;
-            engine.Start();
-        }
-    }
+	static void Main()
+	{
+		var engine = new Engine();
+		engine.Start();
+	}
 }
+

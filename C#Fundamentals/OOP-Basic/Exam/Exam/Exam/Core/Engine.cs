@@ -1,59 +1,60 @@
 ﻿using System;
-using System.Text;
-using Exam.Contracts;
-using Exam.Providers;
+using System.Linq;
 
-namespace Exam.Core
+public class Engine
 {
-    public class Engine : IEngine
-    {
-        private static readonly IEngine instanceHolder = new Engine();
-        private const string TerminationCommand = "";   //In constatns
-        private const string NullProvidersExceptionMessage = "cannot be null.";//In constatns
+	private bool isRunning = true;
+	private DraftManager manager;
+	public Engine()
+	{
+		this.manager = new DraftManager();
+		this.Reader = new ConsoleReader();
+		this.Writer = new ConsoleWriter();
+	}
 
-        private Engine()
-        {
-            this.Reader = new ConsoleReader();
-            this.Writer = new ConsoleWriter();
-            this.Parser = new CommandParser();
-        }
+	public ConsoleReader Reader { get; set; }
+	public ConsoleWriter Writer { get; set; }
 
-        public static IEngine Instance
-        {
-            get
-            {
-                return instanceHolder;
-            }
-        }
+	public void Start()
+	{
 
-        public IReader Reader { get; set; }
-        public IWriter Writer { get; set; }
-        public IParser Parser { get; set; }
+		while (isRunning)
+		{
+			var commandAsString = this.Reader.ReadLine().Split(' ').ToList();
+			string command = commandAsString[0];
+			commandAsString.RemoveAt(0);
 
-        public void Start()
-        {
-            while (true)
-            {                
-                    var commandAsString = this.Reader.ReadLine();
+			try
+			{
+				switch (command)
+				{
+					case "RegisterHarvester":
+						this.Writer.WriteLine(this.manager.RegisterHarvester(commandAsString));
+						break;
+					case "RegisterProvider":
+						this.Writer.WriteLine(this.manager.RegisterProvider(commandAsString));
+						break;
+					case "Day":
+						this.Writer.WriteLine(this.manager.Day());
+						break;
+					case "Mode":
+						this.Writer.WriteLine(this.manager.Mode(commandAsString));
+						break;
+					case "Check":
+						this.Writer.WriteLine(this.manager.Check(commandAsString));
+						break;
+					case "Shutdown":
+						this.Writer.WriteLine(this.manager.ShutDown());
+						isRunning = false;
+						break;
+				}
+			}
+			catch (ArgumentException e)
+			{
+				this.Writer.WriteLine(e.Message);
+			}
 
-                    if (commandAsString.ToLower() == TerminationCommand.ToLower())
-                    {                       
-                        break;
-                    }
-                this.ProcessCommand(commandAsString);
-            }
-        }
-        private void ProcessCommand(string commandAsString)
-        {
-            if (string.IsNullOrWhiteSpace(commandAsString))
-            {
-                throw new ArgumentNullException("Command cannot be null or empty.");    //Constants
-            }
+		}
 
-            //var command = this.Parser.ParseCommand(commandAsString);
-            //var parameters = this.Parser.ParseParameters(commandAsString);
-
-            //var executionResult = command.Execute(parameters);            
-        }
-    }
+	}
 }

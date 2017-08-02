@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Generic Box of String", "01. Generic Box of String\01. Generic Box of String.csproj", "{FC8D6E5E-8C7F-4D7E-880B-A5C23C2DFABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Custom List", "07. Custom List\07. Custom List.csproj", "{DFDE5610-D724-44AF-8518-84A0DE9C3768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8D6E5E-8C7F-4D7E-880B-A5C23C2DFABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8D6E5E-8C7F-4D7E-880B-A5C23C2DFABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8D6E5E-8C7F-4D7E-880B-A5C23C2DFABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8D6E5E-8C7F-4D7E-880B-A5C23C2DFABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDE5610-D724-44AF-8518-84A0DE9C3768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDE5610-D724-44AF-8518-84A0DE9C3768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDE5610-D724-44AF-8518-84A0DE9C3768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDE5610-D724-44AF-8518-84A0DE9C3768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
