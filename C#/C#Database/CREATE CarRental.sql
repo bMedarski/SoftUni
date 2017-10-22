@@ -1,0 +1,87 @@
+CREATE TABLE Categories
+(
+	Id INT PRIMARY KEY IDENTITY,
+	CategoryName NVARCHAR(50) UNIQUE NOT NULL,
+	DailyRate DECIMAL(10,2) DEFAULT 100.0,
+	WeeklyRate DECIMAL(10,2) DEFAULT 500.0,
+	MonthlyRate DECIMAL(10,2) DEFAULT 1500.0,
+	WeekendRate DECIMAL(10,2) DEFAULT 150.0
+)
+
+INSERT INTO Categories VALUES
+('Cheap',100,500,1500,150),
+('Regular',200,1000,3000,300),
+('Lux',300,1500,4500,450)
+
+CREATE TABLE Cars
+(
+	Id INT PRIMARY KEY IDENTITY,
+	PlateNumber NVARCHAR(10) NOT NULL,
+	Manufacturer NVARCHAR(50) NOT NULL,
+	Model NVARCHAR(50) NOT NULL,
+	CarYear INT,
+	CategoryId INT,
+	Doors INT,
+	Picture VARBINARY(200),
+	Condition NVARCHAR(10),
+	Available BIT DEFAULT 1
+)
+
+INSERT INTO Cars VALUES
+('CA1524A','BMV','X6',2009,1,5,NULL,NULL,1),
+('CA1324A','BMV','X6',2009,1,5,NULL,NULL,1),
+('CA1424A','BMV','X6',2009,1,5,NULL,NULL,1)
+
+CREATE TABLE Employees
+(
+	Id INT PRIMARY KEY IDENTITY,
+	FirstName NVARCHAR(50) NOT NULL,
+	LastName NVARCHAR(50) NOT NULL,
+	Title NVARCHAR(50) NOT NULL,
+	Notes NVARCHAR(MAX),
+)
+
+INSERT INTO Employees VALUES
+('Pesho','Peshev','Manager',NULL),
+('Gosho','Goshev','Manager',NULL),
+('Tosho','Toshev','Manager',NULL)
+
+CREATE TABLE Customers
+(
+	Id INT PRIMARY KEY IDENTITY,
+	DriverLicenceNumber INT UNIQUE NOT NULL,
+	FullName NVARCHAR(50) NOT NULL,
+	Address NVARCHAR(50),
+	City NVARCHAR(50),
+	ZIPCode INT,
+	Notes NVARCHAR(MAX),
+)
+
+INSERT INTO Customers VALUES
+(123546789,'Tosho Toshev', 'Svoboda 16','Kaspichan',1599,NULL),
+(123544789,'Tosho Toshev', 'Svoboda 16','Kaspichan',1599,NULL),
+(123646789,'Tosho Toshev', 'Svoboda 16','Kaspichan',1599,NULL)
+
+CREATE TABLE RentalOrders
+(
+	Id INT PRIMARY KEY IDENTITY,
+	EmployeeId INT NOT NULL,
+	CustomerId INT NOT NULL,
+	CarId INT NOT NULL,
+	TankLevel DECIMAL(15,2),
+	KilometrageStart INT NOT NULL,
+	KilometrageEnd INT NOT NULL,
+	TotalKilometrage INT,
+	StartDate DATE,
+	EndDate DATE,
+	TotalDays INT,
+	RateApplied NVARCHAR(50),
+	TaxRate NVARCHAR(50),
+	OrderStatus NVARCHAR(50),
+	Notes NVARCHAR(MAX)
+)
+
+INSERT INTO RentalOrders VALUES
+(5315351, 1351, 5, 55, 5000, 2351, 1231245, NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(5468, 1351, 5, 55, 5000, 2351, 1231245, NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2165, 1351, 5, 55, 5000, 2351, 1231245, NULL,NULL,NULL,NULL,NULL,NULL,NULL)
