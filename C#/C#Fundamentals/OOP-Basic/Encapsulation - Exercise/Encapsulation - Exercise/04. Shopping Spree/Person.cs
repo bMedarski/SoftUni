@@ -37,7 +37,7 @@ namespace _04.Shopping_Spree
             get { return this.money; }
             set
             {
-                if (value < 0)
+                if (value <= 0)
                 {
                     throw new ArgumentException("Money cannot be negative");
                 }
