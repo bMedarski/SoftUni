@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{09152D5A-0205-43DD-8A51-7E41038B9265}</ProjectGuid>
+    <ProjectGuid>{E92ED649-C84F-4410-87CF-E35413E74A72}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03.Raw_Data</RootNamespace>
-    <AssemblyName>_03.Raw_Data</AssemblyName>
+    <RootNamespace>_04.Animal_Farm</RootNamespace>
+    <AssemblyName>_04.Animal_Farm</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="StartUp.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
