@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P03_ FootballBetting.Data.Models\P03_ FootballBetting.Data.Models.csproj" />
+    <ProjectReference Include="..\P03_ FootballBetting.Data\P03_ FootballBetting.Data.csproj" />
+  </ItemGroup>
+
+</Project>
