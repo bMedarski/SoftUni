@@ -7,9 +7,8 @@ namespace P01_StudentSystem
     {
         static void Main()
         {
-            var dbContext = new StudentSystemContext();
 
-	        dbContext.Courses.Find(1);
+
         }
     }
 }
