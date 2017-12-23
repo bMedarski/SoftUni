@@ -1,11 +1,5 @@
-function Solve(args){
-    let p = args[0];
-    let i = args[1];
-    let n = args[2];
-    let t = args[3];
-    let a = (p* Math.pow((1 + (i/n)), (n*t)));
-    console.log(a)
+function compoundInterest([principal, interestRate, compoundingPeriod, timespan]) {
+    [principal, interestRate, compoundingPeriod, timespan] = [principal, interestRate, compoundingPeriod, timespan].map(Number);
+    let compoundInterest = principal * Math.pow(1 + interestRate/(100*( 12/compoundingPeriod)), 12/compoundingPeriod * timespan);
+    console.log(compoundInterest.toFixed(2));
 }
-
-Solve([1500, 4.3, 3, 6]);
-Solve([100000, 5, 12, 25]);
