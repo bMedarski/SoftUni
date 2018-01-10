@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Bricks\bin\Debug\Bricks.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Bricks\bin\Debug\Bricks.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Bricks\bin\Debug\Bricks.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Bricks\obj\Debug\Bricks.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Bricks\obj\Debug\Bricks.pdb

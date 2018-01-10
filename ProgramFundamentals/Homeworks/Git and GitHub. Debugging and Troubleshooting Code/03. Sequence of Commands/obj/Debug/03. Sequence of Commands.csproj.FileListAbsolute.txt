@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\bin\Debug\_03.Sequence_of_Commands.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\bin\Debug\_03.Sequence_of_Commands.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\bin\Debug\_03.Sequence_of_Commands.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\obj\Debug\_03.Sequence_of_Commands.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\obj\Debug\_03.Sequence_of_Commands.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\03. Sequence of Commands\obj\Debug\03. Sequence of Commands.csprojResolveAssemblyReference.cache

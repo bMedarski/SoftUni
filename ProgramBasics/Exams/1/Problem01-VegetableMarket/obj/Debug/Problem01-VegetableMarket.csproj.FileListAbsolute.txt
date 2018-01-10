@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\bin\Debug\Problem01-VegetableMarket.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\bin\Debug\Problem01-VegetableMarket.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\bin\Debug\Problem01-VegetableMarket.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\obj\Debug\Problem01-VegetableMarket.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\obj\Debug\Problem01-VegetableMarket.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem01-VegetableMarket\obj\Debug\Problem01-VegetableMarket.pdb

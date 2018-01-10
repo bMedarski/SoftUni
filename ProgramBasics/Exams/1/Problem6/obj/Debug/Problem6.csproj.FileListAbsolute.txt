@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem6\bin\Debug\Problem6.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem6\bin\Debug\Problem6.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem6\bin\Debug\Problem6.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem6\obj\Debug\Problem6.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\Problem6\obj\Debug\Problem6.pdb

@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\bin\Debug\05.Diamond.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\bin\Debug\05.Diamond.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\bin\Debug\05.Diamond.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\obj\Debug\05.Diamond.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\obj\Debug\05.Diamond.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\05.Diamond\obj\Debug\05.Diamond.pdb

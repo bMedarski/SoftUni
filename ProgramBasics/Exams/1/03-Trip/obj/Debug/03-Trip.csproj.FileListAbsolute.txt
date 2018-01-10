@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\bin\Debug\03-Trip.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\bin\Debug\03-Trip.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\bin\Debug\03-Trip.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\obj\Debug\03-Trip.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\obj\Debug\03-Trip.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\03-Trip\obj\Debug\03-Trip.pdb

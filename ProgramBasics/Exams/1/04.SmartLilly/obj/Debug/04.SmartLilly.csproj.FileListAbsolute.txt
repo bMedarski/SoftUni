@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\bin\Debug\04.SmartLilly.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\bin\Debug\04.SmartLilly.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\bin\Debug\04.SmartLilly.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\obj\Debug\04.SmartLilly.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\obj\Debug\04.SmartLilly.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\04.SmartLilly\obj\Debug\04.SmartLilly.pdb

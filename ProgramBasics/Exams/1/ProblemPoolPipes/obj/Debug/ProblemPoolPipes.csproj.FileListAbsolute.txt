@@ -1,5 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\ProblemPoolPipes\bin\Debug\ProblemPoolPipes.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\ProblemPoolPipes\bin\Debug\ProblemPoolPipes.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\ProblemPoolPipes\bin\Debug\ProblemPoolPipes.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\ProblemPoolPipes\obj\Debug\ProblemPoolPipes.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\ProblemPoolPipes\obj\Debug\ProblemPoolPipes.pdb

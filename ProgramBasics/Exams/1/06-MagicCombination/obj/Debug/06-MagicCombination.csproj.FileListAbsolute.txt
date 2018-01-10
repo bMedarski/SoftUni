@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\bin\Debug\06-MagicCombination.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\bin\Debug\06-MagicCombination.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\bin\Debug\06-MagicCombination.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\obj\Debug\06-MagicCombination.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\obj\Debug\06-MagicCombination.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\C#\ExamPreparation\ExamPreparation\06-MagicCombination\obj\Debug\06-MagicCombination.pdb

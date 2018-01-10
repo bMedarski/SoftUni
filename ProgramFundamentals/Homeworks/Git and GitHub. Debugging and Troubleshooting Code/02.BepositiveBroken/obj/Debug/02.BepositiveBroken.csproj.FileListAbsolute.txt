@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\bin\Debug\BepositiveBroken.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\bin\Debug\BepositiveBroken.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\bin\Debug\BepositiveBroken.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\obj\Debug\02.BepositiveBroken.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\obj\Debug\BepositiveBroken.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\BepositiveBroken\obj\Debug\BepositiveBroken.pdb

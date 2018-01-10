@@ -1,6 +1,0 @@
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\bin\Debug\_04.Substring.exe.config
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\bin\Debug\_04.Substring.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\bin\Debug\_04.Substring.pdb
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\obj\Debug\04. Substring.csprojResolveAssemblyReference.cache
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\obj\Debug\_04.Substring.exe
-C:\Users\BoyanMedarski\Desktop\SoftUni\ProgramFundamentals\Homeworks\Git and GitHub. Debugging and Troubleshooting Code\04. Substring\obj\Debug\_04.Substring.pdb
