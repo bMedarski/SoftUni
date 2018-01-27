@@ -17,6 +17,7 @@ namespace ArrayStack
 			stack.Push(3);
 			stack.Push(4);	
 			stack.Push(5);
+			stack.Print();
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Pop());
 			Console.WriteLine(stack.Count);
