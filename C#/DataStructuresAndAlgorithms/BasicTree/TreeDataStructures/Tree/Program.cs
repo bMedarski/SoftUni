@@ -7,7 +7,9 @@
 	public class StartUp
 	{
 		static Dictionary<int, Tree<int>> nodeByValue = new Dictionary<int, Tree<int>>();
-
+		private static int max;
+		private static Tree<int> deepest;
+		private static int sumToBe;
 		public static void Main()
 		{
 			ReadTree();
@@ -15,18 +17,166 @@
 
 			var root = GetRootNode();
 			//Console.WriteLine($"Root node: {root.Value}");
-
 			//root.Print();
 
 			//PrintLeafNodes();
-			PrintMiddleNodes();
+			//PrintMiddleNodes();
+			//Console.WriteLine($"Deepest node: {DeepestNode(GetRootNode(), 0).Value}");
+			//LongestPath();
+			//sumToBe = int.Parse(Console.ReadLine());
+			//Console.WriteLine($"Paths of sum {sumToBe}:");
+			//SumOfPath(GetRootNode(), 0);
+			//SumOfAll(GetRootNode());
+			//Console.WriteLine(totalSum);
+			var targetSum = int.Parse(Console.ReadLine());
+			Console.WriteLine($"Subtrees of sum {targetSum}:");
+			var subtreeRoots = GetSubtreeWithSum(root, targetSum);
+
+			foreach (var node in subtreeRoots)
+			{
+				PrintPreOrder(node);
+				Console.WriteLine();
+			}
+
 		}
 
-		static int DeepestNode()
+		private static void PrintPreOrder(Tree<int> node)
 		{
-			int deepestNode=0;
+			Console.Write(node.Value + " ");
+			foreach (var child in node.Children)
+			{
+				PrintPreOrder(child);
+			}
 
-			return deepestNode;
+		}
+
+		private static List<Tree<int>> GetSubtreeWithSum(Tree<int> root, int targetSum)
+		{
+			var roots = new List<Tree<int>>();
+
+			var sum = DfsTrees(root, targetSum, 0, roots);
+
+			return roots;
+		}
+
+		private static int DfsTrees(Tree<int> node, int targetSum, int currentSum, List<Tree<int>> roots)
+		{
+
+			if (node == null)
+			{
+				return 0;
+			}
+
+			currentSum = node.Value;
+
+			foreach (var child in node.Children)
+			{
+				currentSum += DfsTrees(child, targetSum, currentSum, roots);
+			}
+
+			if (currentSum == targetSum)
+			{
+				roots.Add(node);
+			}
+
+			return currentSum;
+		}
+
+		//static void EquilSum(Tree<int> node)
+		//{
+		//	foreach (var child in node.Children)
+		//	{
+		//		totalSum = 0;
+		//		SumOfAll(child);
+		//		if (totalSum == sumToBe)
+		//		{
+		//			Console.WriteLine("ura");
+		//		}
+		//		EquilSum(child);
+		//	}
+		//}
+		//static void SumOfAll(Tree<int> node)
+		//{
+		//	totalSum += node.Value;
+		//	foreach (var nodeChild in node.Children)
+		//	{
+		//		SumOfAll(nodeChild);
+		//	}
+		//}
+		static void LongestPath()
+		{
+
+
+			var currentNode = DeepestNode(GetRootNode(), 0);
+			var longestPah = new List<int>();
+
+			while (true)
+			{
+				longestPah.Add(currentNode.Value);
+				if (currentNode.Parent == null)
+				{
+					break;
+				}
+
+				currentNode = currentNode.Parent;
+			}
+
+			longestPah.Reverse();
+			Console.WriteLine($"Longest path: {string.Join(" ", longestPah)}");
+		}
+		static void SumOfPath(Tree<int> node, int sum)
+		{
+			var currentSum = sum + node.Value;
+
+			if (node.Children.Count > 0)
+			{
+				foreach (var nodeChild in node.Children)
+				{
+					SumOfPath(nodeChild, currentSum);
+				}
+			}
+			if (currentSum == sumToBe)
+			{
+				PrintCurrentPath(node);
+			}
+			//Console.WriteLine(currentSum);
+		}
+		static void PrintCurrentPath(Tree<int> node)
+		{
+			List<int> values = new List<int>();
+
+			var currentNode = node;
+			while (true)
+			{
+				values.Add(currentNode.Value);
+				if (currentNode.Parent == null)
+				{
+					break;
+				}
+
+				currentNode = currentNode.Parent;
+			}
+
+			values.Reverse();
+			Console.WriteLine($"{string.Join(" ", values)}");
+		}
+		static Tree<int> DeepestNode(Tree<int> node, int count)
+		{
+			var currentCount = count + 1;
+			if (currentCount > max)
+			{
+				max = currentCount;
+				deepest = node;
+			}
+			var current = node;
+			if (current.Children.Count > 0)
+			{
+				foreach (var currentChild in current.Children)
+				{
+					DeepestNode(currentChild, currentCount);
+				}
+			}
+			return deepest;
 		}
 		static void PrintMiddleNodes()
 		{
@@ -50,7 +200,7 @@
 
 			leafs.Sort();
 			Console.Write("Leaf nodes: ");
-			Console.WriteLine(string.Join(" ",leafs));
+			Console.WriteLine(string.Join(" ", leafs));
 		}
 		static Tree<int> GetTreeNodeByValue(int value)
 		{

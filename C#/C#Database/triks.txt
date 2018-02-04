@@ -1,0 +1,49 @@
+
+при валидиране на отрицателен decimal
+
+[typeof(decimal), "0", "и максималното decimal число"]
+
+[Required]
+[MaxLength(50)]
+[Max 20]
+[Min 2]
+[Range(0,20)]
+
+[Range(0,int.MaxValue)]
+[RegularExpression(@"Регекса вътре")]
+
+Да се внимава в четенето (при Enums) да се подаде Null.Ignore
+
+
+За уникални
+
+modelBuilder.Entity<Нещо>().HasAlternateKey(s=>s.Name);
+												или каквото е пропертито
+												
+												
+												
+За каскадно итриване
+
+.OnDelete(DeleteBehavior.Restrict);  - при задаване HasMany накрая
+----------------------------------------------------------------------
+private static bool IsValid(object obj)
+        {
+            var validContext = new ValidationContext(obj);
+            var valRes = new List<ValidationResult>();
+
+            var isValid = Validator.TryValidateObject(obj, validContext, valRes, true);
+
+            return isValid;
+        }
+---------------------------------------------------------------------------
+if (!IsValid(stationDto))
+                {
+                    result.AppendLine(FailureMessage);
+                    continue;
+                }
+----------------------------------------------------------------------------------
+
+
+за проверка дали го има в базата
+
+int? Id = context.Нещо.FirstOrDefault(u=>u.Name == ...)?.Id;
