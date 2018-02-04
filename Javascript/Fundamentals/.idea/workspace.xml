@@ -21,93 +21,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="02.PrintEveryN-thElement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/02.PrintEveryN-thElement.js">
+      <file leaf-file-name="01.SplitStringWithDel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/01.SplitStringWithDel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03.AddAndRemoveEl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/03.AddAndRemoveEl.js">
+      <file leaf-file-name="02.RepeatStringNTimes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/02.RepeatStringNTimes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04.RotateArray.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/04.RotateArray.js">
+      <file leaf-file-name="03.StartsWith.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/03.StartsWith.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="8" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.ExtractIncrSubseqFromArr.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/05.ExtractIncrSubseqFromArr.js">
+      <file leaf-file-name="04.EndsWith.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/04.EndsWith.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06.SortArray.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/06.SortArray.js">
+      <file leaf-file-name="05.CapitalizeTheWords.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/05.CapitalizeTheWords.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07.MagicMatrices.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/07.MagicMatrices.js">
+      <file leaf-file-name="06.CaptureNumbers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/06.CaptureNumbers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08.SpiralMatrix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/08.SpiralMatrix.js">
+      <file leaf-file-name="07.FindVarNamesInSenten.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/07.FindVarNamesInSenten.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-              <folding>
-                <marker date="1516786137001" expanded="true" signature="27:906" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09.DiagonalAttack.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/09.DiagonalAttack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="9" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.Orbit.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/10.Orbit.js">
+      <file leaf-file-name="08.WordOccurences.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/08.WordOccurences.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74041814">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09.ExtractLinks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/09.ExtractLinks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.SecretData.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/10.SecretData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2982456">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -126,32 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/10.ComposeTag.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/12.AssignProperties.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/13.LastMonth.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/14.BiggestOf3Numbers.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/15.PointInRectangle.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/11.BinaryToDecimal.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/16.OddNumbers1ToN.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/17.TriangleOfDollars.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/18.MoviePrices.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/19.QuadraticEquation.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/20.MultiplicationTable.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/21.FigureOf4Squares.js" />
-        <option value="$PROJECT_DIR$/Expressions, Conditional Statements and Loops/22.MonthlyCalendar.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/01.TriangleOfStars.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/02.SquareOfStars.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/03.Palindrome.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/04.DayOfWeek.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/05.FunctionalCalculator.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/06.AggregateElements.js" />
-        <option value="$PROJECT_DIR$/LabFunctionsAndArrowFunctions/07.WordsUppercase.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/01.InsideVolume.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/02.RoadRadar.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/03.TemplateFormat.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/04.CookingByNumbers.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/05.ModifyAverage.js" />
-        <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/06.ValidityChecker.js" />
         <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/07.TreasureLocator.js" />
         <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/08.TripLength.js" />
         <option value="$PROJECT_DIR$/FunctionsAndArrowFunctions/09.RadioCrystals.js" />
@@ -177,6 +159,32 @@
         <option value="$PROJECT_DIR$/ArraysAndMatrices/08.SpiralMatrix.js" />
         <option value="$PROJECT_DIR$/ArraysAndMatrices/09.DiagonalAttack.js" />
         <option value="$PROJECT_DIR$/ArraysAndMatrices/10.Orbit.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/01.PrintLetters.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/02.ConcatAndReverse.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/03.CountOccurences.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/04.ExtractText.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/05.AggregateTable.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/06.RestaurantBill.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/07.Usernames.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/08.Censorship.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/09.Escaping.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/10.MatchAllWords.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/11.EmailValidation.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/12.ExpressionSplit.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/13.MatchTheDates.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/14.EmployeeData.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/15.FormFiller.js" />
+        <option value="$PROJECT_DIR$/LabStringsAndRegExpr/16.MatchMultiplication.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/01.SplitStringWithDel.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/02.RepeatStringNTimes.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/03.StartsWith.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/04.EndsWith.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/05.CapitalizeTheWords.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/06.CaptureNumbers.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/07.FindVarNamesInSenten.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/08.WordOccurences.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/09.ExtractLinks.js" />
+        <option value="$PROJECT_DIR$/StringsAndRegularExpressions/10.SecretData.js" />
       </list>
     </option>
   </component>
@@ -235,34 +243,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabArraysAndMatrices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamentals" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArraysAndMatrices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -278,6 +258,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -285,20 +266,20 @@
       <recent name="C:\Users\BoyanMedarski\Desktop\SoftUniTortures\SoftUni\Javascript\Fundamentals" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.10.Orbit.js">
-    <configuration default="false" name="05.ExtractIncrSubseqFromArr.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="05.ExtractIncrSubseqFromArr.js" working-dir="$PROJECT_DIR$/ArraysAndMatrices">
+  <component name="RunManager" selected="Node.js.10.SecretData.js">
+    <configuration default="false" name="06.CaptureNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="06.CaptureNumbers.js" working-dir="$PROJECT_DIR$/StringsAndRegularExpressions">
       <method />
     </configuration>
-    <configuration default="false" name="06.SortArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="06.SortArray.js" working-dir="$PROJECT_DIR$/ArraysAndMatrices">
+    <configuration default="false" name="07.FindVarNamesInSenten.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="07.FindVarNamesInSenten.js" working-dir="$PROJECT_DIR$/StringsAndRegularExpressions">
       <method />
     </configuration>
-    <configuration default="false" name="07.MagicMatrices.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="07.MagicMatrices.js" working-dir="$PROJECT_DIR$/ArraysAndMatrices">
+    <configuration default="false" name="08.WordOccurences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="08.WordOccurences.js" working-dir="$PROJECT_DIR$/StringsAndRegularExpressions">
       <method />
     </configuration>
-    <configuration default="false" name="09.DiagonalAttack.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="09.DiagonalAttack.js" working-dir="$PROJECT_DIR$/ArraysAndMatrices">
+    <configuration default="false" name="09.ExtractLinks.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="09.ExtractLinks.js" working-dir="$PROJECT_DIR$/StringsAndRegularExpressions">
       <method />
     </configuration>
-    <configuration default="false" name="10.Orbit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="10.Orbit.js" working-dir="$PROJECT_DIR$/ArraysAndMatrices">
+    <configuration default="false" name="10.SecretData.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="10.SecretData.js" working-dir="$PROJECT_DIR$/StringsAndRegularExpressions">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -339,6 +320,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="03.CountOccurences.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="03.CountOccurences.js" working-dir="$PROJECT_DIR$/LabStringsAndRegExpr">
+      <method />
+    </configuration>
+    <configuration default="false" name="08.Censorship.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="08.Censorship.js" working-dir="$PROJECT_DIR$/LabStringsAndRegExpr">
+      <method />
+    </configuration>
     <configuration default="false" name="09.DiagonalSums.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="09.DiagonalSums.js" working-dir="$PROJECT_DIR$/LabArraysAndMatrices">
       <method />
     </configuration>
@@ -348,23 +335,25 @@
     <configuration default="false" name="07.TreasureLocator.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="07.TreasureLocator.js" working-dir="$PROJECT_DIR$/FunctionsAndArrowFunctions">
       <method />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.09.DiagonalSums.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.05.ModifyAverage.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.07.TreasureLocator.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.05.ExtractIncrSubseqFromArr.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.06.SortArray.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.07.MagicMatrices.js" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.09.DiagonalAttack.js" />
-      <item index="7" class="java.lang.String" itemvalue="Node.js.10.Orbit.js" />
+    <list size="10">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.03.CountOccurences.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.08.Censorship.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.09.DiagonalSums.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.05.ModifyAverage.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.07.TreasureLocator.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.06.CaptureNumbers.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.07.FindVarNamesInSenten.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.08.WordOccurences.js" />
+      <item index="8" class="java.lang.String" itemvalue="Node.js.09.ExtractLinks.js" />
+      <item index="9" class="java.lang.String" itemvalue="Node.js.10.SecretData.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.10.Orbit.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.09.DiagonalAttack.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.07.MagicMatrices.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.06.SortArray.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.05.ExtractIncrSubseqFromArr.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.10.SecretData.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.09.ExtractLinks.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.08.WordOccurences.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.07.FindVarNamesInSenten.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.06.CaptureNumbers.js" />
       </list>
     </recent_temporary>
   </component>
@@ -391,16 +380,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33407572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -410,6 +398,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -426,196 +415,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LabIntroToJavaScript/7.NextDay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/13.LastMonth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/14.BiggestOf3Numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/15.PointInRectangle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/12.AssignProperties.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38501742">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/18.MoviePrices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/20.MultiplicationTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/21.FigureOf4Squares.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/22.MonthlyCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/11.BinaryToDecimal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1184669">
-          <caret line="4" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/17.TriangleOfDollars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2369338">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/19.QuadraticEquation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74041814">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/03.Palindrome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/04.DayOfWeek.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/02.SquareOfStars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3554007">
-          <caret line="12" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/07.WordsUppercase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/06.AggregateElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/05.FunctionalCalculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05923345">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabFunctionsAndArrowFunctions/01.TriangleOfStars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41463414">
-          <caret line="14" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions, Conditional Statements and Loops/16.OddNumbers1ToN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/06.ValidityChecker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/01.InsideVolume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/07.TreasureLocator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabIntroToJavaScript/8.DistancePoints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/05.ModifyAverage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/08.TripLength.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FunctionsAndArrowFunctions/04.CookingByNumbers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79965156">
@@ -634,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,9 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1516629476475" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <marker date="1516639562556" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,9 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <marker date="1516640036236" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,31 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/05.ExtractIncrSubseqFromArr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/06.SortArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/07.MagicMatrices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <marker date="1516786137001" expanded="true" signature="27:906" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,14 +564,225 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="48" column="9" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/10.Orbit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74041814">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/01.PrintLetters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/02.ConcatAndReverse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/03.CountOccurences.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/05.ExtractIncrSubseqFromArr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68596494">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/06.SortArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74561405">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArraysAndMatrices/07.MagicMatrices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/06.RestaurantBill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/05.AggregateTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/04.ExtractText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/07.Usernames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/08.Censorship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="5" selection-start-line="2" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/09.Escaping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/10.MatchAllWords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/12.ExpressionSplit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/13.MatchTheDates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/11.EmailValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/14.EmployeeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/15.FormFiller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabStringsAndRegExpr/16.MatchMultiplication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/01.SplitStringWithDel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/02.RepeatStringNTimes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/03.StartsWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/04.EndsWith.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/05.CapitalizeTheWords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/06.CaptureNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/07.FindVarNamesInSenten.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/08.WordOccurences.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/09.ExtractLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringsAndRegularExpressions/10.SecretData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2982456">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
