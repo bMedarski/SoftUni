@@ -1,6 +1,6 @@
 function Solve(text,word){
         text = text.toLowerCase();
-        const regex = new RegExp("\\b" + word + "\\b", "gi");
+        const regex = new RegExp("\\b" + word + "\\b", "g");
         let count = 0;
         let m;
         while ((m = regex.exec(text)) !== null) {
