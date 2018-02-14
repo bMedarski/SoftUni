@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head><title>Select and Print</title>
+    <style> select {
+        width: 100px
+    }
+
+    .block {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center
+    }
+
+    button {
+        width: 60px
+    }
+
+    #btnRight {
+        display: block;
+        margin-top: 20px
+    }
+
+    #btnLeft {
+        display: block;
+        margin-top: 5px
+    }
+
+    #btnPrint {
+        display: block;
+        margin-top: 5px
+    } </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="block">
+    <div>Available towns</div>
+    <select id="available-towns" size="5">
+        <option>Sofia</option>
+        <option>Varna</option>
+        <option>Pleven</option>
+    </select></div>
+<div class="block">
+    <button id="btnRight" onclick="move('right')">&rightarrow;</button>
+    <button id="btnLeft" onclick="move('left')">&leftarrow;</button>
+    <button id="btnPrint" onclick="move('print')">Print</button>
+</div>
+<div class="block">
+    <div>Selected towns</div>
+    <select id="selected-towns" size="5">
+        <option>Plovdiv</option>
+        <option>Ruse</option>
+    </select></div>
+<div id="output"></div>
+<script>
+    function move(command) {
+
+        let townsSelected = document.querySelector("#selected-towns");
+        let townsAvailable = document.querySelector("#available-towns");
+
+        let towns = document.querySelectorAll("#available-towns> option");
+        let selectedTowns = document.querySelectorAll("#selected-towns> option");
+        if(command=="right"){
+            let selected;
+            for (let i = 0; i < towns.length; i++)
+                if(towns[i].selected){
+                    selected = towns[i];
+                    selected.parentNode.removeChild(selected);
+                    townsSelected.appendChild(selected);
+                }
+        }else if(command == "left"){
+            let selected;
+            for (let i = 0; i < selectedTowns.length; i++)
+                if(selectedTowns[i].selected){
+                    selected = selectedTowns[i];
+                    selected.parentNode.removeChild(selected);
+                    townsAvailable.appendChild(selected);
+                }
+        }else if(command == "print"){
+
+            let townsForPrint = [];
+            for (let i = 0; i < selectedTowns.length; i++) {
+                townsForPrint.push(selectedTowns[i].innerHTML);
+            }
+            document.getElementById("output").innerHTML = ""+townsForPrint.join("; ");
+        }
+    }
+</script>
+</body>
+</html>
