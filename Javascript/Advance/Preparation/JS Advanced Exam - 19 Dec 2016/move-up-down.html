@@ -39,7 +39,7 @@
     <button id="btnDown" onclick="move(+1)">&downarrow;</button>
 </div>
 <script>
-    function move(direction) {
+    function move1(direction) {
 
         let input = document.querySelectorAll("#towns>option");
         let towns = input;
@@ -62,6 +62,17 @@
         }
         input.innerHTML = towns;
     }
+    function move(direction){
+        let selected = $('#towns').find('option:selected');
+        if(direction===1){
+            let next = selected.next();
+            selected.insertAfter(next);
+        }else{
+            let prev = selected.prev();
+            selected.insertBefore(prev);
+        }
+    }
+
 </script>
 </body>
 </html>
