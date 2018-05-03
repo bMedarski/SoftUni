@@ -3,7 +3,7 @@ inner = size - 2
 
 print('*'*size)
 x = 0
-while (x<size-2):
+while (x<inner):
     print('*',end='')
     print(' '*(inner),end='')
     print('*')

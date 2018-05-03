@@ -16,7 +16,10 @@ import math
 #
 # turtle.done()
 
-nums = [1,2,3,4,5]
+# nums = [1,2,3,4,5]
+#
+#
+# print(max(nums))
 
-
-print(max(nums))
+for num in range(0,10):
+    print(num)
