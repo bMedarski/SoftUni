@@ -1,0 +1,33 @@
+<div class="row">
+    <form method="POST" action="#/addNewEntry" id="create-entry-form">
+        <div class="col wide">
+            <input name="type" placeholder="Product name">
+        </div>
+        <div class="col wide">
+            <input name="qty" placeholder="Quantity">
+        </div>
+        <div class="col wide">
+            <input name="price" placeholder="Price per Unit">
+        </div>
+        <div class="col">Sub-total</div>
+        <div class="col">
+            <input id="addItemBtn" type="submit" value="Add"/>
+        </div>
+    </form>
+</div>
+<div class="table-foot">
+    <form id="create-receipt-form">
+        <div class="col wide">
+        </div>
+        <div class="col wide">
+        </div>
+        <div class="col wide right">Total:</div>
+        <div class="col">76.50</div>
+        <div class="col">
+            <input id="checkoutBtn" type="submit" value="Checkout"/>
+        </div>
+        <input id="recId" type="hidden" name="receiptId"/>
+        <input type="hidden" name="productCount"/>
+        <input type="hidden" name="total"/>
+    </form>
+</div>
