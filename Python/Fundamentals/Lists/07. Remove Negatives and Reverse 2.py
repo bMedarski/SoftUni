@@ -1,0 +1,1 @@
+list_input = map(lambda x: print(x),list(filter(lambda x: x<0,list(map(int, input().split(" "))))).reverse())
