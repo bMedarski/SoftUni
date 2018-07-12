@@ -20,56 +20,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08. Filter Base.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="08. Filter Base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/08. Filter Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08. Sort List Using Insertion Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/08. Sort List Using Insertion Sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10. Largest N Elements.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="01. Key-Key Value-Value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="02. Travel Company.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="03. Dict-Ref-Advanced.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="29" lean-forward="true" selection-end-line="29" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="04. Forum Topics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="05. Social Media Posts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05. Social Media Posts2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04. Dict-Ref.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -130,15 +150,16 @@
         <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/08. Sort List Using Insertion Sort.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -149,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,23 +189,10 @@
               <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
               <item name="Dictionaries - Exercises" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries and Functional Programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -198,8 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10. Largest N Elements">
-    <configuration name="05. Smallest Element in List" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.05. Social Media Posts2">
+    <configuration name="02. Travel Company" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,17 +216,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/05. Smallest Element in List.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="06. Reverse List In-place" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03. Dict-Ref-Advanced" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,17 +234,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/06. Reverse List In-place.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="07. Sort List Using Bubble Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04. Forum Topics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,17 +252,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/07. Sort List Using Bubble Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="08. Sort List Using Insertion Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="05. Social Media Posts" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,17 +270,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/08. Sort List Using Insertion Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="10. Largest N Elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="05. Social Media Posts2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,30 +288,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.05. Smallest Element in List" />
-      <item itemvalue="Python.06. Reverse List In-place" />
-      <item itemvalue="Python.07. Sort List Using Bubble Sort" />
-      <item itemvalue="Python.08. Sort List Using Insertion Sort" />
-      <item itemvalue="Python.10. Largest N Elements" />
+      <item itemvalue="Python.02. Travel Company" />
+      <item itemvalue="Python.03. Dict-Ref-Advanced" />
+      <item itemvalue="Python.04. Forum Topics" />
+      <item itemvalue="Python.05. Social Media Posts" />
+      <item itemvalue="Python.05. Social Media Posts2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10. Largest N Elements" />
-        <item itemvalue="Python.08. Sort List Using Insertion Sort" />
-        <item itemvalue="Python.07. Sort List Using Bubble Sort" />
-        <item itemvalue="Python.06. Reverse List In-place" />
-        <item itemvalue="Python.05. Smallest Element in List" />
+        <item itemvalue="Python.05. Social Media Posts2" />
+        <item itemvalue="Python.05. Social Media Posts" />
+        <item itemvalue="Python.04. Forum Topics" />
+        <item itemvalue="Python.03. Dict-Ref-Advanced" />
+        <item itemvalue="Python.02. Travel Company" />
       </list>
     </recent_temporary>
   </component>
@@ -320,15 +329,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31455898" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31455898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -354,17 +363,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../02. Command Integers_Author's Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/01. Space Trip.ipynb" />
     <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Lists/03. Smallest Item in List.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -580,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="9" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,10 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/07. Sort List Using Bubble Sort.py">
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -656,39 +648,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py">
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/07. Sort List Using Bubble Sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/08. Filter Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="29" lean-forward="true" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
