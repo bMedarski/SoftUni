@@ -11,83 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07. Sort List Using Bubble Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Lists - Exercises/07. Sort List Using Bubble Sort.py">
+      <file leaf-file-name="09. Messages.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08. Filter Base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/08. Filter Base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01. Key-Key Value-Value.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02. Travel Company.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03. Dict-Ref-Advanced.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="29" lean-forward="true" selection-end-line="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04. Forum Topics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05. Social Media Posts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05. Social Media Posts2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04. Dict-Ref.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="529">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -105,15 +33,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/01. Space Trip.ipynb" />
-        <option value="$PROJECT_DIR$/Fundamentals/test.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/01. Space Trip.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/02. Command Integers.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/03. Chain of Responsibility.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/01. Blank Receipt.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/02. Sign of Integer Number.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/03. Printing Triangle.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/04. Draw a Filled Square.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/05. Calculate Triangle Area.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/06. Math Power.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/07. Greater of Two Values.py" />
@@ -156,6 +75,15 @@
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/01. Distance Between Points.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/02. Closest Two Points.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/03. Rectangle Position.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/04. Exercises.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py" />
       </list>
     </option>
   </component>
@@ -170,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,12 +114,13 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="Dictionaries - Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects and Classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -207,8 +135,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05. Social Media Posts2">
-    <configuration name="02. Travel Company" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.09. Messages">
+    <configuration name="05. Optimized Banking System" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,17 +144,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="03. Dict-Ref-Advanced" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06. Animals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,17 +162,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="04. Forum Topics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07. Websites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,17 +180,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="05. Social Media Posts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="08. Boxes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,17 +198,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="05. Social Media Posts2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="09. Messages" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,30 +216,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.02. Travel Company" />
-      <item itemvalue="Python.03. Dict-Ref-Advanced" />
-      <item itemvalue="Python.04. Forum Topics" />
-      <item itemvalue="Python.05. Social Media Posts" />
-      <item itemvalue="Python.05. Social Media Posts2" />
+      <item itemvalue="Python.05. Optimized Banking System" />
+      <item itemvalue="Python.06. Animals" />
+      <item itemvalue="Python.07. Websites" />
+      <item itemvalue="Python.08. Boxes" />
+      <item itemvalue="Python.09. Messages" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05. Social Media Posts2" />
-        <item itemvalue="Python.05. Social Media Posts" />
-        <item itemvalue="Python.04. Forum Topics" />
-        <item itemvalue="Python.03. Dict-Ref-Advanced" />
-        <item itemvalue="Python.02. Travel Company" />
+        <item itemvalue="Python.09. Messages" />
+        <item itemvalue="Python.08. Boxes" />
+        <item itemvalue="Python.07. Websites" />
+        <item itemvalue="Python.06. Animals" />
+        <item itemvalue="Python.05. Optimized Banking System" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +260,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09322917" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
@@ -363,67 +291,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/01. Space Trip.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/01. Space Trip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/02. Command Integers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../02. Command Integers_Author's Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/01. Blank Receipt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/02. Sign of Integer Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/05. Calculate Triangle Area.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/06. Math Power.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/03. Printing Triangle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -657,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/08. Filter Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="935">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
@@ -665,7 +536,7 @@
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -679,42 +550,105 @@
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="29" lean-forward="true" selection-end-line="29" selection-end-column="29" />
+          <caret line="29" column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="595">
           <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/02. Closest Two Points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/03. Rectangle Position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/04. Exercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="38" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="26" lean-forward="true" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/01. Distance Between Points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
