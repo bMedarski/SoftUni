@@ -1,0 +1,11 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@Model.Title</h2>
+<h5>by @Html.DisplayFor(model => model.Author)</h5>
+<img src="@Model.ImageUrl" alt="Cover image for @Model.Title" />
+<p>@Model.Description</p>
+<a class="btn btn-lg btn-warning" asp-page="/Books/Borrow" asp-route-id="@Model.Id">Borrow this book</a>

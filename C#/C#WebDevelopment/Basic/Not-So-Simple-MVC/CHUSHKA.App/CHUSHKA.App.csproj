@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CHUSHKA.Data\CHUSHKA.Data.csproj" />
+    <ProjectReference Include="..\SoftUni.WebServer.Common\SoftUni.WebServer.Common.csproj" />
+    <ProjectReference Include="..\SoftUni.WebServer.Mvc\SoftUni.WebServer.Mvc.csproj" />
+    <ProjectReference Include="..\SoftUni.WebServer.Server\SoftUni.WebServer.Server.csproj" />
+  </ItemGroup>
+
+</Project>

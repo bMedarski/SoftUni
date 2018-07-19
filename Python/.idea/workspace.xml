@@ -14,8 +14,15 @@
       <file leaf-file-name="09. Messages.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="-688" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -33,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/05. Calculate Triangle Area.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/06. Math Power.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/07. Greater of Two Values.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Functions and Debugging/08. Multiply Evens by Odds.py" />
@@ -83,6 +89,7 @@
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/test.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py" />
       </list>
     </option>
@@ -98,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -135,25 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.09. Messages">
-    <configuration name="05. Optimized Banking System" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Objects and Classes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="06. Animals" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,20 +215,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.05. Optimized Banking System" />
       <item itemvalue="Python.06. Animals" />
       <item itemvalue="Python.07. Websites" />
       <item itemvalue="Python.08. Boxes" />
       <item itemvalue="Python.09. Messages" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.09. Messages" />
         <item itemvalue="Python.08. Boxes" />
         <item itemvalue="Python.07. Websites" />
         <item itemvalue="Python.06. Animals" />
-        <item itemvalue="Python.05. Optimized Banking System" />
       </list>
     </recent_temporary>
   </component>
@@ -258,14 +265,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09322917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09322917" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31455898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31455898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -295,13 +301,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/03. Printing Triangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Functions and Debugging/04. Draw a Filled Square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -645,11 +644,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
+        <state relative-caret-position="-688" />
       </provider>
     </entry>
   </component>

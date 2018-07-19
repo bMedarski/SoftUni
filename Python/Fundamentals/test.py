@@ -1,11 +1,8 @@
-list = ["bobo","as","banana","ole"]
-
-
-print(list)
-list.append("ole")
-list.remove("as")
-
-#print(list.count("ole"))
-
-print(len(list))
-print(list)
+# class Book:
+#     def __init__(self):
+#         self.title = "Ole"
+#         self.__description = "na kantar"
+#
+# one = Book()
+#
+# print(one.title)

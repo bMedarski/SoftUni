@@ -9,7 +9,6 @@ class Message:
         self.user = user
 
 users = []
-
 while True:
     #Read input
     user_input = input()
@@ -28,10 +27,8 @@ while True:
         #Add username to users list
         users.append(user)
     else:
-
         sender = user_input_args[0]
         receiver = user_input_args[2]
-
         #If does not have registration for receiver or sender
         receiver_exist = False
         sender_exist = False
