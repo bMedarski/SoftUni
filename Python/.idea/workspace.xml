@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/09. Fish Statistics.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file leaf-file-name="09. String Commander.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="43" column="34" lean-forward="true" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="731">
+              <caret line="43" column="34" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -50,17 +50,26 @@
       <file leaf-file-name="11. Pyramidic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="1037">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12. Nilapdromes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12. Nilapdromes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -100,7 +109,6 @@
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/test.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py" />
         <option value="$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/01. Odd Lines/01. Odd Lines.py" />
         <option value="$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/02. Line Numbers.py" />
@@ -129,10 +137,11 @@
         <option value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -143,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,16 +164,11 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings and Text Processing" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -180,25 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.12. Nilapdromes">
-    <configuration name="08. Deserialize String" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/08. Deserialize String.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration name="09. String Commander" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,20 +256,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.08. Deserialize String" />
       <item itemvalue="Python.09. String Commander" />
       <item itemvalue="Python.10. Stateless" />
       <item itemvalue="Python.11. Pyramidic" />
       <item itemvalue="Python.12. Nilapdromes" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.12. Nilapdromes" />
         <item itemvalue="Python.11. Pyramidic" />
         <item itemvalue="Python.10. Stateless" />
         <item itemvalue="Python.09. String Commander" />
-        <item itemvalue="Python.08. Deserialize String" />
       </list>
     </recent_temporary>
   </component>
@@ -302,16 +305,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1703125" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.46354166" side_tool="true" visible="true" weight="0.3134963" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4640625" side_tool="true" visible="true" weight="0.3134963" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5364583" weight="0.3134963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5359375" visible="true" weight="0.3134963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -322,6 +324,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -340,6 +343,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="34" lean-forward="true" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -452,9 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/01. Odd Lines/Result">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/Input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -462,28 +490,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/Result">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/03. Merge Files/FileTwo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/03. Merge Files/FileOne.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/02. Line Numbers.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/09. Fish Statistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -656,28 +668,35 @@
     <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="34" lean-forward="true" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="731">
+          <caret line="43" column="34" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="1037">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
