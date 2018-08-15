@@ -11,65 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="09. Fish Statistics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/09. Fish Statistics.py">
+      <file leaf-file-name="02. Gladiator Inventory.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fundamentals/Exam/02. Gladiator Inventory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08. Deserialize String.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/08. Deserialize String.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="27" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09. String Commander.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="34" selection-end-line="50" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10. Stateless.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11. Pyramidic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12. Nilapdromes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -87,14 +33,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/03. Count Numbers.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/04. List Contains Element.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/05. Smallest Element in List.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/06. Reverse List In-place.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/07. Sort List Using Bubble Sort.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/08. Sort List Using Insertion Sort.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Lists - Exercises/10. Largest N Elements.py" />
-        <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py" />
@@ -138,10 +76,18 @@
         <option value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py" />
         <option value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py" />
         <option value="$PROJECT_DIR$/Fundamentals/test.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/03. Chain of Responsibility.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/PLOKIJUH ordering.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/Alex &amp; Dimo at SoftUniniada 2017.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/Boza queue.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Exam/01. Gladiator Expenses.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Exam/04. Arena Tier.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Exam/03. Ancient VS Memory.py" />
+        <option value="$PROJECT_DIR$/Fundamentals/Exam/02. Gladiator Inventory.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -164,6 +110,12 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="Exam" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,8 +135,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="09. String Commander" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.02. Gladiator Inventory">
+    <configuration name="01. Gladiator Expenses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,17 +144,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exam/01. Gladiator Expenses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="10. Stateless" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02. Gladiator Inventory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,17 +162,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exam/02. Gladiator Inventory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="11. Pyramidic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03. Ancient VS Memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,17 +180,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exam/03. Ancient VS Memory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="12. Nilapdromes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04. Arena Tier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,17 +198,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/Exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/Exam/04. Arena Tier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Boza queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,30 +216,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/Boza queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.09. String Commander" />
-      <item itemvalue="Python.10. Stateless" />
-      <item itemvalue="Python.11. Pyramidic" />
-      <item itemvalue="Python.12. Nilapdromes" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Boza queue" />
+      <item itemvalue="Python.01. Gladiator Expenses" />
+      <item itemvalue="Python.02. Gladiator Inventory" />
+      <item itemvalue="Python.03. Ancient VS Memory" />
+      <item itemvalue="Python.04. Arena Tier" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.12. Nilapdromes" />
-        <item itemvalue="Python.11. Pyramidic" />
-        <item itemvalue="Python.10. Stateless" />
-        <item itemvalue="Python.09. String Commander" />
+        <item itemvalue="Python.02. Gladiator Inventory" />
+        <item itemvalue="Python.03. Ancient VS Memory" />
+        <item itemvalue="Python.04. Arena Tier" />
+        <item itemvalue="Python.01. Gladiator Expenses" />
+        <item itemvalue="Python.Boza queue" />
       </list>
     </recent_temporary>
   </component>
@@ -305,19 +257,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1703125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20364584" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4640625" side_tool="true" visible="true" weight="0.3134963" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.46927083" side_tool="true" visible="true" weight="0.4187035" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5359375" visible="true" weight="0.3134963" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5307292" weight="0.4187035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4984375" weight="0.3995749" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49583334" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -339,231 +290,21 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/09. String Commander.py">
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/PLOKIJUH ordering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="34" lean-forward="true" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="799">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/10. Stateless.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/11. Pyramidic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Strings and Text Processing/12. Nilapdromes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/02. Travel Company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/04. Dict-Ref.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/02. Closest Two Points.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/03. Rectangle Position.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/04. Exercises.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" selection-end-line="23" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="26" lean-forward="true" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/01. Distance Between Points.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/Input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/03. Merge Files/FileTwo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/02. Line Numbers/02. Line Numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/01. Odd Lines/01. Odd Lines.py">
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/Boza queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/03. Merge Files/03. Merge FIles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/03. Merge Files/Result">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/05. Files-and-Errors-Resources/Resources/04. Filter-Extensions/04. Filter-Extensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/02. Match Phone Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/03. Match Hexadecimal Numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/05. Match Numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/01. Match Full Name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fundamentals/Regular Expressions (RegEx)/06. Replace a Tag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -695,8 +436,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fundamentals/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/02. Command Integers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="777" selection-start-line="777" selection-end-line="777" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/18 March 2018/03. Chain of Responsibility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/09. Messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/08. Boxes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/07. Websites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="26" lean-forward="true" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/06. Animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/10. Shellbound.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries and Functional Programming/08. Filter Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/05. Social Media Posts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/04. Forum Topics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/03. Dict-Ref-Advanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Dictionaries - Exercises/01. Key-Key Value-Value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/01. Distance Between Points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/PLOKIJUH ordering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Objects and Classes/05. Optimized Banking System.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/ExamPreparation/3 September 2017/Boza queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Exam/01. Gladiator Expenses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Exam/04. Arena Tier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Exam/03. Ancient VS Memory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fundamentals/Exam/02. Gladiator Inventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

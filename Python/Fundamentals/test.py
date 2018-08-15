@@ -1,55 +1,23 @@
-import re
+num = int(input())
 
-data = input()
+string_list = [input() for i in range(num)]
 
-pattern = r"(?P<tail>>*)<(?P<body>\(+)(?P<status>['x-])>"
-match = re.finditer(pattern, data)
+char_list = set(char for sublist in string_list for char in sublist)
 
-if not re.search(pattern, data):
-    print("No fish found.")
+char_pyramid, char_len = '', 0
 
-tail_type = None
-body_type = 0
-status = None
+for char in char_list:
+    len_pyramid = 0
+    for i in range(0, num):
+        if char in string_list[i] and len_pyramid == 0:
+            len_pyramid = 1
+        if string_list[i].count(char) >= 2 + len_pyramid:
+            len_pyramid += 2
+        else:
+            pass
+    if len_pyramid > char_len:
+        char_len = len_pyramid
+        char_pyramid = char
 
-count = 1
-for x in match:
-    tail_len = len(x.groupdict()['tail'])
-    body_len = len(x.groupdict()['body'])
-    fish_eye = x.group('status')
-
-    if tail_len > 5:
-        tail_type = 'Long'
-    elif tail_len > 1:
-        tail_type = 'Medium'
-    elif tail_len == 1:
-        tail_type = 'Short'
-    else:
-        tail_type = None
-
-    tail_cm = 2 * tail_len
-    body_cm = 2 * body_len
-
-    if body_len > 10:
-        body_type = 'Long'
-    elif body_len > 5:
-        body_type = 'Medium'
-    else:
-        body_type = 'Short'
-
-    if fish_eye == "'":
-        status = 'Awake'
-    elif fish_eye == "-":
-        status = 'Asleep'
-    elif fish_eye == "x":
-        status = 'Dead'
-
-    print(f"Fish {count}: {x.group()}")
-    if tail_type is None:
-        print(f"  Tail type: None")
-    else:
-        print(f"  Tail type: {tail_type} ({tail_cm} cm)")
-    print(f"  Body type: {body_type} ({body_cm} cm)")
-    print(f"  Status: {status}")
-
-    count += 1
+for i in range(1, char_len + 1, 2):
+    print(char_pyramid * i)
