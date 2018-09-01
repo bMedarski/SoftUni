@@ -10,7 +10,7 @@ let validatorService = (() => {
     }
 
     function isOnlyLetters(string) {
-        return /^[A-Za-z]$/g.test(string)
+        return /^[A-Za-z]+$/g.test(string)
     }
 
     function isOnlyLettersAndNumbers(string) {
@@ -24,9 +24,11 @@ let validatorService = (() => {
             user.error = PASSWORD_MATCH;
         }
         if (!isLengthThan(user.username, USERNAME_LENGTH)) {
+            console.log("duljina")
             user.error = USERNAME_REQUIREMENTS;
         }
         if (!isOnlyLetters(user.username)) {
+            console.log("samo bukvi")
             user.error = USERNAME_REQUIREMENTS;
         }
 

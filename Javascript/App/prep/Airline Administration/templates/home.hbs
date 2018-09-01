@@ -1,0 +1,29 @@
+{{> nav}}
+<section id="viewCatalog" class="background-img">
+    {{#if isAuth}}
+    <a href="#/flight-add" class="add-flight">Add Flight +</a>
+    {{/if}}
+    <div class="added-flights">
+        {{#each flights}}
+        <a href="#/flight-detail/{{id}}" class="added-flight">
+            <!--<img src="http://airportcluj.ro/fisiere/userfiles/Bari_28.03.07_088.jpg" alt="" class="picture-added-flight">-->
+            <!--<h3>CLUJ-NAPOCA</h3>-->
+            <!--<span>from Sheffield</span><span>20 April</span>-->
+            <img src="{{image}}" alt="" class="picture-added-flight">
+            <h3>{{destination}}A</h3>
+            <span>from {{origin}}</span><span>{{departure time}}</span>
+        </a>
+        {{/each}}
+        <!--<a href="" class="added-flight">-->
+            <!--<img src="http://www.balkaninsight.com/en/file/show/Images/AirportBucharest.jpg" alt="" class="picture-added-flight">-->
+            <!--<h3>BUCHAREST</h3>-->
+            <!--<span>from Larnaka</span><span>21 April</span>-->
+        <!--</a>-->
+        <!--<a href="" class="added-flight">-->
+            <!--<img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_602,c_fill,g_auto,h_339,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170623115234-heathrow---getty.jpg" alt="" class="picture-added-flight">-->
+            <!--<h3>TIMISOARA</h3>-->
+            <!--<span>from London</span><span>22 April</span>-->
+        <!--</a>-->
+    </div>
+</section>
+{{> footer}}

@@ -1,0 +1,24 @@
+{{> nav}}
+<section id="viewEditFlight">
+    <h2>Edit existing flight</h2>
+    <form id="formEditFlight" method="post" action="#/flight-edit">
+        <label>Destination:</label>
+        <input type="text" name="destination" placeholder="Destination" value="CLUJ-NAPOCA" >
+        <label>Origin:</label>
+        <input type="text" name="origin" placeholder="Origin" value="Sheffield">
+<label>Departure Date:</label>
+        <input type="date" id="tt" name="departureDate" value="2018-04-28">
+        <label>Departure Time:</label>
+        <input type="time" name="departureTime" value="14:00">
+        <label>Number of Seats:</label>
+        <input type="number" name="seats" value="55">
+        <label>Cost per seat:</label>
+        <input type="number" step="2" name="cost" value="13.12">
+        <label>Image:</label>
+        <input type="text" name="img" value="http://airportcluj.ro/fisiere/userfiles/Bari_28.03.07_088.jpg">
+        <label>Is Public:</label>
+        <input type="checkbox" name="public" checked>
+        <input type="submit" class="save-changes" value="Save Changes">
+    </form>
+</section>
+{{> footer}}

@@ -1,0 +1,29 @@
+{{> navigation}}
+<div class="my-listings">
+    <h1>My car listings</h1>
+{{#if noCars}}
+        <p class="no-cars">No cars in database.</p>
+            {{else}}
+    <div class="car-listings">
+    {{#each cars}}
+        <div class="my-listing">
+            <input type="hidden" name="carId" value="{{_id}}">
+            <p id="listing-title">{{title}}</p>
+            <img src="{{imageUrl}}">
+            <div class="listing-props">
+                <h2>Brand: {{brand}}</h2>
+                <h3>Model: {{model}}</h3>
+                <h3>Year: {{year}}</h3>
+                <h3>Price: {{price}}$</h3>
+            </div>
+            <div class="my-listing-buttons">
+                <a href="#/cars/details/{{_id}}" class="my-button-list">Details</a>
+                <a href="#/cars/edit/{{_id}}" class="my-button-list">Edit</a>
+                <a href="#/cars/remove/{{_id}}" class="my-button-list">Delete</a>
+            </div>
+        </div>
+    {{/each}}
+    </div>
+{{/if}}
+</div>
+{{> footer}}
