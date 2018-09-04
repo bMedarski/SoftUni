@@ -1,0 +1,31 @@
+{{> nav username=username}}
+<div id="meme-feed">
+    <h1>Meme Feed</h1>
+    <div id="memes">
+        {{#if noMemes}}
+            <p class="no-memes">No memes in database.</p>
+        {{else}}
+        {{#each memes}}
+        <div class="meme">
+            <a href="#/meme-details/{{id}}" class="meme-title">{{title}}</a>
+            <br>
+            <a href="#/meme-details/{{id}}"><img class="meme-image" src="{{imageUrl}}"></a>
+            <div class="info">
+
+                <div id="data-buttons">
+                    <a href="#/meme-details/{{id}}" class="custom-button">Check Out</a>
+                    {{#if author}}
+                    <a href="#/meme-edit/{{id}}" class="custom-button">Edit</a>
+                    <a href="#/meme-delete/{{id}}" class="custom-button">Delete</a>
+                    {{/if}}
+                    <a href="#/profile/{{creatorId}}" class="creator">Creator: {{creator}}</a>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        {{/each}}
+        {{/if}}
+    </div>
+</div>
+{{> footer}}

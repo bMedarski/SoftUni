@@ -15,10 +15,11 @@
     <session id="-319797439">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -75,33 +76,34 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/align-text/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/amdefine/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/center-align/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/cliui/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/handlebars/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/jquery/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/lazy-cache/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/longest/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/optimist/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/right-align/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/sammy/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/uglify-to-browserify/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/Car Tube/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/cliui/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/handlebars/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/sammy/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/Airline Administration/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/Car Tube/package.json" />
+      <path value="$PROJECT_DIR$/Meme Lounge/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -123,16 +125,6 @@
               <item name="prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="prep" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Airline Administration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Car Tube" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="C:\Users\BoyanMedarski\AppData\Roaming\npm\node_modules\eslint" />
     <property name="js.eslint.nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Airline Administration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Meme Lounge" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -182,11 +174,12 @@
       <updated>1535465133322</updated>
       <workItem from="1535465138802" duration="1811000" />
       <workItem from="1535699641362" duration="92000" />
+      <workItem from="1535782514720" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1903000" />
+    <option name="totallyTimeSpent" value="1917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
