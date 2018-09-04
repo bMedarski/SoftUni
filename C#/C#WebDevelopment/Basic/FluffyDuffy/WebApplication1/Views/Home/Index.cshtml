@@ -1,0 +1,17 @@
+﻿@using FluffyDuffy.Models
+
+@model IEnumerable<Cat>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+Welcome to Fluffy Duffy page
+
+<ul>
+	@foreach (var cat in Model)
+	{
+		<li><a asp-controller="Cats" asp-action="Details" asp-route-id="@cat.Id">@cat.Name</a></li>
+	}
+	
+</ul>

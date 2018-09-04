@@ -1,0 +1,28 @@
+﻿@page "{id}"
+@model Books.App.Pages.Book.DetailsModel
+@{
+	ViewData["Title"] = "Details";
+}
+
+<div class="container">
+		<div class="col-4" style="float: left">
+			<img src="@Model.ImageUrl" alt="">
+		</div>
+	<div class="col-8">
+		<h4 class="card-title">@Model.Title</h4>
+		<p class="card-text">@Model.Description</p>
+		<p class="card-text">by <a asp-page="/Author/Details" asp-route-id="@Model.AuthorId">@Model.Author</a></p>
+	</div>
+	<div style="clear: both">
+		<br />
+		@if (@Model.IsAvailable)
+		{
+			<a class="btn btn-success" style="clear: both" asp-page="/Book/Borrow" asp-route-id="@Model.Id">Borrow this book</a>
+		}
+		else
+		{
+			<a class="btn btn-success" style="clear: both" asp-page="/Book/Return" asp-route-id="@Model.Id">Return this book</a>
+		}
+	</div>
+		
+</div>

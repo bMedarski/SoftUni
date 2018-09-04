@@ -1,0 +1,57 @@
+﻿<hr class="my-2" />
+<div class="text-center mb-4">
+    <h1>Upload Tube</h1>
+</div>
+<hr class="my-2">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="form-holder text-center">
+            <form class="form-inline" action="/tubes/add" method="POST">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label h3 mb-3" for="title">Title</label>
+                        <div class="controls">
+                            <input required type="text" id="title" name="Title" placeholder="Title" class="input-xlarge">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="author">Author</label>
+                        <div class="controls">
+                            <input required type="text" id="author" name="Author" placeholder="Author"
+                                   class="input-xlarge">
+                        </div>
+                    </div>
+                    <br />
+                    <!--<div class="form-group row">
+                        <label class="form-control-label">You Tube Video Url</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">https://www.youtube.com/watch?v=</span>
+                            <input required name="VideoId" class="form-control" minlength="11" maxlength="11" />
+                        </div>
+                    </div>-->
+                    <div class="control-group">
+                        <label class="control-label h3 mb-4" for="VideoId">Youtube Link</label>
+                        <div class="controls">
+                            <input type="text" id="VideoId" name="VideoId" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2">Description</label>
+                        <div class="controls">
+                            <textarea  name="Description" class="form-control" placeholder="Enter Tube Description" minlength="5"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <button class="btn btn-info">Upload Tube</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<hr class="my-3" />

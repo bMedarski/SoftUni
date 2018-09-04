@@ -1,0 +1,11 @@
+﻿@using FluffyDuffy.Models
+@model Cat
+
+@{
+	ViewData["Title"] = "Cat Profile";
+}
+
+<h4>@Model.Name</h4>
+<p>@Model.Age</p>
+<p>@Model.Breed</p>
+<img src="@Model.imageUrl"/>

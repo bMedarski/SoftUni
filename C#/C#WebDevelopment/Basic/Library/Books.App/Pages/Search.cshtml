@@ -1,0 +1,25 @@
+﻿@page
+@model Books.App.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+
+<div class="container">
+	<h3>Search results:"@Model.SearchTerm"</h3>
+	<ul>
+		@foreach (var r in @Model.SearchResults)
+		{
+		<li>
+			@if (@r.Type == "author")
+			{
+				<a asp-page="/Author/Details" asp-route-id="@r.Id">@r.Name (@r.Type)</a>
+			}
+			else
+			{
+				<a asp-page="/Book/Details" asp-route-id="@r.Id">@r.Name (@r.Type)</a>
+			}
+		</li>
+		}
+	</ul>
+</div>

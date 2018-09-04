@@ -1,0 +1,33 @@
+﻿@page
+@model Books.App.Pages.Book.AddModel
+
+<div class="container">
+	<h2>Add new book</h2>
+	<form method="post">
+		<div asp-validation-summary="All"></div>
+		<div class="form-group">
+			<span asp-validation-for="Title"></span>
+			<label asp-for="Title">Title</label>
+			<input asp-for="Title" type="text" class="form-control" placeholder="Title">
+		</div>
+		<div class="form-group">
+			<span asp-validation-for="Description"></span>
+			<label asp-for="Description">Description</label>
+			<textarea asp-for="Description" type="text" class="form-control" placeholder="Description"></textarea>
+		</div>
+		<div class="form-group">
+			<span asp-validation-for="Author"></span>
+			<label asp-for="Author">Author</label>
+			<input asp-for="Author" type="text" class="form-control" placeholder="Author">
+		</div>
+		<div class="form-group">
+			<span asp-validation-for="ImageUrl"></span>
+			<label asp-for="ImageUrl">ImageUrl</label>
+			<input asp-for="ImageUrl" type="text" class="form-control" placeholder="ImageUrl">
+		</div>
+
+		<button type="submit" class="btn btn-success">Add Book</button>
+		<a asp-page="/Index" class="btn ">Cancel</a>
+	</form>
+
+</div>

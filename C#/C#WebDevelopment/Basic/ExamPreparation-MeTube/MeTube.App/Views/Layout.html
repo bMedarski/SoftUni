@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MeTube</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-color-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand h4" href="/">MeTube&trade;</a>
+
+        <div class="collapse navbar-collapse justify-content-end row" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active col-md-3">
+                    <a class="nav-link h5" href="/home/index">Home</a>
+                </li>
+                <li class="nav-item active col-md-3" style="display: {{{displayType}}}">
+                    <a class="nav-link h5" href="/users/login">Login</a>
+                </li>
+                <li class="nav-item active col-md-3" style="display: {{{displayType}}}">
+                    <a class="nav-link h5" href="/users/register">Register</a>
+                </li>
+                <li class="nav-item active col-md-3" style="display: {{{authenticatedDisplay}}}">
+                    <a class="nav-link h5" href="/users/profile?id={{{id}}}">Profile</a>
+                </li>
+                <li class="nav-item active col-md-3" style="display: {{{authenticatedDisplay}}}">
+                    <a class="nav-link h5" href="/tubes/add">Upload</a>
+                </li>
+                <li class="nav-item active col-md-3" style="display: {{{authenticatedDisplay}}}">
+                    <a class="nav-link h5" href="/users/logout">Logout</a>
+                </li>
+                <!--<li class="nav-item active col-md-3" style="display: {{{authenticatedDisplay}}}">
+                    <form action="/users/logout" method="get">
+                        <input type="submit" class="btn btn-outline-secondary btn-md" style="display: {{{authenticatedDisplay}}}" value="Logout" />
+                    </form>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    </div>
+</header>
+<div class="container-fluid">
+    <div class="row text-center">
+        <div class=" col col-md-3 ml-auto mr-auto text-center">
+            <div class="alert alert-danger" style="display: {{{show-error}}}">
+                {{{error}}}
+            </div>
+        </div>
+    </div>
+    <div style="display: {{{alertDisplay}}}" class="container">
+        <br />
+        <div class="alert alert-success" role="alert" style="text-align: center">
+            {{{alertMessage}}}
+        </div>
+    </div>
+    <div class="col-12 text-center"> {{{content}}}</div>
+</div>
+<div>
+        <footer class="footer py-3">
+            <div class="container-fluid">
+                <div class="container-fluid text-center">&copy; CopyRight Sanity Web Design Studios 2018. All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

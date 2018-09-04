@@ -1,0 +1,32 @@
+﻿@page
+@model AddModel
+@{
+	ViewData["Title"] = "Add book";
+}
+
+<div class="container">
+	<h2>Add new book</h2>
+	<form method="post">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="form-group">
+			<label asp-for="Title">Title</label>
+			<input asp-for="Title" type="text" class="form-control" placeholder="Title">
+		</div>
+		<div class="form-group">
+			<label asp-for="Description">Description</label>
+			<textarea asp-for="Description" type="text" class="form-control" placeholder="Description"></textarea>
+		</div>
+		<div class="form-group">
+			<label asp-for="Author">Author</label>
+			<input asp-for="Author" type="text" class="form-control" placeholder="Author">
+		</div>
+		<div class="form-group">
+			<label asp-for="ImageUrl">ImageUrl</label>
+			<input asp-for="ImageUrl" type="text" class="form-control" placeholder="ImageUrl">
+		</div>
+
+		<button type="submit" class="btn btn-success">Add Book</button>
+		<a asp-page="/Index" class="btn ">Cancel</a>
+	</form>
+
+</div>

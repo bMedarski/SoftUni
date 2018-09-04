@@ -1,0 +1,20 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+		<a class="navbar-brand" asp-page="/Index">My Library</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a asp-page="/Index" class="nav-item nav-link">Home</a>
+				<a asp-page="/Books/Add" class="nav-item nav-link">Add Book</a>
+				<a asp-page="/Borrower/Add" class="nav-item nav-link">Add Borower</a>
+				<a asp-controller="Movies" asp-action="Home" class="nav-item nav-link">Movies</a>
+			</div>
+		</div>
+		<form class="form-inline input-group-append" method="get" asp-page="/Search">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search books and authors" name="searchTerm" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+</nav>
