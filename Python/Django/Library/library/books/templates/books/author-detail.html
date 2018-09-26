@@ -28,9 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="profile-work">
 
-                        </div>
                     </div>
                     <div class="col-md-8">
                         <div class="tab-content profile-tab" id="myTabContent">
@@ -40,7 +38,7 @@
                                                 <label>Country</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Kshiti123</p>
+                                                <p>{{author.country}}</p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -48,7 +46,7 @@
                                                 <label>Place of Birth</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Kshiti Ghelani</p>
+                                                <p>{{author.place_of_birth}}</p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -56,15 +54,21 @@
                                                 <label>Birth date</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>{{author.birthday}}</p>
+                                                <p>{{author.birthday|date:"j N Y"}}</p>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Genre</label>
+                                                <label>Genres</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>123 456 7890</p>
+                                                <p>
+                                                    {% for genre in author.genres.all %}
+                                                    <span>{{ genre.name }} </span>
+                                                    {% empty %}
+                                                        No genres!
+                                                    {% endfor %}
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -72,57 +76,22 @@
                                                 <label>Website</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Web Developer and Designer</p>
+                                                <p><a href="{{author.website}}">{{author.website}}</a></p>
                                             </div>
                                         </div>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Experience</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Hourly Rate</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>10$/hr</p>
+                                            <div class="col-md-12">
+                                                <ul>
+                                                    {% for book in author.book_set.all %}
+                                                        <li>{{ book.title }} </li>
+                                                    {% empty %}
+                                                        <li>No books</li>
+                                                    {% endfor %}
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Total Projects</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>230</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>English Level</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Availability</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>6 months</p>
-                                            </div>
-                                        </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Your Bio</label><br/>
-                                        <p>Your detail description</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
