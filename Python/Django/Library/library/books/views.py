@@ -1,15 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views import generic
-from .models import Author
+from .models import Book
 
 
 class IndexView(generic.ListView):
     template_name = 'books/home.html'
-    context_object_name = 'authors'
+    context_object_name = 'books'
     def get_queryset(self):
-        return Author.objects.all()
+        return Book.objects.all()
 
 class DetailView(generic.DetailView):
-    model = Author
-    template_name = 'books/author-detail.html'
+    model = Book
+    template_name = 'books/book-detail.html'

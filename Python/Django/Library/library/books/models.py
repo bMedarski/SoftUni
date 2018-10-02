@@ -31,7 +31,7 @@ class Author(models.Model):
     place_of_birth =  models.CharField(max_length=50,null=True)
     # genres = models.CharField(choices=GENRE_TYPES,max_length=20,null=True)
     # genres = models.ForeignKey(Genre,on_delete=models.CASCADE,null=True)
-    genres = models.ManyToManyField(Genre,null=True)
+    genres = models.ManyToManyField(Genre)
 
     def __str__(self):
         return f"{self.first_name} {self.second_name}"
@@ -40,8 +40,9 @@ class Book(models.Model):
     title = models.CharField(max_length=20,null=True)
     description = models.TextField(null=True)
     author = models.ForeignKey(Author,on_delete=models.CASCADE,null=True)
-    published_year = models.PositiveIntegerField(max_length=4,null=True)
+    published_year = models.PositiveIntegerField(null=True)
     cover_image = models.CharField(max_length=100,null=True)
 
     def __str__(self):
         return f"{self.title}"
+

@@ -1,10 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'books/layout.html'%}
 
-</body>
-</html>
+{% block body %}
+
+<div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <img src={{author.picture}} alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                                    <h2>
+                                        {{author.first_name}} {{author.second_name}}
+                                    </h2>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Books</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Country</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{author.country}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Place of Birth</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{author.place_of_birth}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Birth date</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>{{author.birthday|date:"j N Y"}}</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Genres</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>
+                                                    {% for genre in author.genres.all %}
+                                                    <span>{{ genre.name }} </span>
+                                                    {% empty %}
+                                                        No genres!
+                                                    {% endfor %}
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Website</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><a href="{{author.website}}">{{author.website}}</a></p>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul>
+                                                    {% for book in author.book_set.all %}
+                                                        <li>{{ book.title }} </li>
+                                                    {% empty %}
+                                                        <li>No books</li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+{% endblock %}
+
+

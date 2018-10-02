@@ -1,10 +1,22 @@
 {% extends 'books/layout.html'%}
 {% block body %}
-    <h1>Authors</h1>
-    <ul>
-        {% for author in authors%}
-        <li><a href="{% url 'detail' author.pk %}">{{author.first_name}} {{author.second_name}}</a></li>
-
+<div class="container">
+    <div class="row">
+        {% for book in books%}
+        <div class="col-md-6 book-item">
+            <div class="media">
+              <div class="media-left">
+                <a href="{% url 'detail-book' book.pk %}">
+                  <img class="media-object" src="{{book.cover_image}}" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="{% url 'detail-book' book.pk %}">{{book.title}}</a></h4>
+                  <p>{{book.description}}</p>
+              </div>
+            </div>
+        </div>
         {% endfor%}
-    </ul>
+    </div>
+</div>
 {% endblock body %}
