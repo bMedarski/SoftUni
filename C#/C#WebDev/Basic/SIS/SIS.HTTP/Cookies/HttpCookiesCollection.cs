@@ -52,7 +52,7 @@ namespace SIS.HTTP.Cookies
 
 		public override string ToString()
 		{
-			return string.Join(GlobalConstants.HttpCookieStringDelimiter, this.cookies.Values);	///TODO: ReWrite
+			return string.Join(GlobalConstants.HttpCookieStringDelimiter, this.cookies.Values);
 		}
 
 		IEnumerator IEnumerable.GetEnumerator()
