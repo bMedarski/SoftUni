@@ -13,6 +13,7 @@
 	using Headers;
 	using Headers.Contracts;
 	using HTTP.Common;
+	using Sessions.Contracts;
 
 	public class HttpRequest : IHttpRequest
 	{
@@ -33,7 +34,7 @@
 		public IHttpHeaderCollection Headers { get; }
 		public IHttpCookiesCollection Cookies { get; }
 		public HttpRequestMethod RequestMethod { get; private set; }
-
+		public IHttpSession Session { get; set; }
 		public void ParseRequest(string requestString)
 		{
 			//Spliting request by new line
@@ -125,7 +126,7 @@
 					break;
 				}
 
-				var headerArgs = headerLine.Split(RequestConstants.HeaderDelimeter,StringSplitOptions.RemoveEmptyEntries);
+				var headerArgs = headerLine.Split(GlobalConstants.HeaderDelimeter,StringSplitOptions.RemoveEmptyEntries);
 
 				if (headerArgs.Length != RequestConstants.NumberOfParametersInRequestHeaderKeyValuePair)
 				{

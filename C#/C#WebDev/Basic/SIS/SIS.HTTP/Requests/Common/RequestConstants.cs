@@ -14,7 +14,6 @@
 		public const int NumberOfPartsOfKeyValuePair = 2;
 		public const char QueryDelimiter = '?';
 		public const char FragmentDelimiter = '#';
-		public const string HeaderDelimeter = ": ";
 		public const char ParameterDelimiter = '&';
 		public const char KeyValuePairsDelimiter = '=';
 	}

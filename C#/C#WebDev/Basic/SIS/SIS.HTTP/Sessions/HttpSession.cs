@@ -3,7 +3,6 @@
 	using System.Collections.Generic;
 	using Common;
 	using Contracts;
-	using HTTP.Common;
 
 	public class HttpSession : IHttpSession
 	{

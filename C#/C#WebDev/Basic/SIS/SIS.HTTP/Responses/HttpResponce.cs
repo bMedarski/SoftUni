@@ -1,8 +1,7 @@
 ﻿namespace SIS.HTTP.Responses
 {
 	using System.Linq;
-	using System.Net.Http.Headers;
-	using System.Text;
+using System.Text;
 	using Common;
 	using Contracts;
 	using Cookies;
@@ -14,6 +13,7 @@
 
 	public class HttpResponce : IHttpResponse
 	{
+		private const string SetCookieHeader = "Set-Cookie";
 		public HttpResponce()
 		{
 			
@@ -55,6 +55,13 @@
 
 			result.AppendLine($"{GlobalConstants.HttpOneProtocolFragment} {this.StatusCode.GetResponseLine()}");
 			result.AppendLine(this.Headers.ToString());
+			if (this.Cookies.HasCookies())
+			{
+				foreach (var httpCookie in this.Cookies)
+				{
+					result.AppendLine($"{SetCookieHeader}{GlobalConstants.HeaderDelimeter}{httpCookie}");
+				}
+			}
 			result.AppendLine();
 
 			return result.ToString();
