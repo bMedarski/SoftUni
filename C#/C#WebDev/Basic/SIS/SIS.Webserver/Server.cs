@@ -5,7 +5,7 @@
 	using System.Net.Sockets;
 	using System.Threading.Tasks;
 	using Webserver;
-	using Webserver.Routing;
+	using Webserver.Routing.Contracts;
 
 	public class Server
 	{
@@ -15,11 +15,11 @@
 
 		private readonly TcpListener listener;
 
-		private readonly ServerRoutingTable serverRoutingTable;
+		private readonly IServerRoutingTable serverRoutingTable;
 
 		private bool isRunning;
 
-		public Server(int port, ServerRoutingTable serverRoutingTable)
+		public Server(int port, IServerRoutingTable serverRoutingTable)
 		{
 			this.port = port;
 			this.listener = new TcpListener(IPAddress.Parse(LocalhostIpAddress), port);
@@ -32,7 +32,7 @@
 			this.listener.Start();
 			this.isRunning = true;
 
-			Console.WriteLine($"Server started at http://{LocalhostIpAddress}:{port}");
+			Console.WriteLine($"Server started at http://{LocalhostIpAddress}:{this.port}");
 
 			var task = Task.Run(this.ListenLoop);
 			task.Wait();

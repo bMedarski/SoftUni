@@ -86,11 +86,6 @@
 			}
 			return true;
 		}
-		private bool IsValidRequestQueryString(string querystring, string[] queryParameters)
-		{
-			throw new NotImplementedException();
-		}
-
 		private void ParseRequestMethod(string[] requestLine)
 		{
 			var requestMethod = requestLine[0].ToLower().Capitalize();
@@ -115,7 +110,9 @@
 
 		private void ParseRequestPath()
 		{
-			this.Path = this.Url.Split(new[] { RequestConstants.QueryDelimiter }, StringSplitOptions.RemoveEmptyEntries)[0];
+			Console.WriteLine("=",20);
+			Console.WriteLine(this.Url.Split(new[] { RequestConstants.QueryDelimiter }, StringSplitOptions.RemoveEmptyEntries)[0].ToLower());
+			this.Path = this.Url.Split(new[] { RequestConstants.QueryDelimiter }, StringSplitOptions.RemoveEmptyEntries)[0].ToLower();
 		}
 		private void ParseHeaders(string[] requestContent)
 		{

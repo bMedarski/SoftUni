@@ -2,11 +2,12 @@
 {
 	using System;
 	using System.Collections.Generic;
+	using Contracts;
 	using HTTP.Enums;
 	using HTTP.Requests.Contracts;
 	using HTTP.Responses.Contracts;
 
-	public class ServerRoutingTable
+	public class ServerRoutingTable:IServerRoutingTable
     {
 	    public ServerRoutingTable()
 	    {
@@ -19,6 +20,28 @@
 		    };
 	    }
 
-	    public Dictionary<HttpRequestMethod, IDictionary<string, Func<IHttpRequest, IHttpResponse>>> Routes { get; }
+	    private IDictionary<HttpRequestMethod, IDictionary<string, Func<IHttpRequest, IHttpResponse>>> Routes { get; }
+
+	    public void AddRoute(HttpRequestMethod method, string path, Func<IHttpRequest,IHttpResponse> action)
+	    {
+			Console.WriteLine(path.ToLower());
+			var route = new Func<IHttpRequest, IHttpResponse>(action);
+			this.Routes[method].Add(path.ToLower(), route);
+	    }
+
+	    public bool ContainsMethod(HttpRequestMethod method)
+	    {
+		    return this.Routes.ContainsKey(method);
+	    }
+
+	    public bool ContainsPath(HttpRequestMethod method,string path)
+	    {
+		    return this.Routes[method].ContainsKey(path);
+	    }
+
+	    public Func<IHttpRequest, IHttpResponse> GetFunction(HttpRequestMethod method, string path)
+	    {
+		    return this.Routes[method][path];
+	    }
     }
 }

@@ -14,13 +14,13 @@
 	using HTTP.Responses.Contracts;
 	using HTTP.Sessions;
 	using Results;
-	using Routing;
+	using Routing.Contracts;
 
 	public class ConnectionHandler
     {
 	    private readonly Socket client;
-	    private readonly ServerRoutingTable serverRoutingTable;
-	    public ConnectionHandler(Socket client, ServerRoutingTable serverRoutingTable)
+	    private readonly IServerRoutingTable serverRoutingTable;
+	    public ConnectionHandler(Socket client, IServerRoutingTable serverRoutingTable)
 	    {
 		    Validator.ThrowIfNull(client, nameof(client));
 		    Validator.ThrowIfNull(serverRoutingTable, nameof(serverRoutingTable));
@@ -62,13 +62,13 @@
 
 	    private IHttpResponse HandleRequest(IHttpRequest request)
 	    {
-		    if (!this.serverRoutingTable.Routes.ContainsKey(request.RequestMethod) ||
-		        !this.serverRoutingTable.Routes[request.RequestMethod].ContainsKey(request.Path))
+		    if (!this.serverRoutingTable.ContainsMethod(request.RequestMethod) ||
+		        !this.serverRoutingTable.ContainsPath(request.RequestMethod,request.Path))
 		    {
 				return new HttpResponce(HttpResponseStatusCode.NotFound);
 		    }
 
-		    return this.serverRoutingTable.Routes[request.RequestMethod][request.Path].Invoke(request);
+		    return this.serverRoutingTable.GetFunction(request.RequestMethod,request.Path).Invoke(request);
 	    }
 
 	    private async Task PrepareResponse(IHttpResponse response)
