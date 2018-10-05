@@ -78,7 +78,7 @@
 		    await this.client.SendAsync(byteSegments, SocketFlags.None);
 	    }
 
-	    public async Task ProcessRequesteAsync()
+	    public async Task ProcessRequestAsync()
 	    {
 		    try
 		    {
