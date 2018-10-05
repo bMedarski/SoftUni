@@ -37,11 +37,9 @@
 		public IHttpSession Session { get; set; }
 		public void ParseRequest(string requestString)
 		{
-			//Spliting request by new line
 			string[] splitRequestContent =
 				requestString.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
 
-			//Spliting request line by space
 			string[] requestLine = splitRequestContent[0].Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
 
 			if (!this.IsValidRequestLine(requestLine))
@@ -103,15 +101,11 @@
 		}
 		private void ParseRequestUrl(string[] requestLine)
 		{
-
 			this.Url = requestLine[1];
-
 		}
 
 		private void ParseRequestPath()
 		{
-			Console.WriteLine("=",20);
-			Console.WriteLine(this.Url.Split(new[] { RequestConstants.QueryDelimiter }, StringSplitOptions.RemoveEmptyEntries)[0].ToLower());
 			this.Path = this.Url.Split(new[] { RequestConstants.QueryDelimiter }, StringSplitOptions.RemoveEmptyEntries)[0].ToLower();
 		}
 		private void ParseHeaders(string[] requestContent)

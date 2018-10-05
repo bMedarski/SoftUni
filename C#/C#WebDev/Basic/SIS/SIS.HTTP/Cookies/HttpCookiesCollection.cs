@@ -18,7 +18,7 @@ namespace SIS.HTTP.Cookies
 		public void Add(HttpCookie cookie)
 		{
 			Validator.ThrowIfNull(cookie, nameof(cookie));
-			this.cookies.Add(cookie.Key, cookie);
+			this.cookies[cookie.Key] = cookie;
 		}
 
 		public bool ContainsCookie(string key)
@@ -41,7 +41,18 @@ namespace SIS.HTTP.Cookies
 		{
 			return this.cookies.Count > 0;
 		}
-
+		public bool IfCookieIsNew(string key, string value)
+		{
+			if (!this.ContainsCookie(key) || value == null)
+			{
+				return false;
+			}
+			if (this.cookies[key].Value!=value)
+			{
+				return false;
+			}
+			return true;
+		}
 		public IEnumerator<HttpCookie> GetEnumerator()
 		{
 			foreach (var cookie in this.cookies)

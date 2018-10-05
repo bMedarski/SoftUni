@@ -2,9 +2,10 @@
 {
 	using Controllers;
 	using SIS.HTTP.Enums;
+	using SIS.WebServer;
+	using SIS.Webserver.Results;
 	using SIS.Webserver.Routing;
 	using SIS.Webserver.Routing.Contracts;
-	using SIS.WebServer;
 
 	public class Launcher
 	{
@@ -19,9 +20,9 @@
 		private static void GetRoutes(IServerRoutingTable serverRoutingTable)
 		{
 			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/",request => new HomeController().Index(request));
-			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Home/Index",request => new HomeController().Index(request));
-			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Users/Register",request => new HomeController().Index(request));
-			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Users/Login",request => new HomeController().Index(request));
+			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Home/Index",request => new RedirectResult("/"));
+			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Users/Register",request => new UsersController().Register(request));
+			serverRoutingTable.AddRoute(HttpRequestMethod.Get,"/Users/Login",request => new UsersController().Login(request));
 		}
 	}
 }

@@ -8,5 +8,6 @@
 		HttpCookie GetCookie(string key);
 		bool ContainsCookie(string key);
 		bool HasCookies();
+		bool IfCookieIsNew(string key, string value);
 	}
 }

@@ -42,7 +42,7 @@
 		{
 			while (this.isRunning)
 			{
-				var client = await this.listener.AcceptSocketAsync();
+				var client = this.listener.AcceptSocketAsync().GetAwaiter().GetResult();
 				var connectionHandler = new ConnectionHandler(client, this.serverRoutingTable);
 				await connectionHandler.ProcessRequestAsync();
 			}

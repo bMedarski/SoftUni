@@ -1,7 +1,7 @@
 ﻿namespace SIS.HTTP.Responses
 {
 	using System.Linq;
-using System.Text;
+	using System.Text;
 	using Common;
 	using Contracts;
 	using Cookies;

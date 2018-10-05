@@ -19,8 +19,7 @@
 			Validator.ThrowIfNullOrEmpty(header.Key, nameof(header.Key));
 			Validator.ThrowIfNullOrEmpty(header.Value, nameof(header.Value));
 
-			//Allowing multiple headers with the same name
-			this.headers.Add(header.Key, header);
+			this.headers[header.Key]= header;
 		}
 
 		public bool ContainsHeader(string key)

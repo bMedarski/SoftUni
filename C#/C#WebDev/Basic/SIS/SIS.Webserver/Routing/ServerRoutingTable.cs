@@ -24,7 +24,6 @@
 
 	    public void AddRoute(HttpRequestMethod method, string path, Func<IHttpRequest,IHttpResponse> action)
 	    {
-			Console.WriteLine(path.ToLower());
 			var route = new Func<IHttpRequest, IHttpResponse>(action);
 			this.Routes[method].Add(path.ToLower(), route);
 	    }

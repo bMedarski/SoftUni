@@ -8,7 +8,7 @@
 	public class HtmlResult:HttpResponce
     {
 	    private const string ContentTypeHeaderKey = "Content-type";
-	    private const string ContentTypeHeaderValue = "Text/html";
+	    private const string ContentTypeHeaderValue = "Text/html; charset=utf-8";
 
 	    public HtmlResult(string content,HttpResponseStatusCode responseStatusCode)
 		    :base(responseStatusCode)
