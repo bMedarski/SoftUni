@@ -1,5 +1,6 @@
 ﻿namespace SIS.Webserver.Results
 {
+	using System;
 	using System.Text;
 	using HTTP.Enums;
 	using HTTP.Headers;
@@ -14,6 +15,8 @@
 		    :base(responseStatusCode)
 	    {
 		    this.Headers.Add(new HttpHeader(ContentTypeHeaderKey,ContentTypeHeaderValue));
+		    //Console.WriteLine(this.Cookies.GetCookie("SIS_ID"));
+		    //Console.WriteLine("v Html-a");
 		    this.Content = Encoding.UTF8.GetBytes(content);
 	    }
     }

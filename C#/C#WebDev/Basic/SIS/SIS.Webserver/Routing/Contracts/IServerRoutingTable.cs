@@ -7,7 +7,7 @@
 
 	public interface IServerRoutingTable
 	{
-		void AddRoute(HttpRequestMethod method, string path, Func<IHttpRequest, IHttpResponse> action);
+		void Add(HttpRequestMethod method, string path, Func<IHttpRequest, IHttpResponse> action);
 
 		bool ContainsMethod(HttpRequestMethod method);
 

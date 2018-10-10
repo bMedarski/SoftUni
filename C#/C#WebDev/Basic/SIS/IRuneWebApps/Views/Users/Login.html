@@ -1,11 +1,9 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+﻿@Model.Navigation
+<h2>Login</h2>
+<form action="/Users/Login" method="post">
+	<div>Username/Email <input type="text" value="" name="username" placeholder="Username/Email" /></div>
+	<div>Password <input type="password" value="" name="password" placeholder="Password" /></div>
+	<div><input type="submit" value="Login" /></div>
+</form>
+<hr />
+@Model.Footer

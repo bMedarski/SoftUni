@@ -1,7 +1,6 @@
 ﻿namespace SIS.HTTP.Cookies
 {
 	using System;
-	using System.Net;
 	using Common;
 	using HTTP.Common;
 
@@ -35,7 +34,7 @@
 			if (this.HttpOnly)
 			{
 				cookie += $"{GlobalConstants.HttpCookieStringDelimiter}{CookiesConstants.HttpCookieHttpOnlyKey}";
-				//cookie += $"{GlobalConstants.HttpCookieStringDelimiter}{CookiesConstants.HttpCookiePathKey}";
+				cookie += $"{GlobalConstants.HttpCookieStringDelimiter}{CookiesConstants.HttpCookiePathKey}";
 			}
 			return cookie;
 			}

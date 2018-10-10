@@ -3,14 +3,16 @@ using IRuneData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace IRuneData.Migrations
 {
     [DbContext(typeof(IRuneDbContext))]
-    partial class IRuneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181010110054_ReworkedPrice")]
+    partial class ReworkedPrice
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -1,0 +1,15 @@
+﻿@Model.NavigationLogged
+<hr />
+<h2>Create Track</h2>
+<hr />
+<form action="/Tracks/Create" method="post">
+	<div><input type="hidden" name="id" value="@Model.AlbumId"/></div>
+	<div>Name <input type="text" placeholder="Name..." name="name"/></div>
+	<div>Link <input type="text" placeholder="Link..." name="link"/></div>
+	<div>Price <input type="number" min="0.1" step="0.1" placeholder="Price..." name="price"/></div>
+	<div><input type="submit" value="Create"/></div>
+</form>
+<hr />
+<p><a href="/Albums/Details?id=@Model.AlbumId">Back to Album</a></p>
+<hr />
+@Model.Footer

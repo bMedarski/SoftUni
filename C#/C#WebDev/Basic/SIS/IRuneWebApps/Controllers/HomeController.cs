@@ -2,11 +2,24 @@
 {
 	using SIS.HTTP.Requests.Contracts;
 	using SIS.HTTP.Responses.Contracts;
+	using SIS.Webserver.Results;
 
 	public class HomeController:BaseContoller
 	{
 		public IHttpResponse Index(IHttpRequest request)
 		{
+			if (this.userService.IsAuthenticated(request))
+			{
+				return new RedirectResult("/Home/SignIn");
+			}
+			this.viewBag["Title"]="Home";
+			return this.View();
+		}
+
+		public IHttpResponse SignIndex(IHttpRequest request)
+		{
+			this.viewBag["Title"]="Home";
+			this.viewBag["Username"] = request.Session.GetParameter("username").ToString();
 			return this.View();
 		}
 	}

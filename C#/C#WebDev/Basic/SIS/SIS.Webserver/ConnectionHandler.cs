@@ -65,7 +65,8 @@
 		    if (!this.serverRoutingTable.ContainsMethod(request.RequestMethod) ||
 		        !this.serverRoutingTable.ContainsPath(request.RequestMethod,request.Path))
 		    {
-				return new HttpResponce(HttpResponseStatusCode.NotFound);
+			    var status = HttpResponseStatusCode.NotFound;
+				return new TextResult($"{(int)status} {status} - Requested path not found",status);
 		    }
 
 		    return this.serverRoutingTable.GetFunction(request.RequestMethod,request.Path).Invoke(request);
@@ -80,31 +81,29 @@
 
 	    public async Task ProcessRequestAsync()
 	    {
-			try
-			{
+			//try
+			//{
 				var httpRequest = await this.ReadRequest();
 
 			    if (httpRequest != null)
 			    {
 				    string sessionId = this.SetRequestSession(httpRequest);
 				    var httpResponse = this.HandleRequest(httpRequest);
-				    if (!httpRequest.Cookies.IfCookieIsNew(GlobalConstants.SessionCookieKey, sessionId))
-				    {
+				    //if (!httpRequest.Cookies.IfCookieIsNew(GlobalConstants.SessionCookieKey, sessionId))
+				    //{
 					    this.SetResponseSession(httpResponse, sessionId);
-				    }
+				    //}
 				    await this.PrepareResponse(httpResponse);
 			    }
-			}
-			catch (BadRequestException e)
-			{
-				await this.PrepareResponse(new TextResult(e.Message, HttpResponseStatusCode.BadRequest));
-			}
-			catch (Exception e)
-			{
-				await this.PrepareResponse(new TextResult(e.Message, HttpResponseStatusCode.InternalServerError));
-			}
-
-
+			//}
+			//catch (BadRequestException e)
+			//{
+			//	await this.PrepareResponse(new TextResult(e.Message, HsttpResponseStatusCode.BadRequest));
+			//}
+			//catch (Exception e)
+			//{
+			//	await this.PrepareResponse(new TextResult(e.Message, HttpResponseStatusCode.InternalServerError));
+			//}
 			this.client.Shutdown(SocketShutdown.Both);
 	    }
 
@@ -131,7 +130,7 @@
 		{
 			if (sessionId != null)
 			{
-				httpResponse.AddCookie(new HttpCookie(GlobalConstants.SessionCookieKey,$"{sessionId}"));
+				httpResponse.AddCookie(new HttpCookie(GlobalConstants.SessionCookieKey,sessionId));
 			}
 		}
 	}

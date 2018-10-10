@@ -1,0 +1,11 @@
+﻿@Model.NavigationLogged
+<hr />
+<iframe width="560" height="315" src="@Model.Link" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div>Name: @Model.Name</div>
+<div>Price: $@Model.Price</div>
+<hr />
+<p>
+	<a href="/Albums/Details?id=@Model.AlbumId">Back to All</a>
+</p>
+<hr />
+@Model.Footer

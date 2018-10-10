@@ -1,0 +1,13 @@
+﻿@Model.NavigationLogged
+<hr />
+<h2>Create Album</h2>
+<hr />
+<form action="/Albums/Create" method="post">
+	<div>Name <input type="text" placeholder="Name..." name="name"/></div>
+	<div>Cover <input type="text" placeholder="Cover..." name="cover"/></div>
+	<div><input type="submit" value="Create"/></div>
+</form>
+<hr />
+<p><a href="/Albums/All">Back to All</a></p>
+<hr />
+@Model.Footer

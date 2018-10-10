@@ -1,0 +1,17 @@
+﻿@Model.NavigationLogged
+<hr />
+<img src="@Model.Cover"/>
+<div>Name: @Model.Name</div> 
+<div>Price: $@Model.Price</div>
+<hr />
+<p>Tracks</p>
+<hr />
+<p>
+	<a href="/Tracks/Create?id=@Model.AlbumId">Create Track</a>
+</p>
+<hr />
+@Model.Tracks
+<hr />
+<p><a href="/Albums/All">Back to All</a></p>
+<hr />
+@Model.Footer
