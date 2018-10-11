@@ -1,11 +1,14 @@
-﻿@Model.NavigationLogged
-<hr />
-<iframe width="560" height="315" src="@Model.Link" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<div>Name: @Model.Name</div>
-<div>Price: $@Model.Price</div>
-<hr />
-<p>
-	<a href="/Albums/Details?id=@Model.AlbumId">Back to All</a>
-</p>
-<hr />
+﻿@Model.Navigation
+<div class="row">
+	<section class="offset-md-3 col-md-6 text-center">
+		<p><strong>Track Name: @Model.Name</strong></p>
+		<p><strong>Track Price: $@Model.Price</strong></p>
+		<hr class="bg-success" />
+		<iframe width="560" height="315" src="@Model.Link" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<hr class="bg-success" />
+		<p>
+			<a href="/Albums/Details?id=@Model.AlbumId" class="btn btn-success">Back to Album</a>
+		</p>
+	</section>
+</div>
 @Model.Footer

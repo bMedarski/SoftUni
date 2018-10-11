@@ -1,12 +1,25 @@
 ﻿@Model.Navigation
-<hr />
-<h2>Register</h2>
-<form action="/Users/Register" method="post">
-	<div>Username/Email <input type="text" value="" name="username" placeholder="Username..." /></div>
-	<div>Password <input type="password" value="" name="password" placeholder="Password..." /></div>
-	<div>Confirm Password <input type="password" value="" name="confirmPassword" placeholder="Confirm Password..." /></div>
-	<div>Email <input type="email" value="" name="email" placeholder="Email..." /></div>
-	<div><input type="submit" value="Register" /></div>
+<form method="post" action="/Users/Register" class="offset-md-3 col-md-6">
+	<h2 class="text-center text-success">Register</h2>
+	<hr class="bg-success" />
+	<div class="form-group">
+		<label for="exampleInputEmail1">Username</label>
+		<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username..." name="username">
+	</div>
+	<div class="form-group">
+		<label for="exampleInputPassword1">Password</label>
+		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password..." name="password">
+	</div>
+	<div class="form-group">
+		<label for="exampleInputPassword3">Confirm Password</label>
+		<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Confirm Password..." name="confirmPassword">
+	</div>
+	<div class="form-group">
+		<label for="exampleInputPassword2">Emal</label>
+		<input type="email" class="form-control" id="exampleInputPassword2" placeholder="Email..." name="email">
+	</div>
+	<div class="text-center">
+		<button type="submit" class="btn btn-success">Register</button>
+	</div>
 </form>
-<hr />
 @Model.Footer

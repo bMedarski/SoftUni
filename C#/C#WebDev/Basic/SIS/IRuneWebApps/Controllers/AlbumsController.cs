@@ -26,6 +26,8 @@
 		public IHttpResponse All(IHttpRequest request)
 		{
 			this.viewBag["Title"] = TitleForAllAlbums;
+			this.viewBag["SignIn"] = "";
+			this.viewBag["SignOff"] = "hidden";
 			var albums = this.albumService.GetAllAlbums();
 			if (!albums.Any())
 			{
@@ -34,12 +36,12 @@
 			else
 			{
 				var sb = new StringBuilder();
+				sb.AppendLine("<Section class='album-list'>");
 				foreach (var album in albums)
 				{
-					sb.AppendLine($"<p><a href=/Albums/Details?id={album.Id}>{album.Name}</a></p>");
+					sb.AppendLine($"<div><a href=/Albums/Details?id={album.Id}><strong>{album.Name}</strong></a></div>");
 				}
-
-				sb.AppendLine("<hr/>");
+				sb.AppendLine("</Section>");
 				this.viewBag["AlbumList"] = sb.ToString();
 				this.viewBag["AlbumList"] = sb.ToString();
 			}
@@ -48,6 +50,8 @@
 		public IHttpResponse Create(IHttpRequest request)
 		{
 			this.viewBag["Title"] = TitleForCreateAlbum;
+			this.viewBag["SignIn"] = "";
+			this.viewBag["SignOff"] = "hidden";
 			if (request.RequestMethod == HttpRequestMethod.Get)
 			{
 				return this.View();
@@ -73,18 +77,29 @@
 			}
 			var price = album.Price * MultiplyCoeficientForAlbumPrice;
 			var tracks = album.Tracks.ToArray();
-			var tracksText = new StringBuilder();
-			tracksText.AppendLine("<ul>");
-			for (int i = 0; i < tracks.Length; i++)
+			if (tracks.Any())
 			{
-				tracksText.AppendLine($"<li>{i+1}.<a href=/Tracks/Details?id={tracks[i].TrackId}>{tracks[i].Track.Name}</a></li>");
+				var tracksText = new StringBuilder();
+				tracksText.AppendLine("<ul>");
+				for (int i = 0; i < tracks.Length; i++)
+				{
+					tracksText.AppendLine($"<li>{i+1}.<a href=/Tracks/Details?id={tracks[i].TrackId}>{tracks[i].Track.Name}</a></li>");
+				}
+				tracksText.AppendLine("</ul>");
+				this.viewBag["Tracks"] = tracksText.ToString();
 			}
-			tracksText.AppendLine("</ul>");
+			else
+			{
+				this.viewBag["Tracks"] = "<p><strong>No Tracks yet.</strong></p>";
+			}
+
 			this.viewBag["AlbumId"] = albumId;
 			this.viewBag["Title"] = TitleForAlbumDetails;
 			this.viewBag["Cover"] = album.Cover;
 			this.viewBag["Name"] = album.Name;
-			this.viewBag["Tracks"] = tracksText.ToString();
+
+			this.viewBag["SignIn"] = "";
+			this.viewBag["SignOff"] = "hidden";
 			if (price == null)
 			{
 				price = 0;

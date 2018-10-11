@@ -18,6 +18,8 @@
 			if (request.RequestMethod==HttpRequestMethod.Get)
 			{
 				this.viewBag["Title"] = TitleLoginPage;
+				this.viewBag["SignIn"] = "hidden";
+				this.viewBag["SignOff"] = "";
 				return this.View();
 			}
 			else
@@ -39,7 +41,8 @@
 				else
 				{
 					var navigation = File.ReadAllText(NavigationLoggedPath);
-					this.viewBag["Navigation"] = navigation;
+					this.viewBag["SignIn"] = "";
+					this.viewBag["SignOff"] = "hidden";
 					var cookie = this.userService.SignIn(username, request);
 
 					var response = new RedirectResult("/Home/SignIn");
@@ -53,6 +56,8 @@
 			if (request.RequestMethod == HttpRequestMethod.Get)
 			{
 				this.viewBag["Title"] = TitleRegistrationPage;
+				this.viewBag["SignIn"] = "hidden";
+				this.viewBag["SignOff"] = "";
 				return this.View();
 			}
 			else
@@ -74,7 +79,8 @@
 					return this.View(BadRequestViewName,"Common");
 				}
 				this.userService.CreateUser(username, email, passwordHash);
-
+				this.viewBag["SignIn"] = "";
+				this.viewBag["SignOff"] = "hidden";
 				var authCookie = this.userService.SignIn(username, request);
 				var response = new RedirectResult("/");
 				response.AddCookie(authCookie);

@@ -1,10 +1,17 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>@Model.Title</title>
+	<meta charset="utf-8" />
+	<title>@Model.Title</title>
+	<link href="../../Resources/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="../../Resources/css/style.css" rel="stylesheet" />
+	<script src="../../Resources/js/jquery-3.3.1.min.js"></script>
+	<script src="../../Resources/js/popper.min.js"></script>
+	<script src="../../Resources/js/bootstrap.min.js"></script>
 </head>
 <body>
-	@RenderBody()
+	<main class="container-fluid">
+		@RenderBody()
+	</main>
 </body>
 </html>

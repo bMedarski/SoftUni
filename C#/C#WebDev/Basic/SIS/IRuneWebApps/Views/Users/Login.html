@@ -1,9 +1,17 @@
 ﻿@Model.Navigation
-<h2>Login</h2>
-<form action="/Users/Login" method="post">
-	<div>Username/Email <input type="text" value="" name="username" placeholder="Username/Email" /></div>
-	<div>Password <input type="password" value="" name="password" placeholder="Password" /></div>
-	<div><input type="submit" value="Login" /></div>
+<form method="post" action="/Users/Login" class="offset-md-3 col-md-6">
+	<h2 class="text-center text-success">Login</h2>
+	<hr class="bg-success" />
+	<div class="form-group">
+		<label for="exampleInputEmail1">Username / Email</label>
+		<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username / Email..." name="username">
+	</div>
+	<div class="form-group">
+		<label for="exampleInputPassword1">Password</label>
+		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password..." name="password">
+	</div>
+	<div class="text-center">
+		<button type="submit" class="btn btn-success">Login</button>
+	</div>	
 </form>
-<hr />
 @Model.Footer

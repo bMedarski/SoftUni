@@ -1,0 +1,32 @@
+﻿hr {
+	height: 2px;
+	margin: 5px 0;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.home {
+	padding: 50px 15px;
+	margin: 20px 0 50px 0;
+	font-size: 1.5rem;
+}
+form {
+	margin: 20px 0 50px 0;
+}
+.hidden {
+	display: none;
+}
+p {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+.album {
+	padding: 0 20px;
+}
+.album-list {
+	padding: 10px 0 20px 0;
+}
+.album-details {
+	padding: 10px 20px;
+}

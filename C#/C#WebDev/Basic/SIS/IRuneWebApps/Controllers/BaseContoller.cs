@@ -6,6 +6,7 @@
 	using Services;
 	using Services.Contracts;
 	using SIS.HTTP.Enums;
+	using SIS.HTTP.Requests.Contracts;
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
@@ -38,28 +39,35 @@
 			var navigation = File.ReadAllText(NavigationPath);
 			var navigationLogged = File.ReadAllText(NavigationLoggedPath);
 
+			navigation = this.ReplaceMarkers(navigation);
 			this.viewBag["Footer"]=footer;
 			this.viewBag["NavigationLogged"] = navigationLogged;
 			this.viewBag["Navigation"]=navigation;
 
-			var allContent = this.GetViewContent(viewName, this.viewBag, controller);
+			var allContent = this.GetViewContent(viewName, controller);
 
 			return new HtmlResult(allContent,HttpResponseStatusCode.Ok);
 		}
-		private string GetViewContent(string viewName, IDictionary<string, string> viewBag, string controller)
+		private string ReplaceMarkers(string content)
+		{
+			foreach (var item in this.viewBag)
+			{
+				content = content.Replace(ReplacementPreffix + item.Key, item.Value);
+			}
+
+			return content;
+		}
+		private string GetViewContent(string viewName, string controller)
 		{
 			var layoutContent = File.ReadAllText(LayoutPath);
 			var content = File.ReadAllText(this.GetFilePath(viewName,controller));
-			foreach (var item in viewBag)
-			{
-				content = content.Replace(ReplacementPreffix + item.Key, item.Value);
-				layoutContent = layoutContent.Replace(ReplacementPreffix + item.Key, item.Value);
-			}
+			content = this.ReplaceMarkers(content);
+			layoutContent = this.ReplaceMarkers(layoutContent);
 
 			var allContent = layoutContent.Replace(ReplacementBodyText, content);
 			return allContent;
 		}
-
+		
 		private string GetFilePath(string viewName, string cotroller)
 		{
 			var controllerName = string.Empty;

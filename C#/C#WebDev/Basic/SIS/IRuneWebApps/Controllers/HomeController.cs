@@ -13,12 +13,16 @@
 				return new RedirectResult("/Home/SignIn");
 			}
 			this.viewBag["Title"]="Home";
+			this.viewBag["SignIn"] = "hidden";
+			this.viewBag["SignOff"] = "";
 			return this.View();
 		}
 
 		public IHttpResponse SignIndex(IHttpRequest request)
 		{
 			this.viewBag["Title"]="Home";
+			this.viewBag["SignIn"] = "";
+			this.viewBag["SignOff"] = "hidden";
 			this.viewBag["Username"] = request.Session.GetParameter("username").ToString();
 			return this.View();
 		}

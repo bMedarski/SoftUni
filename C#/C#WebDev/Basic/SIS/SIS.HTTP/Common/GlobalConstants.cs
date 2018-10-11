@@ -8,5 +8,6 @@
 		public const string HttpCookieStringDelimiter = "; ";
 		public const char HttpCookieKeyValueDelimiter = '=';
 		public const string HeaderDelimeter = ": ";
+		public static string[] PermitedResourceExtensions = new[] {"js", "css"};
 	}
 }

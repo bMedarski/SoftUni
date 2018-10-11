@@ -1,5 +1,16 @@
-﻿<ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="/Users/Login">Login</a></li>
-	<li><a href="/Users/Register">Register</a></li>
-</ul>
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-success text-light">
+	<a class="navbar-brand" href="/">IRunes</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse text-white" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="/">Home</a>
+			<a class="nav-item nav-link @Model.SignOff" href="/Users/Login">Login</a>
+			<a class="nav-item nav-link @Model.SignOff" href="/Users/Register">Register</a>
+			<a class="nav-item nav-link @Model.SignIn" href="/Albums/All">Albums</a>
+			<a class="nav-item nav-link @Model.SignIn" href="/Users/Logout">Logout</a>
+		</div>
+	</div>
+</nav>
+<hr class="bg-success" />
