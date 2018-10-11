@@ -6,11 +6,10 @@
 	using Services;
 	using Services.Contracts;
 	using SIS.HTTP.Enums;
-	using SIS.HTTP.Requests.Contracts;
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
-	public abstract class BaseContoller
+	public abstract class BaseController
 	{
 		private const string RootDirectoryRelativePath = "../../../";
 		private const string ViewFolderName = "Views";
@@ -20,7 +19,6 @@
 		private const string FooterPath = "../../../Views/Common/_footer.html";
 		private const string NavigationPath = "../../../Views/Common/_navigation.html";
 		private const string LayoutPath = "../../../Views/Common/_layout.html";
-		protected const string NavigationLoggedPath = "../../../Views/Common/_navigationLogged.html";
 		private const string ReplacementPreffix = "@Model.";
 		private const string ReplacementBodyText = "@RenderBody()";
 		protected const string BadRequestViewName = "BadRequestView";
@@ -28,7 +26,7 @@
 		protected readonly IUserService userService;
 		protected IDictionary<string, string> viewBag;
 
-		protected BaseContoller()
+		protected BaseController()
 		{
 			this.userService = new UserService();
 			this.viewBag = new Dictionary<string, string>();
@@ -37,11 +35,9 @@
 		{
 			var footer = File.ReadAllText(FooterPath);
 			var navigation = File.ReadAllText(NavigationPath);
-			var navigationLogged = File.ReadAllText(NavigationLoggedPath);
 
 			navigation = this.ReplaceMarkers(navigation);
 			this.viewBag["Footer"]=footer;
-			this.viewBag["NavigationLogged"] = navigationLogged;
 			this.viewBag["Navigation"]=navigation;
 
 			var allContent = this.GetViewContent(viewName, controller);

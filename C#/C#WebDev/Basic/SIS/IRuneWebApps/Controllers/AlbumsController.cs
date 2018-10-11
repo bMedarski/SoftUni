@@ -10,7 +10,7 @@
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
-	public class AlbumsController : BaseContoller
+	public class AlbumsController : BaseController
 	{
 		private const decimal MultiplyCoeficientForAlbumPrice = 0.87m;
 		private const string NoAlbumsMessage = "There are currently no albums.";
@@ -25,6 +25,10 @@
 		}
 		public IHttpResponse All(IHttpRequest request)
 		{
+			if(!this.userService.IsAuthenticated(request))
+			{
+				return new RedirectResult("/");
+			}
 			this.viewBag["Title"] = TitleForAllAlbums;
 			this.viewBag["SignIn"] = "";
 			this.viewBag["SignOff"] = "hidden";
@@ -54,6 +58,10 @@
 			this.viewBag["SignOff"] = "hidden";
 			if (request.RequestMethod == HttpRequestMethod.Get)
 			{
+				if(!this.userService.IsAuthenticated(request))
+				{
+					return new RedirectResult("/");
+				}
 				return this.View();
 			}
 			else
@@ -67,6 +75,10 @@
 
 		public IHttpResponse Details(IHttpRequest request)
 		{
+			if(!this.userService.IsAuthenticated(request))
+			{
+				return new RedirectResult("/");
+			}
 			var albumId = request.QueryData["id"].ToString();
 			var album = this.albumService.GetAlbum(albumId);
 

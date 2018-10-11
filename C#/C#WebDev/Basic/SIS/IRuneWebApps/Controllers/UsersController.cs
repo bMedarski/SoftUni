@@ -1,6 +1,5 @@
 ﻿namespace IRuneWebApp.Controllers
 {
-	using System.IO;
 	using Common;
 	using Extensions;
 	using SIS.HTTP.Enums;
@@ -8,7 +7,7 @@
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
-	public class UsersController:BaseContoller
+	public class UsersController:BaseController
 	{
 		private const string TitleLoginPage = "Login page";
 		private const string TitleRegistrationPage = "Registration page";
@@ -40,7 +39,6 @@
 				}
 				else
 				{
-					var navigation = File.ReadAllText(NavigationLoggedPath);
 					this.viewBag["SignIn"] = "";
 					this.viewBag["SignOff"] = "hidden";
 					var cookie = this.userService.SignIn(username, request);
@@ -73,7 +71,7 @@
 				}
 				var passwordHash = this.userService.HashPassword(password);
 
-				if (this.userService.GetUser(username, email, password) == null)
+				if (this.userService.GetUser(username, email, password) != null)
 				{
 					this.viewBag["Error"] = "Already such an user";
 					return this.View(BadRequestViewName,"Common");
@@ -96,9 +94,9 @@
 			//get and delete cookie
 			var cookie = request.Cookies.GetCookie(Constants.AuthentificationKey);
 			cookie.Delete();
-			var responce = new RedirectResult("/");
-			responce.AddCookie(cookie);
-			return responce;
+			var response = new RedirectResult("/");
+			response.AddCookie(cookie);
+			return response;
 		}
 	}
 }

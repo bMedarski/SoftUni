@@ -10,7 +10,7 @@
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
-	public class TracksController:BaseContoller
+	public class TracksController:BaseController
 	{
 		private const string TitleCreateTrack = "Create Track";
 		private const string TitleDetailTrack = "Track Details";
@@ -27,6 +27,10 @@
 			this.viewBag["SignOff"] = "hidden";
 			if (request.RequestMethod==HttpRequestMethod.Get)
 			{
+				if(!this.userService.IsAuthenticated(request))
+				{
+					return new RedirectResult("/");
+				}
 				this.viewBag["AlbumId"] = request.QueryData["id"].ToString();
 				return this.View();
 			}
@@ -44,6 +48,10 @@
 		}
 		public IHttpResponse Details(IHttpRequest request)
 		{
+			if(!this.userService.IsAuthenticated(request))
+			{
+				return new RedirectResult("/");
+			}
 			this.viewBag["Title"] = TitleDetailTrack;
 			var trackId = request.QueryData["id"].ToString();
 			var track = this.tracksService.GetTrack(trackId);

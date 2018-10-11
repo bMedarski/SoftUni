@@ -4,7 +4,7 @@
 	using SIS.HTTP.Responses.Contracts;
 	using SIS.Webserver.Results;
 
-	public class HomeController:BaseContoller
+	public class HomeController:BaseController
 	{
 		public IHttpResponse Index(IHttpRequest request)
 		{
@@ -20,6 +20,10 @@
 
 		public IHttpResponse SignIndex(IHttpRequest request)
 		{
+			if (!this.userService.IsAuthenticated(request))
+			{
+				return new RedirectResult("");
+			}
 			this.viewBag["Title"]="Home";
 			this.viewBag["SignIn"] = "";
 			this.viewBag["SignOff"] = "hidden";
