@@ -5,7 +5,7 @@
 	using SIS.HTTP.Enums;
 	using SIS.HTTP.Requests.Contracts;
 	using SIS.HTTP.Responses.Contracts;
-	using SIS.Webserver.Results;
+	using SIS.WebServer.Results;
 
 	public class UsersController:BaseController
 	{

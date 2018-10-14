@@ -7,19 +7,20 @@
 	using Services.Contracts;
 	using SIS.HTTP.Enums;
 	using SIS.HTTP.Responses.Contracts;
-	using SIS.Webserver.Results;
+	using SIS.MvcFramework.Controllers;
+	using SIS.WebServer.Results;
 
-	public abstract class BaseController
+	public abstract class BaseController : Controller
 	{
 		private const string RootDirectoryRelativePath = "../../../";
 		private const string ViewFolderName = "Views";
-		private const string DirectoryDelimeter = "/";
+		private const string DirectoryDelimiter = "/";
 		private const string ControllerDefaultName = "Controller";
 		private const string HtmlSuffix = ".html";
 		private const string FooterPath = "../../../Views/Common/_footer.html";
 		private const string NavigationPath = "../../../Views/Common/_navigation.html";
 		private const string LayoutPath = "../../../Views/Common/_layout.html";
-		private const string ReplacementPreffix = "@Model.";
+		private const string ReplacementPrefix = "@Model.";
 		private const string ReplacementBodyText = "@RenderBody()";
 		protected const string BadRequestViewName = "BadRequestView";
 		
@@ -48,7 +49,7 @@
 		{
 			foreach (var item in this.viewBag)
 			{
-				content = content.Replace(ReplacementPreffix + item.Key, item.Value);
+				content = content.Replace(ReplacementPrefix + item.Key, item.Value);
 			}
 
 			return content;
@@ -64,19 +65,19 @@
 			return allContent;
 		}
 		
-		private string GetFilePath(string viewName, string cotroller)
+		private string GetFilePath(string viewName, string controller)
 		{
 			var controllerName = string.Empty;
-			if (cotroller == "")
+			if (controller == "")
 			{
 				controllerName = this.GetCurrentControllerName();
 			}
 			else
 			{
-				controllerName = cotroller;
+				controllerName = controller;
 			}
 			
-			return $"{RootDirectoryRelativePath}{ViewFolderName}{DirectoryDelimeter}{controllerName}{DirectoryDelimeter}{viewName}{HtmlSuffix}";
+			return $"{RootDirectoryRelativePath}{ViewFolderName}{DirectoryDelimiter}{controllerName}{DirectoryDelimiter}{viewName}{HtmlSuffix}";
 		}
 		private string GetCurrentControllerName()
 		{

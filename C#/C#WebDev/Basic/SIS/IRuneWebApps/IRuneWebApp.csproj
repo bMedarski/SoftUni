@@ -9,6 +9,7 @@
     <ProjectReference Include="..\IRuneData\IRuneData.csproj" />
     <ProjectReference Include="..\IRuneModels\IRuneModels.csproj" />
     <ProjectReference Include="..\SIS.HTTP\SIS.HTTP.csproj" />
+    <ProjectReference Include="..\SIS.MvcFramework\SIS.MvcFramework.csproj" />
     <ProjectReference Include="..\SIS.Webserver\SIS.Webserver.csproj" />
   </ItemGroup>
 

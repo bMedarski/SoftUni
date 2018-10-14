@@ -4,27 +4,23 @@
 	using System.Net;
 	using System.Net.Sockets;
 	using System.Threading.Tasks;
-	using Webserver;
-	using Webserver.Routing.Contracts;
+	using Api;
 
 	public class Server
 	{
 		private const string LocalhostIpAddress = "127.0.0.1";
-
 		private readonly int port;
-
 		private readonly TcpListener listener;
 
-		private readonly IServerRoutingTable serverRoutingTable;
-
+		private readonly IHttpHandler handler;
 		private bool isRunning;
 
-		public Server(int port, IServerRoutingTable serverRoutingTable)
+		public Server(int port, IHttpHandler handler)
 		{
 			this.port = port;
 			this.listener = new TcpListener(IPAddress.Parse(LocalhostIpAddress), port);
 
-			this.serverRoutingTable = serverRoutingTable;
+			this.handler = handler;
 		}
 
 		public void Run()
@@ -42,7 +38,7 @@
 
 		public async void Listen(Socket client)
 		{
-			var connectionHandler = new ConnectionHandler(client, this.serverRoutingTable);
+			var connectionHandler = new ConnectionHandler(client, this.handler);
 			await connectionHandler.ProcessRequestAsync();
 		}
 

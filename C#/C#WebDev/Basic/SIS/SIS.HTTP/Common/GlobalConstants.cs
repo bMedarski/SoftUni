@@ -7,7 +7,7 @@
 		public const string SessionCookieKey = "SIS_ID";
 		public const string HttpCookieStringDelimiter = "; ";
 		public const char HttpCookieKeyValueDelimiter = '=';
-		public const string HeaderDelimeter = ": ";
-		public static string[] PermitedResourceExtensions = new[] {"js", "css"};
+		public const string HeaderDelimiter = ": ";
+		public static string[] PermittedResourceExtensions = new[] {"js", "css","ico","map"};
 	}
 }

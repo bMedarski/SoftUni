@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRuneModels", "IRuneModels\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.MvcFramework", "SIS.MvcFramework\SIS.MvcFramework.csproj", "{FF192F2D-673C-4F34-9180-306BF28694EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS.DemoProject", "SIS.DemoProject\SIS.DemoProject.csproj", "{A44953F8-B018-4A62-8978-E0BBE0398712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FF192F2D-673C-4F34-9180-306BF28694EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF192F2D-673C-4F34-9180-306BF28694EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF192F2D-673C-4F34-9180-306BF28694EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44953F8-B018-4A62-8978-E0BBE0398712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44953F8-B018-4A62-8978-E0BBE0398712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44953F8-B018-4A62-8978-E0BBE0398712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44953F8-B018-4A62-8978-E0BBE0398712}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

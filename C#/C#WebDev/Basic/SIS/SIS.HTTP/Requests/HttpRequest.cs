@@ -117,7 +117,7 @@
 					break;
 				}
 
-				var headerArgs = headerLine.Split(GlobalConstants.HeaderDelimeter,StringSplitOptions.RemoveEmptyEntries);
+				var headerArgs = headerLine.Split(GlobalConstants.HeaderDelimiter,StringSplitOptions.RemoveEmptyEntries);
 
 				if (headerArgs.Length != RequestConstants.NumberOfParametersInRequestHeaderKeyValuePair)
 				{

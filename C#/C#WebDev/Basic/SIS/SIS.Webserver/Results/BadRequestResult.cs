@@ -1,4 +1,4 @@
-﻿namespace SIS.Webserver.Results
+﻿namespace SIS.WebServer.Results
 {
 	using System.Text;
 	using HTTP.Enums;

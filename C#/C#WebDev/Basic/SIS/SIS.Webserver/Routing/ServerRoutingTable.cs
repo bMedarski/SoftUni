@@ -1,4 +1,4 @@
-﻿namespace SIS.Webserver.Routing
+﻿namespace SIS.WebServer.Routing
 {
 	using System;
 	using System.Collections.Generic;

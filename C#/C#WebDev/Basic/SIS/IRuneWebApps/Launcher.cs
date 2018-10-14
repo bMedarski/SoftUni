@@ -2,10 +2,11 @@
 {
 	using Controllers;
 	using SIS.HTTP.Enums;
+	using SIS.MvcFramework;
 	using SIS.WebServer;
-	using SIS.Webserver.Results;
-	using SIS.Webserver.Routing;
-	using SIS.Webserver.Routing.Contracts;
+	using SIS.WebServer.Results;
+	using SIS.WebServer.Routing;
+	using SIS.WebServer.Routing.Contracts;
 
 	public class Launcher
 	{
@@ -13,7 +14,8 @@
 		{
 			IServerRoutingTable serverRoutingTable = new ServerRoutingTable();
 			GetRoutes(serverRoutingTable);
-			Server server = new Server(8000, serverRoutingTable);
+			var handler = new HttpHandler(serverRoutingTable);
+			Server server = new Server(8000, handler);
 			server.Run();
 		}
 

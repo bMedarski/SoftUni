@@ -1,4 +1,4 @@
-﻿namespace SIS.Webserver.Routing.Contracts
+﻿namespace SIS.WebServer.Routing.Contracts
 {
 	using System;
 	using HTTP.Enums;

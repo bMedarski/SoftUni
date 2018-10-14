@@ -1,4 +1,4 @@
-﻿namespace SIS.Webserver.Results
+﻿namespace SIS.WebServer.Results
 {
 	using HTTP.Enums;
 	using HTTP.Headers;
