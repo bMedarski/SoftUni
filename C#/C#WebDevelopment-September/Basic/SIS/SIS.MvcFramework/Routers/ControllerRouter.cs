@@ -5,7 +5,7 @@
 	using System.Linq;
 	using System.Reflection;
 	using ActionResults.Contracts;
-	using Attributes;
+	using Attributes.Method;
 	using Controllers;
 	using HTTP.Enums;
 	using HTTP.Requests.Contracts;
@@ -60,13 +60,88 @@
 			{
 				throw new NullReferenceException("No such controller");
 			}
-			return this.PrepareResponse(controller, action);
+
+			object[] actionParameters = this.MapActionParameters(action, request);
+			IActionResult actionResult = this.InvokeAction(controller, action, actionParameters);
+			return this.PrepareResponse(actionResult);
+			//return this.PrepareResponse(controller, action);
 
 		}
 
-		private IHttpResponse PrepareResponse(Controller controller, MethodInfo action)
+		private IActionResult InvokeAction(Controller controller, MethodInfo action, object[] actionParameters)
 		{
-			IActionResult actionResult = (IActionResult)action.Invoke(controller, null);
+			return (IActionResult) action.Invoke(controller, actionParameters);
+		}
+
+		private object[] MapActionParameters(MethodInfo action, IHttpRequest request)
+		{
+			ParameterInfo[] actionParametersInfo = action.GetParameters();
+			object[] mappedParameters =new object[actionParametersInfo.Length];
+
+			for (int i = 0; i < actionParametersInfo.Length; i++)
+			{
+				ParameterInfo currentParameterInfo = actionParametersInfo[i];
+
+				if (currentParameterInfo.ParameterType.IsPrimitive ||
+				    currentParameterInfo.ParameterType == typeof(string))
+				{
+					mappedParameters[i] = ProcessPrimitiveParameter(currentParameterInfo, request);
+				}
+				else
+				{
+					mappedParameters[i] = ProcessBindingModelParameters(currentParameterInfo, request);
+				}
+			}
+
+			return mappedParameters;
+
+		}
+
+		private object ProcessPrimitiveParameter(ParameterInfo currentParameterInfo, IHttpRequest request)
+		{
+			object value = this.GetParameterFromRequestData(request, currentParameterInfo.Name);
+			return Convert.ChangeType(value, currentParameterInfo.ParameterType);
+		}
+
+		private object GetParameterFromRequestData(IHttpRequest request, string name)
+		{
+			if (request.FormData.ContainsKey(name))
+			{
+				return request.FormData[name];
+			}
+			if (request.QueryData.ContainsKey(name))
+			{
+				return request.QueryData[name];
+			}
+
+			return null;
+		}
+
+		private object ProcessBindingModelParameters(ParameterInfo currentParameterInfo, IHttpRequest request)
+		{
+			Type bindingModelType = currentParameterInfo.ParameterType;
+
+			var bindingModelInstance = Activator.CreateInstance(bindingModelType);
+			var bindingModelProperties = bindingModelType.GetProperties();
+
+			foreach (var bindingModelProperty in bindingModelProperties)
+			{
+				try
+				{
+					object value = this.GetParameterFromRequestData(request, bindingModelProperty.Name);
+					bindingModelProperty.SetValue(bindingModelInstance, Convert.ChangeType(value,bindingModelProperty.PropertyType));
+				}
+				catch
+				{
+					Console.WriteLine($"The {bindingModelProperty.Name} field could not be mapped");
+				}
+			}
+
+			return Convert.ChangeType(bindingModelInstance, bindingModelType);
+		}
+
+		private IHttpResponse PrepareResponse(IActionResult actionResult)
+		{
 			string invocationResult = actionResult.Invoke();
 
 			if (actionResult is IViewable)

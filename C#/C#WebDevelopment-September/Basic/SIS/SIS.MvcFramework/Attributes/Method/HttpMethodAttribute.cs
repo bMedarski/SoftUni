@@ -1,4 +1,4 @@
-﻿namespace SIS.MvcFramework.Attributes
+﻿namespace SIS.MvcFramework.Attributes.Method
 {
 	using System;
 
