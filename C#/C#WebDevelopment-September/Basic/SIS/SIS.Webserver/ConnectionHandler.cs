@@ -69,8 +69,8 @@
 
 	    public async Task ProcessRequestAsync()
 	    {
-			//try
-			//{
+			try
+			{
 				var httpRequest = await this.ReadRequest();
 
 			    if (httpRequest != null)
@@ -80,15 +80,15 @@
 					this.SetResponseSession(httpResponse, sessionId);
 				    await this.PrepareResponse(httpResponse);
 			    }
-		//}
-			//catch (BadRequestException e)
-			//{
-			//	await this.PrepareResponse(new TextResult(e.StackTrace, HttpResponseStatusCode.BadRequest));
-			//}
-			//catch (Exception e)
-			//{
-			//	await this.PrepareResponse(new TextResult(e.StackTrace, HttpResponseStatusCode.InternalServerError));
-			//}
+		}
+			catch (BadRequestException e)
+			{
+				await this.PrepareResponse(new TextResult(e.StackTrace, HttpResponseStatusCode.BadRequest));
+			}
+			catch (Exception e)
+			{
+				await this.PrepareResponse(new TextResult(e.StackTrace, HttpResponseStatusCode.InternalServerError));
+			}
 			this.client.Shutdown(SocketShutdown.Both);
 	    }
 

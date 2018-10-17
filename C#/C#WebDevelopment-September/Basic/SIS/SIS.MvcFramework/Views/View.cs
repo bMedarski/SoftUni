@@ -1,6 +1,5 @@
 ﻿namespace SIS.MvcFramework.Views
 {
-	using System;
 	using System.Collections.Generic;
 	using System.IO;
 	using ActionResults.Contracts;
@@ -39,7 +38,7 @@
 
 			foreach (var item in this.viewData)
 			{
-				renderedHtml = renderedHtml.Replace($"{{{{{{item.key}}}}}}",item.Value.ToString());
+				renderedHtml = renderedHtml.Replace($"{{{{{item}}}}}",item.Value.ToString());
 			}
 
 			return renderedHtml;

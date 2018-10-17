@@ -2,6 +2,7 @@
 {
 	using System;
 	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
 	using System.Linq;
 	using System.Reflection;
 	using ActionResults.Contracts;
@@ -61,10 +62,9 @@
 				throw new NullReferenceException("No such controller");
 			}
 
-			object[] actionParameters = this.MapActionParameters(action, request);
-			IActionResult actionResult = this.InvokeAction(controller, action, actionParameters);
+			object[] actionParameters = this.MapActionParameters(action, request, controller);
+			var actionResult = this.InvokeAction(controller, action, actionParameters);
 			return this.PrepareResponse(actionResult);
-			//return this.PrepareResponse(controller, action);
 
 		}
 
@@ -73,28 +73,61 @@
 			return (IActionResult) action.Invoke(controller, actionParameters);
 		}
 
-		private object[] MapActionParameters(MethodInfo action, IHttpRequest request)
+		private object[] MapActionParameters(MethodInfo action, IHttpRequest request, Controller controller)
 		{
 			ParameterInfo[] actionParametersInfo = action.GetParameters();
-			object[] mappedParameters =new object[actionParametersInfo.Length];
+			object[] mappedParameters = new object[actionParametersInfo.Length];
 
 			for (int i = 0; i < actionParametersInfo.Length; i++)
 			{
-				ParameterInfo currentParameterInfo = actionParametersInfo[i];
+				var currentParameterInfo = actionParametersInfo[i];
 
 				if (currentParameterInfo.ParameterType.IsPrimitive ||
 				    currentParameterInfo.ParameterType == typeof(string))
 				{
-					mappedParameters[i] = ProcessPrimitiveParameter(currentParameterInfo, request);
+					var mappedActionParameters = new object();
+					mappedActionParameters = this.ProcessPrimitiveParameter(currentParameterInfo, request);
+					if (mappedActionParameters == null)
+					{
+						break;
+					}
 				}
 				else
 				{
-					mappedParameters[i] = ProcessBindingModelParameters(currentParameterInfo, request);
+					var bindingModel = this.ProcessBindingModelParameters(currentParameterInfo, request);
+					controller.ModelState.IsValid = this.IsValid(bindingModel, currentParameterInfo.ParameterType);
+					mappedParameters[i] = bindingModel;
 				}
 			}
 
 			return mappedParameters;
 
+		}
+
+		private bool? IsValid(object bindingModel, Type parameterType)
+		{
+			var properties = parameterType.GetProperties();
+
+			foreach (var property in properties)
+			{ 
+				var propertyValidationAttributes = property
+					.GetCustomAttributes()
+					.Where(ca => ca is ValidationAttribute)
+					.Cast<ValidationAttribute>()
+					.ToList();
+
+				foreach (var validationAttribute in propertyValidationAttributes)
+				{
+					var propertyValue = property.GetValue(bindingModel);
+
+					if (!validationAttribute.IsValid(propertyValue))
+					{
+						return false;
+					}
+				}
+			}
+
+			return true;
 		}
 
 		private object ProcessPrimitiveParameter(ParameterInfo currentParameterInfo, IHttpRequest request)

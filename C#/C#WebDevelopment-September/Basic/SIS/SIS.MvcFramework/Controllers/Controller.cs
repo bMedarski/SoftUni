@@ -10,12 +10,12 @@
 
 	public abstract class Controller
 	{
-
 		protected Controller()
 		{
 			this.Model = new ViewModel();
 		}
 
+		public Model ModelState { get; } = new Model();
 		protected ViewModel Model { get; set; }
 		public IHttpRequest Request { get; set; }
 
