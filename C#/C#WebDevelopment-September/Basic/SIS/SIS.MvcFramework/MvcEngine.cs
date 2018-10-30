@@ -4,10 +4,10 @@
 	using System.Reflection;
 	using WebServer;
 
-	public static class MvcEngine
+	public class MvcEngine
 	{
 
-		public static void Run(Server server)
+		public void Run(Server server)
 		{
 			RegisterAssemblyName();
 

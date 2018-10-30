@@ -2,13 +2,9 @@
 {
 	using System.Collections.Generic;
 	using System.IO;
-	using System.Runtime.CompilerServices;
-	using Services;
 	using Services.Contracts;
-	using SIS.HTTP.Enums;
-	using SIS.HTTP.Responses.Contracts;
+	using SIS.MvcFramework.ActionResults.Contracts;
 	using SIS.MvcFramework.Controllers;
-	using SIS.WebServer.Results;
 
 	public abstract class BaseController : Controller
 	{
@@ -17,34 +13,34 @@
 		private const string DirectoryDelimiter = "/";
 		private const string ControllerDefaultName = "Controller";
 		private const string HtmlSuffix = ".html";
-		private const string FooterPath = "../../../Views/Common/_footer.html";
-		private const string NavigationPath = "../../../Views/Common/_navigation.html";
+		private const string FooterPath = "../../../Views/Shared/_footer.html";
+		private const string NavigationPath = "../../../Views/Shared/_navigation.html";
 		private const string LayoutPath = "../../../Views/Common/_layout.html";
 		private const string ReplacementPrefix = "@Model.";
 		private const string ReplacementBodyText = "@RenderBody()";
-		protected const string BadRequestViewName = "BadRequestView";
+		protected const string BadRequestViewName = "_Error";
 		
 		protected readonly IUserService userService;
 		protected IDictionary<string, string> viewBag;
 
-		protected BaseController()
+		protected BaseController(IUserService userService)
 		{
-			this.userService = new UserService();
+			this.userService = userService;
 			this.viewBag = new Dictionary<string, string>();
 		}
-		protected IHttpResponse View([CallerMemberName] string viewName="", string controller="")
-		{
-			var footer = File.ReadAllText(FooterPath);
-			var navigation = File.ReadAllText(NavigationPath);
+		//protected IViewable View([CallerMemberName] string viewName="", string controller="")
+		//{
+		//	var footer = File.ReadAllText(FooterPath);
+		//	var navigation = File.ReadAllText(NavigationPath);
 
-			navigation = this.ReplaceMarkers(navigation);
-			this.viewBag["Footer"]=footer;
-			this.viewBag["Navigation"]=navigation;
+		//	navigation = this.ReplaceMarkers(navigation);
+		//	this.viewBag["Footer"]=footer;
+		//	this.viewBag["Navigation"]=navigation;
 
-			var allContent = this.GetViewContent(viewName, controller);
+		//	var allContent = this.GetViewContent(viewName, controller);
 
-			return new HtmlResult(allContent,HttpResponseStatusCode.Ok);
-		}
+		//	return new ViewResult(allContent);
+		//}
 		private string ReplaceMarkers(string content)
 		{
 			foreach (var item in this.viewBag)
@@ -54,7 +50,7 @@
 
 			return content;
 		}
-		private string GetViewContent(string viewName, string controller)
+		private IViewable GetViewContent(string viewName, string controller)
 		{
 			var layoutContent = File.ReadAllText(LayoutPath);
 			var content = File.ReadAllText(this.GetFilePath(viewName,controller));
@@ -62,7 +58,7 @@
 			layoutContent = this.ReplaceMarkers(layoutContent);
 
 			var allContent = layoutContent.Replace(ReplacementBodyText, content);
-			return allContent;
+			return this.View(allContent);
 		}
 		
 		private string GetFilePath(string viewName, string controller)

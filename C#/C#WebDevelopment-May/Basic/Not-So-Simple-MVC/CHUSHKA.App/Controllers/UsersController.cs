@@ -83,7 +83,7 @@ namespace CHUSHKA.App.Controllers
 
 
 			var userExist = this.users.UserExists(model.Username, model.Password);
-			if (userExist == null)
+			if (userExist != null)
 			{
 				ShowError("User already exist");
 				return View();

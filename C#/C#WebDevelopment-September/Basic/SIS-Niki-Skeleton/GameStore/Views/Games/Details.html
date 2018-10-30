@@ -1,0 +1,33 @@
+﻿<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+
+				<h1 class="display-3">@Model.Title</h1>
+				<br />
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/@Model.Trailer" allowfullscreen></iframe>
+
+				<br />
+				<br />
+
+				<p>@Model.Description</p>
+
+				<p><strong>Price</strong> - @Model.Price &euro;</p>
+				<p><strong>Size</strong> - @Model.Size GB</p>
+				<p><strong>Release Date</strong> - @Model.ReleaseDate</p>
+
+				<a class="card-button btn btn-outline-primary" href="javascript:window.history.back()">Back</a>
+				@if (User.Role == "Administrator")
+				{
+				<a href="/Games/Edit?id=@Model.Id" class="card-button btn btn-warning">Edit</a>
+				<a href="/Games/Delete?id=@Model.Id" class="card-button btn btn-danger">Delete</a>
+				}
+				<a href="/Users/Buy?id=@Model.Id" class="card-button btn btn-primary">Buy</a>
+				<br />
+				<br />
+
+			</div>
+		</div>
+	</div>
+</main>

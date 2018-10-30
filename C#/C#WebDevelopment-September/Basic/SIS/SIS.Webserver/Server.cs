@@ -4,23 +4,25 @@
 	using System.Net;
 	using System.Net.Sockets;
 	using System.Threading.Tasks;
-	using Api;
+	using Webserver.Api;
 
 	public class Server
 	{
 		private const string LocalhostIpAddress = "127.0.0.1";
+
 		private readonly int port;
+
 		private readonly TcpListener listener;
 
-		private readonly IHttpHandler handler;
+		private readonly IHttpHandlingContext handlersContext;
+
 		private bool isRunning;
 
-		public Server(int port, IHttpHandler handler)
+		public Server(int port, IHttpHandlingContext handlersContext)
 		{
 			this.port = port;
 			this.listener = new TcpListener(IPAddress.Parse(LocalhostIpAddress), port);
-
-			this.handler = handler;
+			this.handlersContext = handlersContext;
 		}
 
 		public void Run()
@@ -38,9 +40,8 @@
 
 		public async void Listen(Socket client)
 		{
-			var connectionHandler = new ConnectionHandler(client, this.handler);
+			var connectionHandler = new ConnectionHandler(client, this.handlersContext);
 			await connectionHandler.ProcessRequestAsync();
 		}
-
 	}
 }

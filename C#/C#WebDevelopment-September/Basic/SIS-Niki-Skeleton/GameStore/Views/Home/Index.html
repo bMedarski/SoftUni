@@ -1,0 +1,88 @@
+﻿<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center"><h1 class="display-3">SoftUni Store</h1></div>
+				<form class="form-inline" method="post" action="/Home/Index">
+					Filter:
+					<input type="submit" name="filter" class="btn btn-link" value="All"/>
+					<input type="submit" name="filter" class="btn btn-link" value="Owned"/>
+				</form>
+				@for(var i = 0; i < Model.Games.ToList().Count(); i=i+3)
+				{
+				{ var game1 = Model.Games.ToList()[i]; }
+				<div class="card-group">
+					<div class="card col-4 thumbnail">
+						<img class="card-image-top img-fluid img-thumbnail" src="@game1.Thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">@game1.Title</h4>
+							<p class="card-text"><strong>Price</strong> - @game1.Price &euro;</p>
+							<p class="card-text"><strong>Size</strong> - @game1.Size GB</p>
+							<p class="card-text">
+								@game1.Description
+							</p>
+						</div>
+						<div class="card-footer">
+							<a class="card-button btn btn-outline-primary" href="/Games/Details?id=@game1.Id">Info</a>
+							@if(@User.Role=="Administrator")
+							{
+							<a class="card-button btn btn-primary" href="/Users/Buy?id=@game1.Id">Buy</a>
+							<a href="/Games/Edit?id=@game1.Id" class="card-button btn btn-warning">Edit</a>
+							<a href="/Games/Delete?id=@game1.Id" class="card-button btn btn-danger">Delete</a>
+							}
+						</div>
+					</div>
+				@if(i+1 < Model.Games.ToList().Count())
+				{
+				{var game2 = Model.Games.ToList()[i+1]; }
+					<div class="card col-4 thumbnail">
+						<img class=" img-fluid img-thumbnail" src="@game2.Thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">@game2.Title</h4>
+							<p class="card-text"><strong>Price</strong> - @game2.Price &euro;</p>
+							<p class="card-text"><strong>Size</strong> - @game2.Size GB</p>
+							<p class="card-text">
+								@game2.Description
+							</p>
+						</div>
+						<div class="card-footer">
+							<a class="card-button btn btn-outline-primary" href="/Games/Details?id=@game2.Id">Info</a>
+							@if(@User.Role=="Administrator")
+							{
+							<a class="card-button btn btn-primary" href="/Users/Buy?id=@game2.Id">Buy</a>
+							<a href="/Games/Edit?id=@game2.Id" class="card-button btn btn-warning">Edit</a>
+							<a href="/Games/Delete?id=@game2.Id" class="card-button btn btn-danger">Delete</a>
+							}
+						</div>
+					</div>
+					}
+					@if(i+2 < Model.Games.ToList().Count())
+					{
+					{var game3 = Model.Games.ToList()[i+2]; }
+					<div class="card col-4 thumbnail">
+						<img class="card-image-top img-fluid img-thumbnail" src="@game3.Thumbnail">
+						<div class="card-body">
+							<h4 class="card-title">@game3.Title</h4>
+							<p class="card-text"><strong>Price</strong> - @game3.Price &euro;</p>
+							<p class="card-text"><strong>Size</strong> - @game3.Size GB</p>
+							<p class="card-text">
+								@game3.Description
+							</p>
+						</div>
+						<div class="card-footer">
+							<a class="card-button btn btn-outline-primary" href="/Games/Details?id=@game3.Id">Info</a>
+							@if(@User.Role=="Administrator")
+							{
+							<a class="card-button btn btn-primary" href="/Users/Buy?id=@game3.Id">Buy</a>
+							<a href="/Games/Edit?id=@game3.Id" class="card-button btn btn-warning">Edit</a>
+							<a href="/Games/Delete?id=@game3.Id" class="card-button btn btn-danger">Delete</a>
+							}
+						</div>
+					</div>
+					}
+				</div>
+				}
+			</div>
+		</div>
+	</div>
+</main>

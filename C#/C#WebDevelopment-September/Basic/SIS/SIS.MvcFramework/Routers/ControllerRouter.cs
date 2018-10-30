@@ -6,256 +6,309 @@
 	using System.Linq;
 	using System.Reflection;
 	using ActionResults.Contracts;
+	using Attributes.Action;
 	using Attributes.Method;
 	using Controllers;
 	using HTTP.Enums;
+	using HTTP.Extensions;
 	using HTTP.Requests.Contracts;
-	using HTTP.Responses;
 	using HTTP.Responses.Contracts;
+	using MvcFramework;
+	using Services.Contracts;
 	using WebServer.Api;
 	using WebServer.Results;
 
-	public class ControllerRouter:IHttpHandler
-	{
-		private readonly ResourceHandler resourceHandler;
+	public class ControllerRouter : IHttpHandler
+    {
+        private readonly IDependencyContainer dependencyContainer;
 
-		public ControllerRouter()
-		{
-			this.resourceHandler = new ResourceHandler();
-		}
-		public IHttpResponse Handle(IHttpRequest request)
-		{
+        public ControllerRouter(IDependencyContainer dependencyContainer)
+        {
+            this.dependencyContainer = dependencyContainer;
+        }
 
-			if (this.resourceHandler.ReturnIfResource(request.Path))
-			{
-				return this.resourceHandler.HandleResourceRequest(request);
-			}
+        public IHttpResponse Handle(IHttpRequest request)
+        {
+            var controllerName = string.Empty;
+            var actionName = string.Empty;
+            var requestMethod = request.RequestMethod.ToString();
 
-			var controllerName = string.Empty;
-			var actionName = string.Empty;
-			var requestMethod = request.RequestMethod.ToString();
-
-			if (request.Url == "/")
-			{
-				controllerName = "Home";
-				actionName = "Index";
-			}
-			else
-			{
-				var requestUrlSplit = request.Url.Split(
-					"/",
-					StringSplitOptions.RemoveEmptyEntries);
+            if (request.Path == "/")
+            {
+                controllerName = "Home";
+                actionName = "Index";
+            }
+            else
+            {
+                var requestUrlSplit = request.Path.Split(
+                    "/",
+                    StringSplitOptions.RemoveEmptyEntries);
                 
-				controllerName = requestUrlSplit[0];
-				actionName = requestUrlSplit[1];
-			}
+                controllerName = requestUrlSplit[0].Capitalize();
+                actionName = requestUrlSplit[1].Capitalize();
+            }
 
-			var controller = this.GetController(controllerName, request);
-			var action = this.GetAction(requestMethod, controller, actionName);
-			if (action == null)
-			{
-				return new HttpResponce(HttpResponseStatusCode.NotFound);
-			}
+            //Controller
+            var controller = this.GetController(controllerName);
 
-			if (controller == null)
-			{
-				throw new NullReferenceException("No such controller");
-			}
+            //Action
+            var action = this.GetAction(requestMethod, controller, actionName);
 
-			object[] actionParameters = this.MapActionParameters(action, request, controller);
-			var actionResult = this.InvokeAction(controller, action, actionParameters);
-			return this.PrepareResponse(actionResult);
+            if (controller == null || action == null)
+            {
+                throw new NullReferenceException();
+            }
+            controller.Request = request;
+            object[] actionParameters = this.MapActionParameters(action, request, controller);
 
-		}
+            var actionResult = InvokeAction(controller, action, actionParameters);
 
-		private IActionResult InvokeAction(Controller controller, MethodInfo action, object[] actionParameters)
-		{
-			return (IActionResult) action.Invoke(controller, actionParameters);
-		}
+            var isAuthorized = this.Authorize(controller, action);
 
-		private object[] MapActionParameters(MethodInfo action, IHttpRequest request, Controller controller)
-		{
-			ParameterInfo[] actionParametersInfo = action.GetParameters();
-			object[] mappedParameters = new object[actionParametersInfo.Length];
+            if (!isAuthorized)
+            {
+                return new UnauthorizedResult();
+            }
 
-			for (int i = 0; i < actionParametersInfo.Length; i++)
-			{
-				var currentParameterInfo = actionParametersInfo[i];
+            return
+                this.PrepareResponse(actionResult);
+        }
 
-				if (currentParameterInfo.ParameterType.IsPrimitive ||
-				    currentParameterInfo.ParameterType == typeof(string))
-				{
-					var mappedActionParameters = new object();
-					mappedActionParameters = this.ProcessPrimitiveParameter(currentParameterInfo, request);
-					if (mappedActionParameters == null)
-					{
-						break;
-					}
-				}
-				else
-				{
-					var bindingModel = this.ProcessBindingModelParameters(currentParameterInfo, request);
-					controller.ModelState.IsValid = this.IsValid(bindingModel, currentParameterInfo.ParameterType);
-					mappedParameters[i] = bindingModel;
-				}
-			}
+        private bool Authorize(Controller controller, MethodInfo action)
+        {
+            if (action
+                .GetCustomAttributes()
+                .Where(ca => ca is AuthorizeAttribute)
+                .Cast<AuthorizeAttribute>()
+                .Any(a => !a.IsAuthenticated(controller.Identity())))
+            {
+                return false;
+            }
 
-			return mappedParameters;
+            return true;
+        }
 
-		}
+        private Controller GetController(string controllerName)
+        {
+            if (string.IsNullOrWhiteSpace(controllerName))
+            {
+                return null;
+            }
 
-		private bool? IsValid(object bindingModel, Type parameterType)
-		{
-			var properties = parameterType.GetProperties();
+            var fullyQualifiedControllerName = string.Format("{0}.{1}.{2}{3}, {0}",
+                MvcContext.Get.AssemblyName,
+                MvcContext.Get.ControllersFolder,
+                controllerName,
+                MvcContext.Get.ControllerSuffix);
 
-			foreach (var property in properties)
-			{ 
-				var propertyValidationAttributes = property
-					.GetCustomAttributes()
-					.Where(ca => ca is ValidationAttribute)
-					.Cast<ValidationAttribute>()
-					.ToList();
+            var controllerType = Type.GetType(fullyQualifiedControllerName);
+            var controller = (Controller)this.dependencyContainer.CreateInstance(controllerType);
+            return controller;
+        }
 
-				foreach (var validationAttribute in propertyValidationAttributes)
-				{
-					var propertyValue = property.GetValue(bindingModel);
+        private MethodInfo GetAction(
+            string requestMethod,
+            Controller controller,
+            string actionName)
+        {
+            var actions = this
+                .GetSuitableMethods(controller, actionName)
+                .ToList();
 
-					if (!validationAttribute.IsValid(propertyValue))
-					{
-						return false;
-					}
-				}
-			}
+            if (!actions.Any())
+            {
+                return null;
+            }
 
-			return true;
-		}
+            foreach (var action in actions)
+            {
+                var httpMethodAttributes = action
+                    .GetCustomAttributes()
+                    .Where(ca => ca is HttpMethodAttribute)
+                    .Cast<HttpMethodAttribute>()
+                    .ToList();
 
-		private object ProcessPrimitiveParameter(ParameterInfo currentParameterInfo, IHttpRequest request)
-		{
-			object value = this.GetParameterFromRequestData(request, currentParameterInfo.Name);
-			return Convert.ChangeType(value, currentParameterInfo.ParameterType);
-		}
+                if (!httpMethodAttributes.Any() &&
+                    requestMethod.ToLower() == "get")
+                {
+                    return action;
+                }
 
-		private object GetParameterFromRequestData(IHttpRequest request, string name)
-		{
-			if (request.FormData.ContainsKey(name))
-			{
-				return request.FormData[name];
-			}
-			if (request.QueryData.ContainsKey(name))
-			{
-				return request.QueryData[name];
-			}
+                foreach (var httpMethodAttribute in httpMethodAttributes)
+                {
+                    if (httpMethodAttribute.IsValid(requestMethod))
+                    {
+                        return action;
+                    }
+                }
+            }
 
-			return null;
-		}
+            return null;
+        }
 
-		private object ProcessBindingModelParameters(ParameterInfo currentParameterInfo, IHttpRequest request)
-		{
-			Type bindingModelType = currentParameterInfo.ParameterType;
+        private IEnumerable<MethodInfo> GetSuitableMethods(
+            Controller controller,
+            string actionName)
+        {
+            if (controller == null)
+            {
+                return new MethodInfo[0];
+            }
 
-			var bindingModelInstance = Activator.CreateInstance(bindingModelType);
-			var bindingModelProperties = bindingModelType.GetProperties();
+            return controller
+                .GetType()
+                .GetMethods()
+                .Where(mi => mi.Name.ToLower() == actionName.ToLower());
+        }
 
-			foreach (var bindingModelProperty in bindingModelProperties)
-			{
-				try
-				{
-					object value = this.GetParameterFromRequestData(request, bindingModelProperty.Name);
-					bindingModelProperty.SetValue(bindingModelInstance, Convert.ChangeType(value,bindingModelProperty.PropertyType));
-				}
-				catch
-				{
-					Console.WriteLine($"The {bindingModelProperty.Name} field could not be mapped");
-				}
-			}
+        private IHttpResponse PrepareResponse(IActionResult actionResult)
+        {          
+            string invokationResult = actionResult.Invoke();
 
-			return Convert.ChangeType(bindingModelInstance, bindingModelType);
-		}
+            if (actionResult is IViewable)
+            {
+                return new HtmlResult(invokationResult, HttpResponseStatusCode.Ok);
+            }
 
-		private IHttpResponse PrepareResponse(IActionResult actionResult)
-		{
-			string invocationResult = actionResult.Invoke();
+            if (actionResult is IRedirectable)
+            {
+                return new RedirectResult(invokationResult);
+            }
 
-			if (actionResult is IViewable)
-			{
-				return new HtmlResult(invocationResult,HttpResponseStatusCode.Ok);
-			}
-			else if (actionResult is IRedirectable)
-			{
-				return new RedirectResult(invocationResult);
-			}
-			else
-			{
-				throw new InvalidOperationException("The View result is not supported");
-			}
-		}
+            throw new InvalidOperationException("Type of result is not supported");
+        }
 
-		private Controller GetController(string controllerName, IHttpRequest request)
-		{
-			if (controllerName != null)
-			{
-				var fullyQualifiedControllerName = string.Format("{0}.{1}.{2}{3}, {0}",
-					MvcContext.Get.AssemblyName,
-					MvcContext.Get.ControllersFolder,
-					controllerName,
-					MvcContext.Get.ControllersSuffix);
+        private static IActionResult InvokeAction(
+            Controller controller,
+            MethodInfo action,
+            object[] actionParameters)
+        {
+            return (IActionResult)action.Invoke(controller, actionParameters);
+        }
 
-				var controllerType = Type.GetType(fullyQualifiedControllerName);
-				var controller = (Controller) Activator.CreateInstance(controllerType);
+        private object[] MapActionParameters(
+            MethodInfo action,
+            IHttpRequest request,
+            Controller controller)
+        {
+            var actionParameteres = action.GetParameters();
+            object[] mappedActionParameters = new object[actionParameteres.Length];
+            for (int i = 0; i < actionParameteres.Length; i++)
+            {
+                var actionParameter = actionParameteres[i];
 
-				if (controller != null)
-				{
-					controller.Request = request;
-				}
+                if (actionParameter.ParameterType.IsPrimitive ||
+                    actionParameter.ParameterType == typeof(string))
+                {
+                    var mappedActionParameter = new object();
+                    mappedActionParameter = this.ProcessPrimitiveParameter(actionParameter, request);
+                    if (mappedActionParameter == null)
+                    {
+                        break;
+                    }
+                }
+                else
+                {
+                    var bindingModel = this.ProcessesBindingModelParameter(actionParameter, request);
+                    controller.ModelState.IsValid = this.IsValid(
+                        bindingModel,
+                        actionParameter.ParameterType);
+                    mappedActionParameters[i] = bindingModel;
+                }
+                
+            }
 
-				return controller;
-			}
+            return mappedActionParameters;
 
-			return null;
-		}
 
-		private MethodInfo GetAction(string requestMethod, Controller controller, string actionName)
-		{
-			MethodInfo method = null;
-			var actions = this.GetSuitableMethods(controller, actionName);
+        }
 
-			if (!actions.Any())
-			{
-				return null;
-			}
+        private bool? IsValid(object bindingModel, Type bindingModelType)
+        {
+            var properties = bindingModelType.GetProperties();
 
-			foreach (var action in actions)
-			{
-				var attributes = action.GetCustomAttributes().Where(attr => attr is HttpMethodAttribute)
-					.Cast<HttpMethodAttribute>();
+            foreach (var property in properties)
+            { 
+                var propertyValidationAttributes = property
+                    .GetCustomAttributes()
+                    .Where(ca => ca is ValidationAttribute)
+                    .Cast<ValidationAttribute>()
+                    .ToList();
 
-				if (!attributes.Any()&&requestMethod.ToUpper()=="GET")
-				{
-					return action;
-				}
+                foreach (var validationAttribute in propertyValidationAttributes)
+                {
+                    var propertyValue = property.GetValue(bindingModel);
 
-				foreach (var attribute in attributes)
-				{
-					if (attribute.IsValid(requestMethod))
-					{
-						return action;
-					}
-				}
-			}
+                    if (!validationAttribute.IsValid(propertyValue))
+                    {
+                        // password -> "error msg"
+                        // property -> error
+                        return false;
+                    }
+                }
+            }
 
-			return method;
-		}
+            return true;
+        }
 
-		private IEnumerable<MethodInfo> GetSuitableMethods(Controller controller, string actionName)
-		{
-			if (controller == null)
-			{
-				return new MethodInfo[0];
-			}
+        private object ProcessPrimitiveParameter(
+            ParameterInfo actionParameter,
+            IHttpRequest request)
+        {
+            var value = this.GetParameterFromRequestData(request, actionParameter.Name);
+            if (value == null)
+            {
+                return value;
+            }
+            return Convert.ChangeType(value, actionParameter.ParameterType);
+        }
 
-			return controller.GetType().GetMethods()
-				.Where(methodInfo => methodInfo.Name.ToLower() == actionName.ToLower());
-		}
-	}
+        private object ProcessesBindingModelParameter(
+            ParameterInfo actionParameter,
+            IHttpRequest request)
+        {
+            var bindingModelType = actionParameter.ParameterType;
+
+            var bindingModelInstance = Activator.CreateInstance(bindingModelType);
+
+            var bindingModelProperties = bindingModelType.GetProperties();
+
+            foreach (var bindingModelProperty in bindingModelProperties)
+            {
+                try
+                {
+                    var value = this.GetParameterFromRequestData(
+                        request,
+                        bindingModelProperty.Name.ToLower());
+
+                    bindingModelProperty.SetValue(
+                        bindingModelInstance,
+                        Convert.ChangeType(value, bindingModelProperty.PropertyType));
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"The property {bindingModelProperty.Name} could not be mapped");
+                }
+            }
+
+            return Convert.ChangeType(bindingModelInstance, bindingModelType);
+        }
+
+        private object GetParameterFromRequestData(
+            IHttpRequest request,
+            string actionParameterName)
+        {
+            if (request.QueryData.ContainsKey(actionParameterName))
+            {
+                return request.QueryData[actionParameterName];
+            }
+
+            if (request.FormData.ContainsKey(actionParameterName))
+            {
+                return request.FormData[actionParameterName];
+            }
+
+            return null;
+        }
+    }
 }

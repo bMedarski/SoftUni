@@ -1,33 +1,34 @@
 ﻿namespace IRuneWebApp.Controllers
 {
-	using SIS.HTTP.Requests.Contracts;
-	using SIS.HTTP.Responses.Contracts;
-	using SIS.WebServer.Results;
+	using SIS.MvcFramework.ActionResults.Contracts;
+	using SIS.MvcFramework.Controllers;
 
-	public class HomeController:BaseController
+	public class HomeController:Controller
 	{
-		public IHttpResponse Index(IHttpRequest request)
+		public IActionResult Index()
 		{
-			if (this.userService.IsAuthenticated(request))
+			if (this.Identity() != null)
 			{
-				return new RedirectResult("/Home/SignIn");
+				this.ViewModel.Data["SignIn"] = "";
+				this.ViewModel.Data["SignOff"] = "hidden";
+				return this.RedirectToAction("/Home/SignIn");
 			}
-			this.viewBag["Title"]="Home";
-			this.viewBag["SignIn"] = "hidden";
-			this.viewBag["SignOff"] = "";
+			this.ViewModel.Data["SignIn"] = "hidden";
+			this.ViewModel.Data["SignOff"] = "";
 			return this.View();
 		}
 
-		public IHttpResponse SignIndex(IHttpRequest request)
+		public IActionResult SignIn()
 		{
-			if (!this.userService.IsAuthenticated(request))
+			if (this.Identity() == null)
 			{
-				return new RedirectResult("");
+				this.ViewModel.Data["SignIn"] = "";
+				this.ViewModel.Data["SignOff"] = "hidden";
+				return this.RedirectToAction("/Home/Index");
 			}
-			this.viewBag["Title"]="Home";
-			this.viewBag["SignIn"] = "";
-			this.viewBag["SignOff"] = "hidden";
-			this.viewBag["Username"] = request.Session.GetParameter("username").ToString();
+			this.ViewModel.Data["SignIn"] = "";
+			this.ViewModel.Data["SignOff"] = "hidden";
+			this.ViewModel.Data["Username"] = this.Identity().Username;
 			return this.View();
 		}
 	}
