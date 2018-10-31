@@ -1,5 +1,5 @@
 ﻿<main>
-	<div class="container">
+	<div class="container text-center">
 
 		<h1 class="text-center">Your Cart</h1>
 		<br />
@@ -7,7 +7,7 @@
 			{
 		{ var game = Model.Games.ToList()[i]; }
 			<div class="row border p-2 align-items-center h-100 justify-content-center">
-				<p class="m-2 justify-content-center"><a class="btn btn-outline-danger" href="#" role="button">X</a></p>
+				<p class="m-2 justify-content-center"><a class="btn btn-outline-danger" href="/Users/RemoveFromCart?id=@game.Id" role="button">X</a></p>
 				<img src="@game.Thumbnail" class="img-thumbnail float-left m-2" style="max-width: 100%; height: auto; width: 250px; height: 150px" >
 				<div class="row col-5 m-1">
 					<h5 class="text-primary">@game.Title</h5>
@@ -15,6 +15,10 @@
 				</div>
 				<h5 class="col-3">@game.Price &euro;</h5>
 			</div>
-		}	
+		}
+		<br />
+		<h1 class="text-center">Total Price - @Model.TotalPrice &euro;</h1>
+		
+		<a class="btn btn-success mx-auto col-6" href="/Users/Order">Order</a>
 	</div>
 </main>

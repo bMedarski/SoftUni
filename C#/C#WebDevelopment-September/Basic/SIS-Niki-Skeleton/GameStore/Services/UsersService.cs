@@ -3,6 +3,7 @@
 	using System.Linq;
 	using GameSoreDataNew;
 	using GameSoreModelsNew;
+	using Microsoft.EntityFrameworkCore;
 	using Microsoft.EntityFrameworkCore.Internal;
 	using SIS.MvcFramework;
 	using SIS.MvcFramework.Services;
@@ -63,9 +64,9 @@
 			this.Db.CartGames.Add(cartGames);
 			this.Db.SaveChanges();
 		}
-		public void Order(string username)
+		public void Order(User username)
 		{
-			var user = this.GetUserByUsername(username);
+			var user = this.Db.Users.Include(u => u.Cart).Where(u => u.Email == username.Email).FirstOrDefault();
 			var games = user.Cart.Games;
 			foreach (var game in games)
 			{
@@ -76,6 +77,19 @@
 				this.Db.SaveChanges();
 			}
 			user.Cart.Games.Clear();
+			this.Db.SaveChanges();
+		}
+
+		internal void RemoveGame(Game game,User user)
+		{
+			var cart = this.Db.Users.FirstOrDefault(u => u.Email == user.Email);
+			var cartId = cart.Cart.Id;
+			var gameToRemove = this.Db.CartGames.Where(g => g.GameId == game.Id && g.CartId == cartId).FirstOrDefault();
+			if (gameToRemove == null)
+			{
+				return;
+			}
+			this.Db.Remove(gameToRemove);
 			this.Db.SaveChanges();
 		}
 	}

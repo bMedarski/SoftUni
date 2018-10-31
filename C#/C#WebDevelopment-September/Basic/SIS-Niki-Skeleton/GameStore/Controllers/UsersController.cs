@@ -1,6 +1,5 @@
 ﻿namespace GameStore.Controllers
 {
-	using System;
 	using System.Linq;
 	using Common;
 	using Microsoft.EntityFrameworkCore;
@@ -42,9 +41,11 @@
 				.Where(g => g.UserId == userId)
 				.ToList();
 
-			var myGames = new HomeViewModel
+			var totalPrice = games.Sum(g => g.Price);
+			var myGames = new CartViewModel()
 			{
 				Games = games,
+				TotalPrice = totalPrice,
 			};
 			return this.View(myGames);
 		}
@@ -101,9 +102,8 @@
 			{
 				return this.BadRequestErrorWithView(Constants.NoSuchIdMessage);
 			}
-
 			var user = this.usersService.GetUserByUsername(this.User.Username);
-
+			
 			foreach (var userGame in user.Games)
 			{
 				if (userGame.Game.Id == game.Id)
@@ -120,6 +120,29 @@
 			}
 
 			this.usersService.BuyGame(game, user);
+			return this.RedirectToHome();
+		}
+
+		[Authorize]
+		public IHttpResponse RemoveFromCart(int id)
+		{
+			var game = this.gameService.GetGameById(id);
+			if (game == null)
+			{
+				return this.BadRequestErrorWithView(Constants.NoSuchIdMessage);
+			}
+			var user = this.usersService.GetUserByUsername(this.User.Username);
+			this.usersService.RemoveGame(game,user);
+
+			return this.Redirect("/Users/Cart");
+		}
+
+		[Authorize]
+		public IHttpResponse Order()
+		{
+			
+			var user = this.usersService.GetUserByUsername(this.User.Username);
+			this.usersService.Order(user);
 			return this.RedirectToHome();
 		}
 		private string ValidateUser(RegisterInputViewModel model)

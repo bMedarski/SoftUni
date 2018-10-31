@@ -29,12 +29,12 @@ namespace SIS.MvcFramework
             IHttpCookieCollection cookieCollection,
             IUserCookieService cookieService)
         {
-            if (!cookieCollection.ContainsCookie(".auth-game-store"))
+            if (!cookieCollection.ContainsCookie(".auth-cakes"))
             {
                 return new MvcUserInfo();
             }
 
-            var cookie = cookieCollection.GetCookie(".auth-game-store");
+            var cookie = cookieCollection.GetCookie(".auth-cakes");
             var cookieContent = cookie.Value;
 
             try
