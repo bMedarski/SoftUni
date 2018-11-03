@@ -1,0 +1,15 @@
+﻿@page "/account/logout"
+@inject IUriHelper UriHelper
+
+<h1>Logging out...</h1>
+
+@functions {
+    protected override async Task OnInitAsync()
+    {
+        await JsInterop.DeleteToken();
+        this.State.Username = null;
+        this.State.UserToken = null;
+        this.StateHasChanged();
+        this.UriHelper.NavigateTo("/");
+    }
+}

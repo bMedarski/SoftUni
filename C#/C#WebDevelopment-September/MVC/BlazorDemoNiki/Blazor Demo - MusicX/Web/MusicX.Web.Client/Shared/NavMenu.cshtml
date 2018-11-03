@@ -1,0 +1,126 @@
+﻿@using System.Threading
+@inject IUriHelper UriHelper
+
+<div class="navbar">
+    <div class="navbar-brand" title="MusicX"></div>
+    <button class="navbar-toggler" onclick=@ToggleNavMenu>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class=@(this.collapseNavMenu?"collapse":null) onclick=@ToggleNavMenu>
+    <div class="form-inline mt-2">
+        <input class="form-control mr-2 ml-1 nav-search-input" type="search" placeholder="Search" aria-label="Search" id="navSearchField"
+               bind=@this.SearchTerms onkeypress="@KeyPressInSearchField" />
+        <button class="btn btn-success" type="submit" onclick=@Search><i class="fas fa-search"></i></button>
+    </div>
+
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <NavLink class="nav-link" href="" Match=NavLinkMatch.All>
+                <i class="oi fas fa-home"></i> Home
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link" href="songslist">
+                <i class="oi fas fa-music"></i> Songs list
+            </NavLink>
+        </li>
+    </ul>
+
+    @if (this.State.IsLoggedIn)
+    {
+        <span class="text-xs pl-2 font-weight-bold">Hello, @(this.State.Username ?? "user")</span>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="playlists">
+                    <i class="oi fas fa-list-ul"></i> Playlists
+                </NavLink>
+            </li>
+            @*<li class="nav-item">
+                    <NavLink class="nav-link" href="likes">
+                        <i class="oi fas fa-heart"></i> Likes
+                    </NavLink>
+                </li>*@
+            <li class="nav-item">
+                <NavLink class="nav-link" href="account/logout">
+                    <i class="oi fas fa-sign-out-alt"></i> Logout
+                </NavLink>
+            </li>
+        </ul>
+    }
+    else
+    {
+        <div class="text-xs pl-2 font-weight-bold">Account</div>
+        <span class="text-xs pl-2">When you create your account, you will be able to create your own playlists and view your play history.</span>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="account/login">
+                    <i class="oi fas fa-sign-in-alt"></i> Login
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="account/register">
+                    <i class="oi fas fa-user-plus"></i> Register
+                </NavLink>
+            </li>
+        </ul>
+    }
+
+    <span class="text-xs pl-2 font-weight-bold">Now playing</span> &nbsp; &nbsp;
+    <span onclick="@this.MediaPlayer.PlayNext"><i class="fas fa-forward cursor-pointer"></i></span> &nbsp; &nbsp;
+    <span onclick="@this.MediaPlayer.ClearPlaylist"><i class="fas fa-trash-alt cursor-pointer"></i></span> &nbsp; &nbsp;
+    @if (this.State.IsLoggedIn)
+    {
+        <NavLink href="playlists/create"><i class="fas fa-save cursor-pointer"></i></NavLink>
+    }
+
+    <ol class="playlist">
+        @foreach (var playlistItem in this.MediaPlayer.Playlist)
+        {
+            <li>
+                <div>
+                    <span class="playlist-item @((playlistItem == this.MediaPlayer.CurrentSong)?"current-playlist-item":string.Empty)" onclick="@(() => this.MediaPlayer.AddAndPlay(playlistItem))">
+                        @playlistItem.Title
+                    </span>
+                    @if (playlistItem != this.MediaPlayer.CurrentSong)
+                    {
+                        <span onclick="@(() => this.MediaPlayer.RemoveSong(playlistItem))"><i class="fas fa-times cursor-pointer"></i></span>
+                    }
+                </div>
+            </li>
+        }
+    </ol>
+</div>
+
+@functions {
+    public string SearchTerms { get; set; }
+
+    bool collapseNavMenu = true;
+
+    void ToggleNavMenu()
+    {
+        this.collapseNavMenu = !this.collapseNavMenu;
+    }
+
+    protected override void OnInit()
+    {
+        this.State.OnUserDataChange += this.StateHasChanged;
+        this.MediaPlayer.OnChange += this.StateHasChanged;
+    }
+
+    void Search()
+    {
+        this.UriHelper.NavigateTo($"/songslistredirect/{this.SearchTerms}/1");
+    }
+
+    async Task KeyPressInSearchField(UIKeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            // Workaround for https://github.com/aspnet/Blazor/issues/1395
+            var navSearchFieldValue = await JsInterop.GetElementValue("navSearchField");
+            this.UriHelper.NavigateTo($"/songslistredirect/{navSearchFieldValue}/1");
+        }
+    }
+}

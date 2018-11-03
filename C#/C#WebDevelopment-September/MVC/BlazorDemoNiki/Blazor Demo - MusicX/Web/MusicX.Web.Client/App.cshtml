@@ -1,0 +1,37 @@
+﻿<!--
+    Configuring this here is temporary. Later we'll move the app config
+    into Program.cs, and it won't be necessary to specify AppAssembly.
+-->
+<Router AppAssembly=typeof(Program).Assembly />
+
+@functions {
+    protected override async Task OnInitAsync()
+    {
+        // Session ID
+        var sessionId = await JsInterop.StorageRead("sessionId");
+        if (!string.IsNullOrWhiteSpace(sessionId))
+        {
+            this.State.SessionId = sessionId;
+        }
+        else
+        {
+            await JsInterop.StorageSave("sessionId", this.State.SessionId);
+        }
+
+        // User token
+        var token = await JsInterop.ReadToken(); // Cannot be blocking call: https://github.com/aspnet/Blazor/issues/1185
+        if (!string.IsNullOrEmpty(token))
+        {
+            this.State.UserToken = token;
+            var applicationStartResponse = await this.ApiClient.ApplicationStart();
+            if (applicationStartResponse.IsOk)
+            {
+                this.State.Username = applicationStartResponse.Data.Username;
+            }
+            else
+            {
+                Console.WriteLine("Application start error: " + applicationStartResponse.Errors.FirstOrDefault());
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+﻿namespace MusicX.Web.Client.Infrastructure
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Net.Http.Headers;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Blazor;
+    using Microsoft.JSInterop;
+
+    using MusicX.Web.Shared;
+    using MusicX.Web.Shared.Account;
+    using MusicX.Web.Shared.Application;
+    using MusicX.Web.Shared.Home;
+    using MusicX.Web.Shared.Playlists;
+    using MusicX.Web.Shared.Songs;
+    using MusicX.Web.Shared.TelemetryData;
+
+    public class ApiClient : IApiClient
+    {
+        private readonly HttpClient httpClient;
+
+        private readonly IApplicationState applicationState;
+
+        public ApiClient(HttpClient httpClient, IApplicationState applicationState)
+        {
+            this.httpClient = httpClient;
+            this.applicationState = applicationState;
+        }
+
+        public Task<ApiResponse<IndexListsResponseModel>> GetIndexLists() =>
+            this.GetJson<IndexListsResponseModel>("api/Home/GetIndexLists");
+
+        public Task<ApiResponse<SongsListResponseModel>> GetSongsList(int page, string searchTerms) =>
+            this.GetJson<SongsListResponseModel>($"api/Songs/GetList?page={page}&searchTerms={searchTerms}");
+
+        public Task<ApiResponse<GetSongsByIdsResponse>> GetSongsByIds(GetSongsByIdsRequest request) =>
+            this.PostJson<GetSongsByIdsResponse>("api/Songs/GetSongsByIds", request);
+
+        public Task<ApiResponse<GetSongsInPlaylistResponse>> GetSongsInPlaylist(int id) =>
+            this.GetJson<GetSongsInPlaylistResponse>("api/Songs/GetSongsInPlaylist?id=" + id);
+
+        public Task<ApiResponse<GetAllPlaylistResponse>> GetAllPlaylists() =>
+            this.GetJson<GetAllPlaylistResponse>("api/Playlists/GetAll");
+
+        public Task<ApiResponse<CreatePlaylistFromListResponse>> CreatePlaylistFromList(CreatePlaylistFromListRequest request) =>
+            this.PostJson<CreatePlaylistFromListResponse>("api/Playlists/CreateFromList", request);
+
+        public Task<ApiResponse<ApplicationStartResponseModel>> ApplicationStart() =>
+            this.GetJson<ApplicationStartResponseModel>("api/Application/Start");
+
+        public Task<ApiResponse<ApplicationStopResponseModel>> ApplicationStop(ApplicationStopRequestModel request) =>
+            this.PostJson<ApplicationStopResponseModel>("api/Application/Stop", request);
+
+        public Task<ApiResponse<SongPlayTelemetryResponse>> TelemetrySongPlay(SongPlayTelemetryRequest request) =>
+            this.PostJson<SongPlayTelemetryResponse>("api/TelemetryData/SongPlay", request);
+
+        public Task<ApiResponse<UserRegisterResponseModel>> UserRegister(UserRegisterRequestModel request) =>
+            this.PostJson<UserRegisterResponseModel>("api/Account/Register", request);
+
+        public async Task<ApiResponse<UserLoginResponseModel>> UserLogin(UserLoginRequestModel request)
+        {
+            try
+            {
+                var response = await this.httpClient.PostAsync(
+                                   "api/account/login",
+                                   new FormUrlEncodedContent(
+                                       new List<KeyValuePair<string, string>>
+                                       {
+                                           new KeyValuePair<string, string>("email", request.Email),
+                                           new KeyValuePair<string, string>("password", request.Password),
+                                       }));
+                var responseString = await response.Content.ReadAsStringAsync();
+                if (!response.IsSuccessStatusCode)
+                {
+                    return new ApiResponse<UserLoginResponseModel>(new ApiError("Server error " + (int)response.StatusCode, responseString));
+                }
+
+                var responseObject = Json.Deserialize<UserLoginResponseModel>(responseString);
+                return new ApiResponse<UserLoginResponseModel>(responseObject);
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<UserLoginResponseModel>(new ApiError("HTTP Client", ex.Message));
+            }
+        }
+
+        private async Task<ApiResponse<T>> PostJson<T>(string url, object request)
+        {
+            if (this.applicationState.IsLoggedIn)
+            {
+                this.httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", this.applicationState.UserToken);
+            }
+            else if (await JsInterop.ReadToken() != null)
+            {
+                // This is workaround for https://github.com/aspnet/Blazor/issues/1185
+                this.httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", this.applicationState.UserToken);
+            }
+
+            try
+            {
+                return await this.httpClient.PostJsonAsync<ApiResponse<T>>(url, request);
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<T>(new ApiError("HTTP Client", ex.Message));
+            }
+        }
+
+        private async Task<ApiResponse<T>> GetJson<T>(string url)
+        {
+            if (this.applicationState.IsLoggedIn)
+            {
+                this.httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", this.applicationState.UserToken);
+            }
+            else if (await JsInterop.ReadToken() != null)
+            {
+                // This is workaround for https://github.com/aspnet/Blazor/issues/1185
+                this.httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", this.applicationState.UserToken);
+            }
+
+            try
+            {
+                return await this.httpClient.GetJsonAsync<ApiResponse<T>>(url);
+            }
+            catch (Exception ex)
+            {
+                return new ApiResponse<T>(new ApiError("HTTP Client", ex.Message));
+            }
+        }
+    }
+}

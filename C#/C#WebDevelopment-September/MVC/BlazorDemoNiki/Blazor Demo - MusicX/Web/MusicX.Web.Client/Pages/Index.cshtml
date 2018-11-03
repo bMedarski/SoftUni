@@ -1,0 +1,37 @@
+﻿@page "/"
+@using MusicX.Web.Shared.Home
+
+<ErrorsList Errors=@this.response?.Errors />
+
+@if (this.response?.Data?.RandomSongs == null || this.response?.Data?.NewestSongs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h2>Few random songs</h2>
+    foreach (var song in this.response.Data.RandomSongs)
+    {
+        <SongCard Song="@song"></SongCard>
+    }
+
+    <div class="clear-fix"></div>
+
+    <h2>Newest songs</h2>
+    foreach (var song in this.response.Data.NewestSongs)
+    {
+        <SongCard Song="@song"></SongCard>
+    }
+
+    <div class="clear-fix"></div>
+}
+
+@functions
+{
+    ApiResponse<IndexListsResponseModel> response;
+
+    protected override async Task OnInitAsync()
+    {
+        this.response = await this.ApiClient.GetIndexLists();
+    }
+}
