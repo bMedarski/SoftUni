@@ -1,0 +1,51 @@
+project
+	app(books)
+		migrations
+		static
+			images
+		templates
+			music
+				base.html(layout.html)
+	app(library)
+
+
+
+create new project
+pip install Django==1.11
+
+django-admin startproject <name_of_the_project>
+python manage.py startapp myfirstapp
+registrirane na app v settings na django
+
+pip install djangorestframework
+
+python manage.py runserver
+
+python manage.py migrate
+python manage.py makemigrations 
+
+python manage.py createsuperuser
+
+author.book_set.all()
+author.book_set.create(......)
+
+
+from django.template import loader
+
+
+
+{% extends 'book/base.html'%}
+
+{% csrf_token %} ????????????
+
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}">
+
+href="{% url 'book:index' book.id %}"
+
+{% block body %}
+{% endblock %}
+
+{% for book in books %}
+{% else %}
+{% endfor %}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight-Details</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<nav>
+    <div class="left-container">
+        <ul>
+            <li><a href="">Flights</a></li>
+            <li><a href="">My Tickets</a></li>
+        </ul>
+    </div>
+    <div class="right-container">
+        <span>Welcome, {name} |</span>
+        <a href="" class="log-out">Logout</a>
+        <a href=""><img src="static/img/cart.png" alt="" class="cart"></a>
+    </div>
+</nav>
+<main>
+    <section class="ticket-area">
+        <div class="ticket-area-left">
+            <img src="static/img/Sheffield.png" alt="">
+        </div>
+        <div class="ticket-area-right">
+            <h3>CLUJ-NAPOCA</h3>
+            <div>from Sheffield</div>
+            <div class="data-and-time">15 January 14:00   <a href="" class="edit-flight-detail"></a></div>
+        </div>
+    </section>
+    <section class="seat-info">
+        <form action="" class="seat-form">
+            <input type="text" placeholder="Price">
+            <input type="text" placeholder="Type">
+            <input type="number" name="quantity" min="1" max="999" placeholder="Tickets Counter">
+            <input type="submit" class="create-seat" value="Create Seat">
+        </form>
+    </section>
+    <section class="flight-details">
+        <form action="" class="seat-form">
+            <span>600$</span><span>Business</span>
+            <input type="text" placeholder="Add Number">
+            <input type="submit" class="create-seat" value="Add to Cart">
+            <a href="" class="delete">X</a>
+        </form>
+    </section>
+    <section class="flight-details">
+        <form action="" class="seat-form">
+            <span>300$</span><span>Economy</span>
+            <input type="text" placeholder="Add Number">
+            <input type="submit" class="create-seat" value="Add to Cart">
+            <a href="" class="delete">X</a>
+        </form>
+    </section>
+    <footer>SoftUni Airlines</footer>
+</main>
+</body>
+</html>

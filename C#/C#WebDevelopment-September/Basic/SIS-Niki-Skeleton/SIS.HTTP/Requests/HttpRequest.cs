@@ -172,7 +172,22 @@ namespace SIS.HTTP.Requests
                 string[] parameterArguments = formDataParameter
                     .Split(HttpRequestParameterNameValueSeparator);
 
-                this.FormData.Add(parameterArguments[0], parameterArguments[1]);
+	            var parameterKey = parameterArguments[0];
+	            var parameterValue = parameterArguments[1];
+
+
+	            if (this.FormData.ContainsKey(parameterKey))
+	            {
+		            var multipleParametersSeparator = "*$*";
+		            this.FormData[parameterKey] =
+			            this.FormData[parameterKey] + multipleParametersSeparator + parameterValue;
+	            }
+	            else
+	            {
+					this.FormData.Add(parameterKey, parameterValue);
+	            }
+
+
             }
         }
 

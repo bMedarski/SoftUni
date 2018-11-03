@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Catalog</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav>
+	<div class="left-container">
+		<ul>
+			<li><a href="/Flights/All">Flights</a></li>
+			@if(User.IsLoggedIn)
+			{
+			<li><a href="/Flights/My">My Tickets</a></li>
+			}
+			@else
+			{
+			<li><a href="/Users/Login">Login</a></li>
+			<li><a href="/Users/Register">Register</a></li>
+			}
+		</ul>
+	</div>
+	@if(User.IsLoggedIn)
+	{
+	<div class="right-container">
+		<span>Welcome, @User.Username |</span>
+		<a href="/Users/Logout" class="log-out">Logout</a>
+		<a href="/Users/Cart"><img src="/img/cart.png" alt="" class="cart"></a>
+	</div>
+	}
+</nav>
+<main>
+@RenderBody()
+	<footer>SoftUni Airlines</footer>
+</main>
+</body>
+</html>

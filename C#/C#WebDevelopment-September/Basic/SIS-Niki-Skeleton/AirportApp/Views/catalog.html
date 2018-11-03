@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+<nav>
+    <div class="left-container">
+        <ul>
+            <li><a href="">Flights</a></li>
+            <li><a href="">My Tickets</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+        </ul>
+    </div>
+    <div class="right-container">
+        <span>Welcome, {name} |</span>
+        <a href="" class="log-out">Logout</a>
+        <a href=""><img src="static/img/cart.png" alt="" class="cart"></a>
+    </div>
+</nav>
+<main>
+    <form action="" class="catalog-form">
+        <label>Destination:</label>
+        <input type="text" placeholder="Destination" >
+        <label>Origin:</label>
+        <input type="text" placeholder="Origin">
+        <label>Departure:</label>
+        <input type="text" placeholder="Departure">
+        <input type="submit" class="search" value="Search">
+
+        <a href="" class="add-flight">Add Flight +</a>
+    </form>
+    
+    <section class="added-flights">
+        <a class="added-flight">
+            <img src="static/img/Sheffield.png" alt="" class="picture-added-flight">
+            <h3>CLUJ-NAPOCA</h3>
+            <span>from Sheffield</span><span>15 Jan</span>
+        </a>
+        <a class="added-flight">
+            <img src="static/img/Sheffield.png" alt="" class="picture-added-flight">
+            <h3>BUCHAREST</h3>
+            <span>from Larnaka</span><span>15 Jan</span>
+        </a>
+        <a class="added-flight">
+            <img src="static/img/Sheffield.png" alt="" class="picture-added-flight">
+            <h3>TIMISOARA</h3>
+            <span>from London</span><span>16 Jan</span>
+        </a>
+    </section>
+    <footer>SoftUni Airlines</footer>
+</main>
+</body>
+</html>

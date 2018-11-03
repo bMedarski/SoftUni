@@ -1,0 +1,47 @@
+﻿@if(!User.IsLoggedIn)
+{
+	<main class="mt-3">
+		<div class="jumbotron mt-3 bg-torshia">
+			<h1 class="text-white">Welcome to TORSHIA Task Management.</h1>
+			<hr class="bg-white hr-2" />
+			<h3 class="text-white"><a href="/users/login">Login</a> if you have an account.</h3>
+			<h3 class="text-white"><a href="/users/register">Register</a> if you don't.</h3>
+		</div>
+	</main>
+}
+@else
+{
+	@if(User.Role=="Admin")
+	{
+	<main class="text-center mt-3 text-torshia">
+		<h3 class="font-weight-bold">Welcome Admin - @User.Username !</h3>
+		<h4 class="font-weight-bold">Have a enjoy your work!</h4>
+		<hr class="bg-torshia hr-2" />
+	</main>
+	}
+	@else
+	{
+		<main class="text-center mt-3 text-torshia">
+			<h3 class="font-weight-bold">Welcome @User.Username !</h3>
+			<h4 class="font-weight-bold">Have a nice tasking experience!</h4>
+			<hr class="bg-torshia hr-2" />
+		</main>
+	}
+		<div class="row pl-5 pl-5 m-auto">
+			@foreach(var task in Model.Tasks)
+			{
+			<div class="card text-center bg-torshia text-white col-2 m-4" style="width: 20rem;">
+				<div class="card-body">
+					<p class="card-text font-weight-bold p-2">@task.Title</p>
+					<hr class=" hr-2 w-100 bg-white " />
+					<p class="card-text font-weight-bold p-2">Level: @task.Level</p>
+					<hr class=" hr-2 w-75 bg-white " />
+					<div class="row justify-content-sm-center p-2">
+						<a href="/tasks/report?id=@task.Id" class="text-white mr-2 ">Report</a>
+						<a href="/tasks/details?id=@task.Id" class="text-white ml-2">Details</a>
+					</div>
+				</div>
+			</div>
+			}
+		</div>
+}

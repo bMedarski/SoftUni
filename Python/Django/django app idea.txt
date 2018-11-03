@@ -1,0 +1,49 @@
+football beting app
+
+		admin role
+
+	leagues
+		name/country
+		matches
+			score {
+				home_team_goals	-> created with default 0
+				away_team_goals
+			}
+			home_team
+			away_team
+			date/time	-> cant set past date
+			coeficent
+			status - /finished,started,awaiting?
+			admin can change only goals? and status
+			maybe func Finished?
+			
+		->bet / for reg. user
+			user
+			amount	for a bet
+			coeficent?
+			match
+			closed/open
+			
+		teams
+			players
+				name
+				number
+				position
+				imageUrl
+			name
+			logoUrl
+			current_points	-> automatic after match is finished
+			wins
+			losts
+			draws
+			
+			
+			
+			
+		user / bets, comments likes?
+				bet matches
+				money	-> default 100?
+				only can bet for the money he have on awaiting match
+				amount of money in bets
+		rankings 
+			teams name,logo with scores  - ordered
