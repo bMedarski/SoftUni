@@ -6,5 +6,6 @@
 	public class HomeViewModel
 	{
 		public IEnumerable<TaskViewModel> Tasks { get; set; }
+		public int EmptyBlocks { get; set; }
 	}
 }

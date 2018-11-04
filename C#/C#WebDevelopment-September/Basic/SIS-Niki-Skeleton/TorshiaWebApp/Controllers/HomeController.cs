@@ -17,11 +17,17 @@
 		{
 			if (this.User.IsLoggedIn)
 			{
+				var tasks = this.TasksService.GetAllTasksNotReported();
 				var model = new HomeViewModel
 				{
-					Tasks = this.TasksService.GetAllTasksNotReported()
+					Tasks = tasks,
+
 				};
-				
+				var productsCount = tasks.Count;
+				if (productsCount % 5 != 0 && productsCount % 5 < 5)
+				{
+					model.EmptyBlocks = 5 - (productsCount % 5);
+				}
 				return this.View(model);
 			}
 
