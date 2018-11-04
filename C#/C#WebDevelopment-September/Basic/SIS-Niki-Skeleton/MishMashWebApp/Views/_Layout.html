@@ -37,6 +37,12 @@
 						<li class="nav-item">
 							<a class="nav-link nav-link-white active" href="/followed">My Channels</a>
 						</li>
+							@if(User.Role == "Admin")
+							{
+							<li class="nav-item">
+								<a class="nav-link nav-link-white active" href="/channels/create">Create Channel</a>
+							</li>
+							}
 						<li class="nav-item">
 							<a class="nav-link nav-link-white active" href="/users/logout">Logout</a>
 						</li>

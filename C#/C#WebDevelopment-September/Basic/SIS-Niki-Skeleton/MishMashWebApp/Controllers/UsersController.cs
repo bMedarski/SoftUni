@@ -1,8 +1,10 @@
 ﻿namespace MishMashWebApp.Controllers
 {
 	using Common;
+	using MishMashModels;
 	using MIshMashData;
 	using Services;
+	using SIS.HTTP.Cookies;
 	using SIS.HTTP.Responses;
 	using SIS.MvcFramework;
 	using ViewModels.Users;
@@ -64,6 +66,24 @@
 			var user = this.UsersService.CreateUser(model);
 			this.SignIn(user);
 			return this.RedirectToHome();
+		}
+		private void SignIn(User user)
+		{
+			var mvcUser = new MvcUserInfo { Username = user.Username, Role = user.Role.ToString() };
+			var cookieContent = this.UserCookieService.GetUserCookie(mvcUser);
+
+			var cookie = new HttpCookie(Constants.CookieAuthKey, cookieContent, Constants.CookieExpirationDays) { HttpOnly = true };
+			this.Response.Cookies.Add(cookie);
+		}
+
+		private void SignOff()
+		{
+			if (this.Request.Cookies.ContainsCookie(Constants.CookieAuthKey))
+			{
+				var cookie = this.Request.Cookies.GetCookie(Constants.CookieAuthKey);
+				cookie.Delete();
+				this.Response.Cookies.Add(cookie);
+			}
 		}
 		private string ValidateUser(RegisterViewModel model)
 		{
