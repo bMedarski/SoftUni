@@ -1,0 +1,53 @@
+﻿<main class="mt-3">
+	@if (User.Role != "Admin")
+	{
+	<div class="container-fluid text-center">
+		<h2>Hello, @User.Username !</h2>
+	</div>
+	}
+	@else
+	{
+	<div class="container-fluid text-center">
+		<h2>Hello, Administrator @User.Username !</h2>
+	</div>
+	}
+	<hr class="hr-2 bg-panda">
+	<div class="d-flex justify-content-between row">
+		<div class="col-3">
+			<h3 class="text-center">Pending</h3>
+			<div class="border-panda p-1 m-1">
+				@foreach(var pendingPackage in Model.PendingPackages)
+				{
+				<div class="m-1 p-1 row">
+					<p class="col-9 text-panda font-weight-bold">@pendingPackage.Name</p>
+					<a href="/packages/details?id=@pendingPackage.Id" class="btn bg-panda text-white">Details</a>
+				</div>
+				}
+			</div>
+		</div>
+		<div class="col-3">
+			<h3 class="text-center">Shipped</h3>
+			<div class="border-panda p-1 m-1">
+				@foreach(var shippedPackage in Model.ShippedPackages)
+				{
+				<div class="m-1 p-1 row">
+					<p class="col-9 text-panda font-weight-bold">@shippedPackage.Name</p>
+					<a href="/packages/details?id=@shippedPackage.Id" class="btn bg-panda text-white">Details</a>
+				</div>
+				}
+			</div>
+		</div>
+		<div class="col-3">
+			<h3 class="text-center">Delivered</h3>
+			<div class="border-panda p-1 m-1">
+				@foreach(var deliveredPackage in Model.DeliveredPackages)
+				{
+				<div class="m-1 p-1 row">
+					<p class="col-9 text-panda font-weight-bold">@deliveredPackage.Name</p>
+					<a href="/packages/Acquire?id=@deliveredPackage.Id" class="btn bg-panda text-white">Acquire</a>
+				</div>
+				}
+			</div>
+		</div>
+	</div>
+</main>
