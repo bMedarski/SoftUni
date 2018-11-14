@@ -1,0 +1,48 @@
+﻿@using WebApp.Utilities
+@model WebApp.ViewModels.Home.HomeProductListViewModel
+@{
+	ViewData["Title"] = "Home Page";
+}
+@if (!this.User.Identity.IsAuthenticated)
+{
+	<main>
+		<div class="jumbotron mt-3 chushka-bg-color">
+			<h1>Welcome to Chushka Universal Web Shop</h1>
+
+			<hr class="bg-white" />
+			<h3><a class="nav-link-dark" asp-action="Login" asp-controller="Accounts">Login</a> if you have an account.</h3>
+			<h3><a class="nav-link-dark" asp-action="Register" asp-controller="Accounts">Register</a> if you don't.</h3>
+		</div>
+	</main>
+}
+else
+{
+	<main class="mt-3 mb-5">
+		<div class="container-fluid text-center">
+			<h2>Greetings, @this.User.Identity.Name!</h2>
+			@if (this.User.IsInRole(GlobalConstants.AdminRoleText))
+			{
+				<h4>Enjoy your work today!</h4>
+			}
+			else
+			{
+				<h4>Feel free to view and order any of our products.</h4>
+			}
+
+		</div>
+		<hr class="hr-2 bg-dark" />
+		<div class="container-fluid">
+
+			@for (var i = 0; i < Model.Products.ToList().Count(); i = i + 5)
+			{
+				var count = 5;
+				if (Model.Products.ToList().Count() - i < 5)
+				{
+					count = Model.Products.ToList().Count() - i;
+				}
+				var products = @Model.Products.ToList().GetRange(i, count);
+				<vc:product products=products> </vc:product>
+			}
+		</div>
+	</main>
+}

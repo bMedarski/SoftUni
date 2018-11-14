@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - Panda</title>
+	<link rel="stylesheet" type="text/css" href="/css/reset-css.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-panda">
+				<a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand nav-link-white">Panda</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-flex justify-content-start" id="navbarNav">
+					<ul class="navbar-nav">
+						@if (User.IsInRole("Admin"))
+						{
+							<li class="nav-item">
+								<a class="nav-link nav-link-white active" href="/packages/pending">Pending</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-white active" href="/packages/shipped">Shipped</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-white active" href="/packages/delivered">Delivered</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nav-link-white active" href="/packages/create">Package</a>
+							</li>
+						}
+					</ul>
+
+				</div>
+				<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link nav-link-white active" href="/">Home</a>
+						</li>
+						<partial name="_LoginPartial" />
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</div>
+	<partial name="_CookieConsentPartial" />
+	<br />
+	<main class="container-fluid">
+		@RenderBody()
+	</main>
+
+	<br />
+	<footer class="container-fluid">
+		<div class="text-white p-2 text-center bg-panda ">
+			&copy; CopyRight Sanity Web Design Studios 2018. All rights reserved.
+		</div>
+	</footer>
+
+	<environment include="Development">
+		<script src="~/lib/jquery/dist/jquery.js"></script>
+		<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="~/js/site.js" asp-append-version="true"></script>
+	</environment>
+	<environment exclude="Development">
+		<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+				asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+				asp-fallback-test="window.jQuery"
+				crossorigin="anonymous"
+				integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+		</script>
+		<script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+				asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+				asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+				crossorigin="anonymous"
+				integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+		</script>
+		<script src="~/js/site.min.js" asp-append-version="true"></script>
+	</environment>
+
+	@RenderSection("Scripts", required: false)
+</body>
+</html>

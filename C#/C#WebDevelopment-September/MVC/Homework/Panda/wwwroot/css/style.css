@@ -1,0 +1,81 @@
+.bg-panda {
+	background-color: #202020;
+}
+
+.text-panda {
+	color: #202020;
+}
+
+.border-panda {
+	border: 2px solid #202020;
+	border-radius: 7px;
+}
+
+.nav-link-white {
+	color: #FFFFFF;
+}
+
+.hr-2 {
+	height: 2px;
+}
+
+a {
+	text-decoration: none;
+	padding: 2px;
+}
+
+	/*a:hover {
+		outline: none;
+		text-decoration: none;
+		background: none;
+	}*/
+
+tr {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+textarea {
+	resize: none;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	border: 0;
+	width: 98%;
+	margin: 0;
+	padding: 0;
+}
+tn-link {
+	color: #ffffff;
+}
+
+/*nav > li > a:hover, nav > li > a:focus {
+	background: none;
+	border-color: #202020;
+}*/
+
+/*a:hover, a:focus {
+	color: #ffffff;
+	text-decoration: underline;
+	text-decoration-line: underline;
+	text-decoration-style: initial;
+	text-decoration-color: initial;
+	background: none;
+}*/
+
+.container-fluid {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*.btn-link {
+	font-weight: 400;
+	color: #ffffff;
+	background-color: transparent;
+}*/

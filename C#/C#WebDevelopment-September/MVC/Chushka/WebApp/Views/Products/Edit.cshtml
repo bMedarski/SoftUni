@@ -1,0 +1,56 @@
+﻿@using Models.Enums
+@model WebApp.ViewModels.Products.ProductViewModel
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<main class="mt-3 mb-5">
+	<h1 class="text-center">Edit Product</h1>
+	<hr class="hr-2 bg-dark" />
+	<form class="mx-auto half-width" method="post" asp-controller="Products" asp-action="Edit">
+		<div asp-validation-summary="ModelOnly"></div>
+		<div class="form-group">
+			<label asp-for="Name">Name</label>
+			<input asp-for="Name" class="form-control" placeholder="Name..." value="@Model.Name" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Price">Price</label>
+			<input asp-for="Price" class="form-control" placeholder="Price..."value="@Model.Price">
+			<span asp-validation-for="Price" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Description">Description</label>
+			<textarea class="form-control" asp-for="Description" rows="4" placeholder="Description...">@Model.Description</textarea>
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<h4 class="text-center">Product Type</h4>
+		<hr class="hr-2 bg-dark half-width mt-4" />
+		<div class="product-type-holder mt-4 d-flex justify-content-around">
+			@foreach (ProductType type in (ProductType[])Enum.GetValues(typeof(ProductType)))
+			{
+				<div class="form-check form-check-inline">
+					@if (type.ToString() == Model.Type)
+					{
+						<input class="form-check-input" type="radio" name="Type" id="@type" value="@type" checked="checked">
+					}
+					else
+					{
+						<input class="form-check-input" type="radio" name="Type" id="@type" value="@type">
+					}
+					<label class="form-check-label" for="@type">@type</label>
+				</div>
+			}
+
+		</div>
+		<span asp-validation-for="Type" class="text-danger"></span>
+		<hr class="hr-2 bg-dark half-width mt-4" />
+		<div class="mt-2 d-flex w-25 mx-auto justify-content-between">
+			<button type="submit" class="btn chushka-bg-color">Edit</button>
+			<a asp-controller="Home" asp-action="Index" class="btn chushka-bg-color">Cancel</a>
+		</div>
+	</form>
+</main>
+
+
+

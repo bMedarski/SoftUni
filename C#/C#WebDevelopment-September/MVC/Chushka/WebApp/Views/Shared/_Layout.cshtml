@@ -1,0 +1,21 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - WebApp</title>
+	<link rel="stylesheet" type="text/css" href="/css/reset-css.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<partial name="_NavigationPartial" />
+		@*<partial name="_CookieConsentPartial" />*@
+		@RenderBody()
+		<partial name="_FooterPartial" />
+	</div>
+</body>
+</html>

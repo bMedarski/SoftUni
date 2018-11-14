@@ -1,0 +1,41 @@
+﻿@using WebApp.Services.Contracts
+@model WebApp.ViewModels.Orders.OrdersListViewModel
+@inject ICounter Counter
+@{
+	ViewBag.Title = "All Orders";
+	Layout = "_Layout";
+}
+<main class="mt-3 mb-5">
+	<h1 class="text-center">All Orders</h1>
+	<hr class="hr-2 bg-dark" />
+	<table class="table w-75 mx-auto table-hover">
+		<thead>
+			<tr class="row">
+				<th class="col-md-1">#</th>
+				<th class="col-md-2">Order ID</th>
+				<th class="col-md-3">Customer</th>
+				<th class="col-md-3">Product</th>
+				<th class="col-md-2">Ordered On</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var order in Model.Orders)
+			{
+				if (Counter.Current() % 2 == 0)
+				{
+					@:<tr class="chushka-bg-color row">
+				}
+				else
+				{
+					@:<tr class="row">
+				}
+			<th class="col-md-1">@Counter.Next()</th>
+			<td class="col-md-2">@order.Id</td>
+			<td class="col-md-3">@order.Customer</td>
+			<td class="col-md-3">@order.Product</td>
+			<td class="col-md-2">@order.OrderedOnFormatted</td>
+			@:</tr>
+		}
+			</tbody>
+		</table>
+	</main>
