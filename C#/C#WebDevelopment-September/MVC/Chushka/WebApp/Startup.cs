@@ -11,6 +11,7 @@ using Data;
 namespace WebApp
 {
 	using global::Models;
+	using Middleware;
 	using Services;
 	using Services.Contracts;
 	using Utilities;
@@ -85,6 +86,8 @@ namespace WebApp
 			app.UseAuthentication();
 
 			Seeder.SeedRoles(roleManager,userManager);
+			app.UseMiddleware<RequestLoggerMiddleware>();
+			app.UseRequestLocalization();
 
 			app.UseMvc(routes =>
 			{

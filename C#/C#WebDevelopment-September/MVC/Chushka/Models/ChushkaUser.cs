@@ -2,7 +2,6 @@
 
 namespace Models
 {
-	using System.Collections.Generic;
 
 	public class ChushkaUser:IdentityUser
 	{

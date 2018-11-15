@@ -1,0 +1,14 @@
+Method:GET with path / from 127.0.0.1
+Method:GET with path / from 127.0.0.1
+Method:GET with path /Products/Details/3 from 127.0.0.1
+Method:GET with path /Products/Edit/3 from 127.0.0.1
+Method:POST with path /Products/Edit/3 from 127.0.0.1
+Method:GET with path / from 127.0.0.1
+Method:GET with path /Orders/All from 127.0.0.1
+Method:GET with path / from 127.0.0.1
+Method:GET with path /Products/Details/7 from 127.0.0.1
+Method:GET with path / from 127.0.0.1
+Method:GET with path /Products/Details/17 from 127.0.0.1
+Method:GET with path /Products/Delete/17 from 127.0.0.1
+Method:POST with path /Products/Delete/17 from 127.0.0.1
+Method:GET with path / from 127.0.0.1
