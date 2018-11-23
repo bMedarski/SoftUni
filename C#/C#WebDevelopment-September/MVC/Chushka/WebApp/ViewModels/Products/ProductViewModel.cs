@@ -15,6 +15,7 @@
 		public string Description { get; set; }
 
 		[Required]
+		[Range(typeof(decimal),"0","99")]
 		public decimal Price { get; set; }
 
 		[Required]

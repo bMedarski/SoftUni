@@ -1,0 +1,15 @@
+﻿@model string
+@{
+    this.ViewData["Title"] = "Cross-site scripting (XSS)";
+}
+
+<h1>@this.ViewData["Title"]</h1>
+
+<form asp-action="CrossSiteScripting" method="get">
+    <input type="text" name="searchText" value="" />
+    <input type="submit" value="Search" />
+</form>
+
+<h1>Searching for @this.Html.Raw(this.Model)</h1>
+@* Always sanitize you data before visualizing it! *@
+@* Always use cookies with HTTP only! *@
