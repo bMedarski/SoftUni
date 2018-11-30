@@ -1,0 +1,58 @@
+﻿@model Eventures.WebApp.ViewModels.Events.CreateEventViewModel
+
+@{
+	ViewBag.Title = "Create Event";
+	Layout = "_Layout";
+}
+<main class="mt-3">
+	<h1 class="text-center">Create Event</h1>
+	<hr class="hr-2 w-50 eventures-bg-color" />
+	<form class="mx-auto w-50 text-center font-weight-bold" method="post" asp-action="Create" asp-controller="Events">
+		<div asp-validation-summary="All" class="bg-danger"></div>
+		<div class="row d-flex justify-content-between">
+			<div class="form-group col-md-5">
+				<label asp-for="Name"></label>
+				<input asp-for="Name" class="form-control" placeholder="Iron Maiden - Hills of Rock" />
+				<span asp-validation-for="Name" class="bg-danger"></span>
+			</div>
+			<div class="form-group col-md-5">
+				<label asp-for="Place"></label>
+				<input asp-for="Place" class="form-control" placeholder="Plovdiv, Bulgaria." />
+				<span asp-validation-for="Place" class="bg-danger"></span>
+			</div>
+		</div>
+		<hr class="hr-2 eventures-bg-color" />
+		<div class="row d-flex justify-content-between">
+			<div class="form-group col-md-5">
+				<label asp-for="Start"></label>
+				<input asp-for="Start" class="form-control" placeholder="20-Jul-2018 22:00." />
+				<span asp-validation-for="Start" class="bg-danger"></span>
+			</div>
+			<div class="form-group col-md-5">
+				<label asp-for="End"></label>
+				<input asp-for="End" class="form-control" placeholder="20-Aug-2018 04:00" />
+				<span asp-validation-for="End" class="bg-danger"></span>
+			</div>
+		</div>
+		<hr class="hr-2 eventures-bg-color" />
+		<div class="row d-flex justify-content-between">
+			<div class="form-group col-md-5 font-weight-bold">
+				<label asp-for="TotalTickets"></label>
+				<input asp-for="TotalTickets" class="form-control" placeholder="1000" />
+				<span asp-validation-for="TotalTickets" class="bg-danger"></span>
+			</div>
+			<div class="form-group col-md-5 font-weight-bold">
+				<label asp-for="PricePerTicket"></label>
+				<input asp-for="PricePerTicket" class="form-control" placeholder="150" />
+				<span asp-validation-for="PricePerTicket" class="bg-danger"></span>
+			</div>
+		</div>
+		<hr class="hr-2 eventures-bg-color mt-4" />
+		<div class="d-flex justify-content-center">
+			<button type="submit" class="btn eventures-bg-color">Create Event</button>
+		</div>
+	</form>
+</main>
+@section Scripts {
+	@{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

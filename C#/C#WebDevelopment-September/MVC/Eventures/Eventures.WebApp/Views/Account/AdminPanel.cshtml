@@ -1,0 +1,40 @@
+﻿@using Eventures.WebApp.Utilities
+@model Eventures.WebApp.ViewModels.Account.AdminPanelUsersListViewModel
+@{
+	ViewData["Title"] = "AdminPanel";
+}
+<main class="mt-3 mb-5">
+	<h1 class="text-center">Users</h1>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+	<table class="table w-50 mx-auto table-hover">
+		<thead>
+			<tr class="row font-weight-bold">
+				<th class="col-md-4">Username</th>
+				<th class="col-md-4">Role</th>
+				<th class="col-md-4">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var user in Model.Users)
+			{
+				<tr class="row">
+					<td class="col-md-4">@user.Username</td>
+					<td class="col-md-4">@user.Role</td>
+					<td class="col-md-4 row text-dark">
+						@if (user.Role == GlobalConstants.AdminRoleText)
+						{
+							<span col="4"><a asp-controller="Account" asp-action="Demote" asp-route-id="@user.Id" class="text-dark">Demote</a></span>
+						}
+						else
+						{
+							<span col="4"><a asp-controller="Account" asp-action="Promote" asp-route-id="@user.Id" class="text-dark">Promote</a></span>
+						}
+
+
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+</main>

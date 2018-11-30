@@ -1,0 +1,48 @@
+﻿@using Eventures.WebApp.Utilities.Contracts
+@model Eventures.WebApp.ViewModels.Events.MyEventsListViewModel
+@inject ICounter Counter
+
+@{
+	ViewBag.Title = "My Events";
+	Layout = "_Layout";
+}
+
+<main class="mt-3 mb-5">
+	<h1 class="text-center">All Events</h1>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+	<table class="table w-75 mx-auto table-hover">
+		<thead>
+			<tr class="row font-weight-bold">
+				<th class="mr-1">#</th>
+				<th class="col-md-4">Name</th>
+				<th class="col-md-3">Start</th>
+				<th class="col-md-3">End</th>
+				<th class="col-md-1">Tickets</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var order in Model.Events)
+			{
+			if (Counter.Current() % 2 == 0)
+			{
+			
+			@:<tr class="eventures-bg-color row">
+				}
+				else
+				{
+				
+			@:<tr class="row">
+				}
+				<th>@Counter.Next()</th>
+				<td class="col-md-4">@order.Name</td>
+				<td class="col-md-3">@order.Start</td>
+				<td class="col-md-3">@order.End</td>
+				<td class="col-md-1">@order.TotalTickets</td>
+				
+			@:</tr>
+			}
+		</tbody>
+	</table>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+</main>
+

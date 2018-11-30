@@ -1,0 +1,43 @@
+﻿@using Eventures.WebApp.Utilities.Contracts
+@model Eventures.WebApp.ViewModels.Orders.OrdersListViewModel
+@inject ICounter Counter
+@{
+	ViewBag.Title = "All Orders";
+	Layout = "_Layout";
+}
+<main class="mt-3 mb-5">
+	<h1 class="text-center">All Orders</h1>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+	<table class="table w-75 mx-auto table-hover">
+		<thead>
+		<tr class="row font-weight-bold">
+			<th class="mr-1">#</th>
+			<th class="col-md-5">Event</th>
+			<th class="col-md-3">Customer</th>
+			<th class="col-md-3">Ordered On</th>
+		</tr>
+		</thead>
+		<tbody>
+		@foreach (var order in Model.Orders)
+		{
+			if (Counter.Current() % 2 == 0)
+			{
+			
+				@:<tr class="eventures-bg-color row">
+			}
+			else
+			{
+				
+				@:<tr class="row">
+			}
+			<th>@Counter.Next()</th>
+			<td class="col-md-5">@order.Event</td>
+			<td class="col-md-3">@order.Customer</td>
+			<td class="col-md-3">@order.OrderedOn.ToString("D")</td>
+				
+			@:</tr>
+		}
+		</tbody>
+	</table>
+	<hr class="w-75 hr-2 eventures-bg-color" />
+</main>

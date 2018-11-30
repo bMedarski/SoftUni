@@ -1,0 +1,27 @@
+.app {
+    width: 100%;
+    height: 100%;
+}
+.eventures-bg-color {
+	background-color: #AFEEEE;
+}
+.hr-2 {
+	height: 2px;
+}
+.hr-5 {
+	height: 5px;
+	border-top: 2px solid gray;
+}
+
+.gray {
+	color: gray;
+}
+.table thead th {
+	vertical-align: bottom;
+	border-bottom: none;
+}
+.table td, .table th {
+	padding: .75rem;
+	vertical-align: top;
+	border-top: none;
+}
