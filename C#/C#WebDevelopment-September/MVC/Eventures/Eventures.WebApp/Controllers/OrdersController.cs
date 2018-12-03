@@ -32,6 +32,11 @@
 			    var user = this.userManager.GetUserAsync(this.User).Result;
 			    this.ordersService.Order(model,user);
 		    }
+		    else
+		    {
+			    model.Error = "Tickets count must be less then Total tickets count";
+			    return this.RedirectToAction("All", "Events",model);
+		    }
 		    return this.RedirectToAction("All", "Events",model);
 	    }
     }

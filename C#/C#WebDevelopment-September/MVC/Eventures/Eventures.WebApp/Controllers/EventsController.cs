@@ -24,6 +24,7 @@
 		[Authorize]
 	    public IActionResult All(OrderBindingModel orderModel)
 		{
+			this.TempData["error"] = orderModel.Error;
 			var model = new EventsListViewModel{Events = this.eventsService.All()};
 		    return this.View(model);
 	    }

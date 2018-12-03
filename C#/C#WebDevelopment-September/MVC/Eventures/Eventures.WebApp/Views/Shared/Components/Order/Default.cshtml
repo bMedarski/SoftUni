@@ -1,17 +1,20 @@
 ﻿@model Eventures.WebApp.ViewModels.Events.EventViewModel
 
-<span asp-validation-for="@Model.TotalTickets" class="bg-danger"></span>
+@*<span asp-validation-for="@Model.TotalTickets" class="bg-danger"></span>*@
+
 <form asp-controller="Orders" asp-action="Order" method="post">
-	<input type="hidden" name="id" value="@Model.Id" />
-	<input type="hidden" name="TotalTickets" value="@Model.TotalTickets" />
+	<input type="hidden" name="Error" value="" />
+	<input type="hidden" name="id" value="@Model.Id"/>
+	<input type="hidden" name="TotalTickets" value="@Model.TotalTickets"/>
 	<div class="row font-weight-bold">
 		<label for="TicketsCount" class="">Tickets</label>
 		<div class="mr-2 ml-2">
-			<input type="number" name="TicketsCount" value="" id="TicketsCount" />
+			<input type="number" name="TicketsCount" value="" id="TicketsCount"/>
 		</div>
 		<button type="submit" class="btn eventures-bg-color ">Order</button>
 		<span class="ml-1 align-middle">Available tickets:@Model.TotalTickets</span>
 	</div>
+	<span class="bg-danger">@TempData[@Model.Id]</span>
 </form>
 
 @section Scripts {

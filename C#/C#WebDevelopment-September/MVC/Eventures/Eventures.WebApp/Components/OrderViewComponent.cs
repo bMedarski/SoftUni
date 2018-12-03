@@ -7,10 +7,11 @@
 	{
 		public IViewComponentResult Invoke(EventViewModel order)
 		{
-			if (!this.ModelState.IsValid)
-			{
-				this.TempData["Error"] = "Tickets count must be less then Total tickets count";
-			}
+			//if (!this.ModelState.IsValid)
+			//{
+
+			//	this.TempData[order.Id] = $"Tickets count must be less then Total tickets count {order.Id}";
+			//}
 			return this.View(order);
 		}
 	}

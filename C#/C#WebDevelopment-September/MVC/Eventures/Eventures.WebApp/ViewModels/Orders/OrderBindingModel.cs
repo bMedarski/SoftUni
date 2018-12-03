@@ -20,5 +20,6 @@
 		[GreaterNumberValidation("TicketsCount",ErrorMessage = "Tickets count must be less then Total tickets count")]
 		public int TotalTickets { get; set; }
 
+		public string Error { get; set; }
 	}
 }
