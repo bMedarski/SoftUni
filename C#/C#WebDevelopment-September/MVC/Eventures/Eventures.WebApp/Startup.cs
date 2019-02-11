@@ -23,6 +23,7 @@ namespace Eventures.WebApp
 	using Services.EventsServices.Contracts;
 	using Services.OrdersServices;
 	using Services.OrdersServices.Contracts;
+	using Sieve.Services;
 	using Utilities;
 	using Utilities.Contracts;
 	using ViewModels.Account;
@@ -68,7 +69,7 @@ namespace Eventures.WebApp
 			services.AddTransient<IOrdersService, OrdersService>();
 			services.AddTransient<ICounter, Counter>();
 			services.AddTransient<LogEventActionFilter>();
-
+			services.AddScoped<SieveProcessor>();
 			services.AddLogging(configure => configure.AddConsole()) 
 				.AddTransient<LogEventActionFilter>()
 				.AddTransient<EventsController>();
