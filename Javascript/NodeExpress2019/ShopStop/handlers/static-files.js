@@ -3,7 +3,13 @@ const fs = require('fs');
 const path = require('path');
 
 function getContentType(url){
-
+    if(url.endsWith('.css')){
+        return 'text/css';
+    }else if(url.endsWith('.ico')){
+        return 'image/x-icon';
+    }else{
+        return 'text/plain';
+    }
 }
 
 
